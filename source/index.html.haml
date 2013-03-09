@@ -10,12 +10,16 @@
   :markdown
     BarCamp Rochester is an ad-hoc gathering born from the desire for people to share and learn in an open environment. BarCamp Rochester is an intense event with discussions, demos, and interaction from attendees. All attendees should give a demo, a session, or help with one. All presentations are scheduled the day they happen. Prepare in advance, but come early to get a good slot on the schedule. Check-in begins around 8am, with the first presentations starting at 9am!
 
-    ## BarCamp Rochester, Spring 2013
+  %h3="BarCamp Rochester, #{data.global.next_event}"
 
-    BarCamp Rochester Spring 2013 will be held at the Rochester Institute of Technology on <strong>April 20th</strong>. Stay tuned for more information.
-    <a href="http://twitter.com/barcamproc" title="BarCamp Rochester on Twitter">Follow us</a> on
-    Twitter to be the first to when registration opens! If you want to learn more about how BarCamp
-    Rochester works, you can always check out our <a href="howto">How-To page</a>. <!--Registration is open, so <a href="/register">sign up now</a>!-->
+  %p
+    BarCamp Rochester will be held at the Rochester Institute of Technology on
+    %strong=data.global.next_date
+    =". Stay tuned for more information."
+    %a(href="http://twitter.com/barcamproc" title="BarCamp Rochester on Twitter") Follow us
+    on Twitter to be the first to when registration opens! If you want to learn more about how BarCamp Rochester works, you can always check out our
+    %a(href="howto") How-To page
+    -#Registration is open, so <a href="/register">sign up now</a>!-->
 
   -# <object type="application/x-shockwave-flash" data="http://www.justin.tv/widgets/live_embed_player.swf?channel=barcamproc" id="live_embed_player_flash" height="600" width="800" bgcolor="#000000"><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always" /><param name="allowNetworking" value="all" /><param name="movie" value="http://www.justin.tv/widgets/live_embed_player.swf" /><param name="flashvars" value="hostname=www.justin.tv&channel=barcamproc&auto_play=false&start_volume=25" /></object><a href="http://www.justin.tv/barcamproc#r=-rid-&amp;s=em" class="trk" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline; text-align:center">Watch live video from barcamproc on www.justin.tv</a>-->
 
@@ -25,4 +29,11 @@
 
   =img_holder(:width => 300, :height => 200, :bgcolor => "#0c0", :fgcolor => "#fff", :text => "I'm an image placeholder!")
 
+  - data.global.sponsors.each do |s|
+    .sponsor
+      %a{:href => "sponsor/#{s.id}"}
+        %img{:src => "images/logos/#{s.id}.png"}
+      .description=s.description
+      %br
+      %a{:href => "http://#{s.link}", :alt => s.name}=s.name
 
