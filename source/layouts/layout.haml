@@ -26,27 +26,26 @@
       %p.chromeframe
         You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
     .container
-      %header
-      #logo
-        %a(href="../")
-          %img(src="/images/logos/barcamproc.png")
+      %header#mainheader
+        %h1#headerlogo
+          %a{:href => "/"}Barcamp Rochester
 
-      #navigation
-        %ul#nav_links
-          %li
-            %a(href="/") Home
-          %li
-            %a(href="/register") Register
-          %li
-            %a(href="/attendees") Attendees
-          %li
-            %a(href="/diretions") Directions
-          %li
-            %a(href="/media") Media
-          %li
-            %a(href="/Howto") Howto
-          %li
-            %a(href="/sponsor") sponsor
+        %nav
+          %ul#mainnav
+            %li.navitem
+              %a{:href => "/"} Home
+            %li.navitem
+              %a{:href => "/register/"} Register
+            %li.navitem
+              %a{:href => "/attendees/"} Attendees
+            %li.navitem
+              %a{:href => "/directions/"} Directions
+            %li.navitem
+              %a{:href => "/media/"} Media
+            %li.navitem
+              %a{:href => "/howto/"} How-to
+            %li.navitem
+              %a{:href => "/sponsor/"} Sponsor
 
       #main-content{:role => "main"}
 
