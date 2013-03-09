@@ -30,22 +30,28 @@ kbd
   border: 1px solid #dedede
   padding: 0px 3px 2px
 
+#mainheader
+  background-color: #565658
+  margin-bottom: 2em
 #headerlogo
   @include replace-text-with-dimensions("logos/barcamproc.png")
+  @include background-2x("logos/barcamproc_2x.png")
+  margin-left: 5px
+
 #mainnav
   @include unstyled-list
   @include clearfix
-  background-color: #eee
-  margin-bottom: 2em
+  background-color: #f6841f
   .navitem
     float: left
     a
-      padding: 8px 10px
+      padding: 10px 15px
       display: block
       text-decoration: none
-      color: #333
+      color: #fff
+      @include text-shadow(rgba(0,0,0,0.5) 0 1px 1px)
       &:hover
-        background-color: #ddd
+        background-color: darken(#f6841f, 10%)
 
 
 
