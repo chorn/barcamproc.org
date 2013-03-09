@@ -1,0 +1,439 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	background-color: #FAFAFA;
+	font-size: 15px;
+}
+
+a{ color: #159DF7; }
+a:visited  { 
+	/*color: #6E24C4;*/
+	color: #159DF7;
+}
+a:hover { color: #0067AA; }
+
+img { 
+	border: 0;
+}
+
+h1 {	font-size: 2.5em; margin: 0; padding: 0;}
+
+h2 { color: #565658; }
+
+h3 {	margin: 0; padding: 0; color: #565658; }
+
+p {
+	line-height: 1.4;
+}
+
+
+.howToHeading {
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 110px;
+	height: 100px;
+}
+.howToHeadingText {
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 23px;
+
+}
+.hth_before {
+	background-image: url('images/pencilicon2.png');
+}
+
+.hth_during {
+	background-image: url('images/chaticon2.png');
+}
+
+.hth_after {
+	background-image: url('images/beericon2.png');
+}
+
+#logoHeading {
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/*margin-bottom: 15px;*/
+	background-color: #565658;
+}
+
+#logo {
+	width: 770px;
+	margin: 10px auto 5px auto;
+}
+
+
+#navigationBanner {
+	margin: 0px auto;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	/*background-color: #FFF;*/
+	background-color: #f6841f;
+}
+
+#nav_links a {
+	text-decoration: none;
+	color: #FFF;
+	font-weight: normal;
+	/*font-weight: bold;*/
+}
+
+#nav_links a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+#navigation {
+	width: 770px;
+	margin: 0px auto 0px auto;
+}
+
+#navigation ul {
+	margin: 0px 0px 0px 0px;
+	padding: 10px 5px;
+	list-style-type: none;
+}
+
+#navigation ul li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#content {
+	width: 750px;
+	margin: 20px auto 0px auto;
+	padding-bottom: 40px;
+}
+
+#social_media {
+	float: right;
+	padding: 5px;
+	border: 1px solid #CCC;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px; 
+	border-radius: 8px;		
+	
+}
+
+#social_media img {
+	margin: 2px 2px 0px 2px;
+}
+
+#registerForm {
+	width: 500px;
+}
+
+#registerForm p{
+	font-size: 11px;
+	color: #777;
+	padding-left: 111px;
+}
+
+.err {
+	background-color: #FFAAAA !important;
+}
+
+.errtext {
+	color: #FF0000;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+#sponsors {
+	border: 1px solid #CCC;
+	margin: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	background-color: #FFF;
+
+}
+
+
+
+.sponsor {
+	border-bottom: 1px solid #CCC;
+	font-size: 12px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+.sponsor p {
+	text-align: left;
+}
+
+.sponsor img {
+	margin: 5px;
+}
+
+.spons_description {
+
+}
+
+.s_logo {
+
+}
+
+.notyet {
+	color: #CCC;
+}
+
+.attendee {
+	border-top: 1px solid #CCC;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	
+}
+
+.attendee_twitter {
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.attendee_name {
+	font-size: 18px;
+}
+
+.attendee_topic {
+	float: right;
+	font-weight: bold; 
+	font-size: 20px;
+	width: 500px;
+	text-align: right;
+}
+
+.noneYet {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#registerForm label {
+	width: 100px;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-right: 10px;
+	text-align: left;
+	float: left;
+	clear: left;  
+}
+
+#myCaptcha {
+	margin-left: 110px;
+}
+
+.humanitycheck {
+	background-color: #FFAAAA !important;
+	color: #FF0000;
+	font-weight: bold;
+	border: 1px solid #FF0000;
+	width: 450px;
+	padding: 5px;
+	margin: 15px;
+}
+
+#finBreakdown {
+	border: 1px solid #CCC;	
+}
+
+.notActuallyAnOffer {
+	font-size: 10px;
+	color: #999;
+}
+
+.bclogoSet {
+	float: left;
+	margin-bottom: 15px;
+	border: 1px solid #CCC;
+	-moz-border-radius: 8px; 
+	border-radius: 8px;	
+
+}
+
+.bclogoSet .logodesc {
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+	padding: 4px 4px 4px 8px;
+	font-size: 12px;
+
+}
+
+.bclogoSet ul {
+	margin: 0px 0px 0px 0px;
+	padding: 2px 2px 5px 2px;
+	list-style-type: none;
+	font-size: 12px;
+
+}
+
+.bclogoSet ul li{
+	padding: 0px 0px 1px 2px;
+}
+
+.bclogo {}
+
+.bclogo img {
+	padding: 0;
+	margin: 0;
+}
+
+.quote {
+	margin-left: 10px;
+	padding-left: 10px;
+	border-left: 3px solid #CCC; 
+	font-style: italic;
+}
+
+.eventTimeDetails  p{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#specialShirtNote {
+	font-size: 11px;
+	float: right;
+	width: 200px;
+	border: 1px solid #DAA;
+	background-color: #ECC;
+	padding: 4px;
+}
+
+.meter-wrap {
+	margin: 10px auto;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.meter-wrap, .meter-value, .meter-text {
+    /* The width and height of your image */
+    width: 600px; height: 30px;
+}
+
+.meter-wrap, .meter-value {
+    background: #565658 url('images/meter-outline2.png') top left no-repeat;
+}
+            
+.meter-text {
+    position: absolute;
+    top:0; left:0;
+
+    padding-top: 5px;
+                
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+#becomeCorporateSponsor {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px;
+	font-size: 24px;
+	width: 400px;
+	margin: 30px auto 30px auto;
+	background-color: #DDD;
+	border: 1px solid #565658;
+}
+
+#donationTable {
+	border-collapse:collapse;
+}
+
+#donationTable,#donationTable th, #donationTable td {
+	border: 1px solid #CCC;
+}
+
+#donationTable th {
+	font-weight: bold;
+	padding: 15px;
+	background-color: #EEE;
+}
+
+#donationTable th sup {
+	font-weight: normal;
+}
+
+#donationTable tr td {
+	text-align: center;
+	padding: 5px;
+}
+
+.beleet {
+	text-align: center; 
+	font-size: 22px; 
+	font-weight: bold;
+	border: 1px solid #CCC;
+	padding: 20px;
+	margin: 40px auto 40px auto;
+	width: 500px;
+}
+
+#sponsorPageLogo {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #CCC;
+	background-color: #FFF;
+}
+
+.sponsorevent {
+	width: 600px;
+	border-width: 1px 7px 1px 7px;
+	border-style: solid;
+	text-align: center;
+	margin: 5px auto;
+	padding: 5px;
+}
+
+.fall2012 {
+	border-color: #243e31;
+	background-color: #368A60;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.spring2012 {
+	border-color: #69D4FF; 
+	background-color: #9CD1E6;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.fall2011 {
+	border-color: #000000; 
+	background-color: #393939;
+	color: #DDD;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.spring2011 {
+	border-color: #114357; 
+	background-color: #20857F;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.fall2010 {
+	border-color: #757575;
+	background-color: #9C9C9C;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.pre2010 {
+	border-color: #693800;
+	background-color: #997C5A;
+	font-size: 16px;
+	font-weight: bold;
+}

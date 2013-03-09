@@ -1,0 +1,108 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	background-color: #FAFAFA;
+
+}
+
+a{ color: #159DF7; }
+a:visited  { 
+	/*color: #6E24C4;*/
+	color: #159DF7;
+}
+a:hover { color: #0067AA; }
+
+img { 
+	border: 0;
+}
+
+h1 {	font-size: 2.5em; margin: 0; padding: 0;}
+
+h2 { color: #565658; }
+
+h3 {	margin: 0; padding: 0; color: #565658; }
+
+p {
+	line-height: 1.4;
+	font-size: 18px;
+}
+
+#logoHeading {
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/*margin-bottom: 15px;*/
+	background-color: #565658;
+}
+
+#logo {
+margin: 0px auto;
+width: 150px;
+text-align: center;
+}
+
+
+#navigationBanner {
+	margin: 0px auto;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	/*background-color: #FFF;*/
+	background-color: #f6841f;
+}
+
+.err {
+	background-color: #FFAAAA !important;
+}
+
+#registerForm label {
+
+	font-weight: bold;
+	padding-top: 3px;
+	padding-right: 10px;
+	text-align: left;
+	display: block;
+
+}
+
+
+#content {
+	padding: 20px;
+}
+
+
+#registerForm {
+
+}
+
+#registerForm p{
+
+	color: #777;
+	padding-left: 111px;
+}
+
+p {
+
+}
+
+.logo {
+	text-align: center;
+	margin: 3px auto;
+}
+
+input {
+	width: 100%;
+	line-height: 2em;
+}
+
+select {
+	width: 100%;
+}
+
+#specialShirtNote {
+	
+	text-align: center;
+	border: 1px solid #DAA;
+	background-color: #ECC;
+	padding: 4px;
+}

@@ -1,0 +1,90 @@
+- @next_event = "Spring 2013"
+- @next_date = "April 20th"
+!!! 5
+/[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7">
+/[if IE 7]    <html class="no-js lt-ie9 lt-ie8">
+/[if IE 8]    <html class="no-js lt-ie9">
+<!--[if gt IE 8]><!-->
+%html{:class => "no-js"}
+  <!--<![endif]-->
+  %head
+    %meta{:charset => "utf-8"}
+    %meta{'http-equiv' => "X-UA-Compatible", :content =>"IE=edge,chrome=1"}
+
+    -# Pull in the page title
+    %title= @title
+
+    %meta{:name => "description", :content => "BarCamp Rochester"}
+    %meta{:name => "author", :content => "BarCamp Rochester"}
+    %meta{:name =>"viewport", :content => "width=device-width"}
+
+    -# Place favicon.ico and apple-touch-icon.png in the root directory
+
+    = stylesheet_link_tag "screen"
+    = javascript_include_tag "libs/modernizr-2.6.1.min"
+
+  %body{:class => "#{@bodyclass}"}
+    /[if lt IE 7]
+      %p.chromeframe
+        You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
+    .container
+      %header
+      #logo
+        %a(href="../")
+          %img(src="/images/logos/barcamproc.png")
+
+      #navigation
+        %ul#nav_links
+          %li
+            %a(href="/") Home
+          %li
+            %a(href="/register") Register
+          %li
+            %a(href="/attendees") Attendees
+          %li
+            %a(href="/diretions") Directions
+          %li
+            %a(href="/media") Media
+          %li
+            %a(href="/Howto") Howto
+          %li
+            %a(href="/sponsor") sponsor
+
+      #main-content{:role => "main"}
+
+        #social_media
+          #media_links
+            %a(href="http://facebook.com/barcamproc" alt="Facebook" title="BarCamp Rochester on Facebook")
+              %img(src="images/icons/facebook-32.png")
+            %a(href="http://twitter.com/barcamproc" alt="Twitter" title="BarCamp Rochester on Twitter")
+              %img(src="images/icons/twitter-32.png")
+            %a(href="http://www.flickr.com/groups/barcamproc" alt="Flickr" title="BarCamp Rochester on Flickr")
+              %img(src="images/icons/flickr-32.png")
+            %a(href="http://vimeo.com/barcamproc" alt="Vimeo" title="BarCamp Rochester on Vimeo")
+              %img(src="images/icons/vimeo-32.png")
+          %div
+            %a(href="https://twitter.com/share" class="twitter-share-button" data-url="http://barcamproc.org" data-text="Register for BarCamp Rochester!" data-via="BarCampRoc") Tweet
+            :javascript
+              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+        = yield
+
+      %footer
+        %img(src="/images/logo/barcamproc_simple.png")
+
+    = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"
+    :javascript
+      window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.9.0.min.js"><\/script>')
+
+    -# Holder.js - canvas-generated placeholder images for prototyping
+    = javascript_include_tag "libs/holder"
+
+    = javascript_include_tag "plugins", "script"
+
+    -# Google Analytics: change UA-XXXXX-X to be your site's ID.
+    -# uncomment when deploying
+    / :javascript
+    /   var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    /   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    /   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    /   s.parentNode.insertBefore(g,s)}(document,'script'));
