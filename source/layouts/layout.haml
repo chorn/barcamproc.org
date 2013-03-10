@@ -30,7 +30,16 @@
     .container
       %header#mainheader
         %h1#headerlogo
-          %a{:href => "/"}Barcamp Rochester
+          %a{:href => "/"}BarCamp Rochester
+        .social-links
+          %a.fc-webicon.twitter{:href => "http://twitter.com/BarCampRoc"} Twitter
+          %a.fc-webicon.flickr{:href => "http://www.flickr.com/groups/barcamproc"} Flickr
+          %a.fc-webicon.vimeo{:href => "http://vimeo.com/barcamproc"} Vimeo
+          %a.fc-webicon.facebook{:href => "http://facebook.com/barcamproc"} Facebook
+          .twitter-button
+            %a.twitter-share-button{:href => "https://twitter.com/share", :data => {:url => "http://barcamproc.org", :text => "I'm going to BarCamp Rochester on April 20th!", :size => "large", :related => "BarCampRoc", :via =>"BarCampRoc"}} Tweet
+            :javascript
+              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
         %nav
           %ul#mainnav
@@ -51,25 +60,10 @@
 
       #main-content{:role => "main"}
 
-        #social_media
-          #media_links
-            %a(href="http://facebook.com/barcamproc" alt="Facebook" title="BarCamp Rochester on Facebook")
-              %img(src="images/icons/facebook-32.png")
-            %a(href="http://twitter.com/barcamproc" alt="Twitter" title="BarCamp Rochester on Twitter")
-              %img(src="images/icons/twitter-32.png")
-            %a(href="http://www.flickr.com/groups/barcamproc" alt="Flickr" title="BarCamp Rochester on Flickr")
-              %img(src="images/icons/flickr-32.png")
-            %a(href="http://vimeo.com/barcamproc" alt="Vimeo" title="BarCamp Rochester on Vimeo")
-              %img(src="images/icons/vimeo-32.png")
-          %div
-            %a(href="https://twitter.com/share" class="twitter-share-button" data-url="http://barcamproc.org" data-text="Register for BarCamp Rochester!" data-via="BarCampRoc") Tweet
-            :javascript
-              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-
         = yield
 
       %footer
-        %img(src="/images/logo/barcamproc_simple.png")
+        %img{:src => "/images/logos/barcamprocicon.png"}
 
     = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"
     :javascript
