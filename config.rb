@@ -78,10 +78,12 @@ helpers do
 
 end
 
+
+activate :directory_indexes
+
 configure :build do
-  activate :directory_indexes
-  # activate :minify_css
-  # activate :minify_javascript
+  activate :minify_css
+  activate :minify_javascript
 
   # Enable cache buster
   # activate :cache_buster
