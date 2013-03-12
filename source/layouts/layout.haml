@@ -28,7 +28,7 @@
     .container
       %header#mainheader
         %h1#headerlogo
-          %a{:href => "/"}BarCamp Rochester
+          %a{:href => "/"} BarCamp Rochester
         .social-links
           %a.fc-webicon.twitter{:href => "http://twitter.com/BarCampRoc"} Twitter
           %a.fc-webicon.flickr{:href => "http://www.flickr.com/groups/barcamproc"} Flickr
@@ -46,22 +46,22 @@
             %li.navitem
               %a{:href => "#{data.global.registration}"} Register
             %li.navitem
-              %a{:href => "/attendees/"} Attendees
+              %a{:href => "/attendees.html"} Attendees
             %li.navitem
-              %a{:href => "/directions/"} Directions
+              %a{:href => "/directions.html"} Directions
             %li.navitem
-              %a{:href => "/media/"} Media
+              %a{:href => "/media.html"} Media
             %li.navitem
-              %a{:href => "/howto/"} How-to
+              %a{:href => "/howto.html"} How-to
             %li.navitem
-              %a{:href => "/sponsor/"} Sponsor
+              %a{:href => "/sponsor.html"} Sponsor
 
       #main-content{:role => "main"}
 
         = yield
 
       %footer
-        %img{:src => "/images/logos/barcamprocicon.png"}
+        %img{:src => "/images/barcamprocicon.png"}
 
     = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"
     :javascript
@@ -72,10 +72,3 @@
 
     = javascript_include_tag "plugins", "script"
 
-    -# Google Analytics: change UA-XXXXX-X to be your site's ID.
-    -# uncomment when deploying
-    / :javascript
-    /   var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-    /   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    /   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    /   s.parentNode.insertBefore(g,s)}(document,'script'));
