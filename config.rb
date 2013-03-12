@@ -79,7 +79,7 @@ helpers do
 end
 
 configure :build do
-  activate :directory_indexes
+  # activate :directory_indexes
   # activate :minify_css
   # activate :minify_javascript
 
