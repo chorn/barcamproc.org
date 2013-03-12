@@ -17,6 +17,8 @@
 @import "grid/magic"
 
 @import "mixins"
+// Social icons
+@import "fc-icons"
 
 // Your own styles go here.
 h1
@@ -33,6 +35,16 @@ kbd
 #mainheader
   background-color: #565658
   margin-bottom: 2em
+  position: relative
+  .social-links
+    position: absolute
+    top: 25px
+    right: 15px
+  .twitter-button
+    margin-top: 10px
+    margin-left: 2px
+    max-width: 140px
+
 #headerlogo
   @include replace-text-with-dimensions("logos/barcamproc.png")
   @include background-2x("logos/barcamproc_2x.png")
@@ -57,7 +69,8 @@ kbd
 
 footer
   margin-top: 3em
-  text-align: right
+  padding-bottom: 1em
+  text-align: center
 
 .container
   // Force images to scale down to their container widths.

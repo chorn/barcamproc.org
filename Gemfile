@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem "middleman", "~> 3.0.12"
+gem 'rack-google_analytics'
 
 # Compass plugins
 gem 'susy', "~> 1.0.5" # Susy
