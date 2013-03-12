@@ -3,73 +3,12 @@ next_date: April 20th
 registration: https://docs.google.com/forms/d/1R9ui12fo_xO2J3BpTTDuMfdG5EKWcft5JefTfWbr96U/viewform
 sponsors:
   -
-    id: microsoft
-    name: Microsoft
-    link: microsoft.com
-    description: Microsoft is an American public multinational corporation headquartered in Redmond, Washington, USA that develops, manufactures, licenses, and supports a wide range of products and services predominantly related to computing through its various product divisions. Established on April 4, 1975 to develop and sell BASIC interpreters for the Altair 8800, Microsoft rose to dominate the home computer operating system market with MS-DOS in the mid-1980s, followed by the Microsoft Windows line of operating systems.
-  -
-    id: synacor
-    name: Synacor
-    link: synacor.com
-    description: Synacor, Inc. was created in 2001, with company headquarters established in Buffalo, NY, and has become a leader in progressive corporate culture and is a beacon for burgeoning growth among U.S. technology and Internet companies. Forward thinking has allowed Synacor to build a flexible provisioning platform, enabling comprehensive delivery to Internet broadband service providers.
-  -
     id: rit
     name: RIT
     link: rit.edu
     description: Rochester Institute of Technology is one of the world's leading career-oriented, technological universities. RIT enrolls 17,500 full- and part-time students in more than 200 career-oriented and professional programs, and its cooperative education program is one of the oldest and largest in the nation.
   -
-    id: appendto
-    name: appendTo
-    link: appendto.com
-    description: Founded by former team members of the jQuery project, appendTo was formed to provide design and technology solutions through products, services and training. Contact us on our website for more information about our training classes and consulting services. appendTo, is a virtual company, meaning there is no central office, everyone works remotely.
-  -
-    id: eucalyptus
-    name: Eucalyptus
-    link: eucalyptus.com
-    description: Eucalyptus Systems provides IT organizations and technology businesses with the most widely deployed cloud software platform for on-premise Infrastructure as a Service (IaaS).
-  -
     id: mmi
     name: Metrix Matrix
     link: metrixmatrix.com
     description: Metrix Matrix- Measurement, analysis and reporting experts in the areas of satisfaction, loyalty and compliance. We provide our clients with continuous qualitative and quantitative feedback on our secure, online, customizable reporting tool. Clients have found our reporting tools essential to reinforce favorable behaviors as well as preventing poor performance before they become a much bigger problem.
-  -
-    id: csh
-    name: Computer Science House
-    link: www.csh.rit.edu
-    description: Computer Science House, founded in 1976, is one of the oldest and most active Special Interest Houses at the Rochester Institute of Technology in Rochester, NY. Located on the third floor of the Nathaniel Rochester Hall dormitory, CSH provides a revolutionary living environment for over fifty 'on-floor' students and many off-floor members as well. In addition to RIT's standard residence hall facilities, CSH has several unique, multi-purpose rooms, filled with technical and material resources for members to use.
-  -
-    id: gtts
-    name: GTTS Marketing
-    link: www.gttsmarketing.com
-    description: Going to the Sun Marketing (GTTS) is a full service marketing firm, specializing in providing our clients with everything they need to start or grow their business. We don't just do some marketing, GTTS does it all, with a mix of real world experience and thoughtful planning. We build brands, create websites, produce print, online TV and radio advertisements, make business cards, develop public relations campaigns and help our clients connect with their customers. Contact us today and let GTTS help build your brand.
-  -
-    id: sharpnotions
-    name: Sharp Notions
-    link: sharpnotions.com
-    description: Sharp Notions, founded in 2008, is a software development and marketing design company based in Fairport, NY, a suburb of the city of Rochester. We specialize in delivering smart ideas and sharp solutions for your website development, online marketing and SEO, mobile application, software application, graphic design, and print marketing needs. We know that every company has a unique brand and we believe in delivering unique solutions for each of our clients.
-  -
-    id: paperlesspost
-    name: Paperless Post
-    link: paperlesspost.com
-    description: Paperless Post specializes in the intersection of technology and visual art, providing the tools to design graphical, interactive messages that redefine what stationery can be.  Our users, ranging from top-tier cultural institutions to brides, trust us with everything from fundraisers to wedding invitations to thank you notes.  We ship features that over 10 million people interact with, and we are able to focus on quality because our users pay us directly.
-  -
-    id: doolli
-    name: Doolli
-    link: doolli.com
-    description: Doolli is a Buffalo, NY based Start Up, who is building a cloud based platform-as-a-service for information management.  We make your data more valuable. Doolli is actively hiring developers with experience in Java, Relational Databases and NoSQL Implementations, Machine Learning, and Datamining.	
-  -
-    id: trueinteraction
-    name: True Interaction
-    link: trueinteraction.com
-    description: True Interaction is a Design &amp; Development Collective in NYC, specializing in Information Architecture and Digital Products.
-  -
-    id: ritalumni
-    name: RIT Alumni Association
-    link: rit.edu/alumni
-    description: RIT has more than 100,000 alumni worldwide. In every career field, alumni are respected leaders that are valued for their contributions to industry, business, science, communication, art, computing, and engineering.  To stay connected to classmates, or to make contacts with other RIT graduates in their career field, alumni turn to one place- the RIT Alumni Network. The Alumni Network hosts local, regional, and international chapter events to keep alumni connected to RIT.  Alumni can also participate in activities, like the Travel Program, or support RIT with a gift.
-  -
-    id: oreilly
-    name: O'Reilly Media
-    link: oreilly.com
-    description: O'Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences.  Since 1978, O'Reilly has been a chronicler and catalyst of leading-edge development, homing in on the technology trends that really matter and galvanizing their adoption by amplifying "faint signals" from the alpha geeks who are creating the future.  An active participant in the technology community, the company has a long history of advocacy, meme-making, and evangelism.
-
