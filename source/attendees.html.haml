@@ -1,0 +1,16 @@
+- @title = "BarCamp Rochester Attendee Topics"
+- @bodyclass = "home"
+
+.intro
+  %h1="BarCamp / CloudCamp Rochester, #{data.global.next_event}"
+
+.features
+  %h3 Here are the topics people have signed up for:
+
+  / start_topics
+  / end_topics
+
+  %p
+    If you haven't signed up yet, you can
+    %a{:href => "#{data.global.registration}"} register here.
+

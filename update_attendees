@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+require "rubygems"
+require "google_drive"
+require "yaml"
+require "cgi"
+
+settings = YAML.load(IO::read "#{ENV['HOME']}/.barcamp.yml")
+
+refresh_client_obj = OAuth2::Client.new(settings['client_id'], settings['client_secret'], {:site => 'https://accounts.google.com', :authorize_url => '/o/oauth2/auth', :token_url => '/o/oauth2/token'})
+refresh_access_token_obj = OAuth2::AccessToken.new(refresh_client_obj, settings['key'], {refresh_token: settings['refresh_token']})
+token = refresh_access_token_obj.refresh!
+
+session = GoogleDrive.login_with_oauth token
+ws = session.spreadsheet_by_url("https://docs.google.com/a/chorn.com/spreadsheet/ccc?key=0AguUDiJimLXQdDNEUUFhWkY5ZEktOC1xOVlKUVhDenc#gid=0").worksheets.first
+
+talks = []
+2.upto(ws.num_rows) do |row_number|
+  talks << CGI::escapeHTML(ws[row_number, 7].to_s.strip)
+end
+
+html = IO::read ARGV.shift
+
+
