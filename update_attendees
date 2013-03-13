@@ -15,9 +15,10 @@ ws = session.spreadsheet_by_url("https://docs.google.com/a/chorn.com/spreadsheet
 
 talks = []
 2.upto(ws.num_rows) do |row_number|
-  talks << CGI::escapeHTML(ws[row_number, 7].to_s.strip)
+  talks << "<li>#{CGI::escapeHTML(ws[row_number, 7].to_s.strip)}</li>"
 end
 
 html = IO::read ARGV.shift
 
+puts html.gsub(/<!-- start_topics -->.*<!-- end_topics -->/m, "<!-- start_topics -->\n              #{talks.join}\n              <!-- end_topics -->")
 

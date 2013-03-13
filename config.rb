@@ -78,17 +78,11 @@ helpers do
 
 end
 
-
 activate :directory_indexes
 
 configure :build do
   activate :minify_css
   activate :minify_javascript
-
-  # Enable cache buster
-  # activate :cache_buster
-
-  # Use relative URLs
   activate :relative_assets
   require "rack/google_analytics"
   use Rack::GoogleAnalytics, :web_property_id => "UA-39244800-1"
