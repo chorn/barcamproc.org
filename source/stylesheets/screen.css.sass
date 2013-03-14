@@ -24,13 +24,17 @@ kbd
   margin-bottom: 2em
   position: relative
   .social-links
-    position: absolute
-    top: 25px
-    right: 15px
-  .twitter-button
-    margin-top: 10px
-    margin-left: 2px
-    max-width: 140px
+    display: none
+  @include at-breakpoint($break-tablet)
+    .social-links
+      display: block
+      position: absolute
+      top: 25px
+      right: 15px
+    .twitter-button
+      margin-top: 10px
+      margin-left: 2px
+      max-width: 140px
 
 #headerlogo
   @include replace-text-with-dimensions("barcamproc.png")
@@ -39,23 +43,32 @@ kbd
 
 #mainnav
   @include unstyled-list
-  @include clearfix
   background-color: #f6841f
   .navitem
-    float: left
-    a
-      padding: 10px 15px
-      display: block
-      text-decoration: none
-      color: #fff
-      @include text-shadow(rgba(0,0,0,0.5) 0 1px 1px)
-      &:hover
-        background-color: darken(#f6841f, 10%)
-  .navdate
-    float: right
-    font-weight: bold
+    border-bottom: 1px solid rgba(0,0,0,0.1)
+  a
+    display: block
     padding: 10px 15px
-    color: #565658
+    text-decoration: none
+    color: #fff
+    @include text-shadow(rgba(0,0,0,0.5) 0 1px 1px)
+    &:hover
+      background-color: darken(#f6841f, 10%)
+  .navdate
+    display: none
+
+  @include at-breakpoint($break-tablet)
+    @include clearfix
+    .navitem
+      float: left
+      border-bottom: none
+  @include at-breakpoint($break-desktop)
+    .navdate
+      display: inline
+      float: right
+      font-weight: bold
+      padding: 10px 15px
+      color: #565658
 
 .home
   background-color: #fafafa
@@ -170,7 +183,7 @@ kbd
       background-color: #EEE
       sup
         font-weight: normal
-    tr td
+    td
       text-align: center
       padding: 5px
 
@@ -187,20 +200,21 @@ kbd
 
   #sponsors
     border: 1px solid #cccccc
-    margin: 10px
-    padding-left: 25px
-    padding-right: 25px
-    padding-bottom: 25px
+    margin-top: 10px
+    padding: 20px
     background-color: #fff
 
   .sponsor
-    +clearfix
-    border-bottom: 1px solid #cccccc
+    @include clearfix
+    border-top: 1px solid #cccccc
     font-size: 1.1em
     padding-bottom: 5px
-    padding-top: 5px
+    padding-top: 20px
     margin-bottom: 8px
     text-align: left
+    &:first-child
+      border-top: none
+      padding-top: 0
     img
       float: right
       margin: 5px
