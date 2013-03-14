@@ -230,9 +230,15 @@ kbd
       display: block
       width: 200px
       @include at-breakpoint($break-tablet)
+        width: 30%
         float: right
         margin: 0 0 0 10px
     .bcr-sponsor-desc
+      p:first-child
+        margin-top: 0
+      @include at-breakpoint($break-tablet)
+        float: left
+        width: 65%
     .bcr-sponsor-link
       margin-top: 1em
 
