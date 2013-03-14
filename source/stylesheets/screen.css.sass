@@ -80,21 +80,23 @@ kbd
       color: $bcr-gray
 
 #main-content
+  h1, h2, h3
+    line-height: 1.2em
+
   h1
     margin: 0 0 0.3em
-    padding: 0
     font-size: 1.5em
-    line-height: 1.2em
     @include at-breakpoint($break-desktop)
       font-size: 2em
   h2
     margin: -0.3em 0 0.5em
-    padding: 0
-    color: #565658
+    color: $bcr-gray
+    font-size: 1.3em
+    @include at-breakpoint($break-desktop)
+      font-size: 1.5em
   h3
     margin: 1em 0 0
-    padding: 0
-    color: #565658
+    color: $bcr-gray
   p
     line-height: 1.4em
   a
@@ -266,6 +268,7 @@ footer
 
 
 .container
+  min-width: 330px
   // Force images to scale down to their container widths.
   img
     max-width: 100%
