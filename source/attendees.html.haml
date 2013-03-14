@@ -1,10 +1,9 @@
 - @title = "BarCamp Rochester Attendee Topics"
-- @bodyclass = "home"
+- @bodyclass = "attendees"
 
-.intro
-  %h1="BarCamp / CloudCamp Rochester, #{data.global.next_event}"
-
-.features
+%section.main-column
+  %h1 BarCamp / CloudCamp Rochester
+  %h2= data.global.next_event
   %h3 Here are the topics people have signed up for:
 
   #topics

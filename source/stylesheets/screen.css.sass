@@ -13,17 +13,21 @@
 @import "mixins"
 @import "fc-icons"
 
+// Colors
+$bcr-gray: #565658
+$bcr-orange: #f6841f
+
 // Your own styles go here.
+body
+  background-color: #fafafa
+
 kbd
   background-color: #f5f5f5
   border: 1px solid #dedede
   padding: 0px 3px 2px
 
-.container
-  @include transition(max-width 0.3s ease-out)
-
 #mainheader
-  background-color: #565658
+  background-color: $bcr-gray
   margin-bottom: 20px
   position: relative
   .social-links
@@ -40,13 +44,15 @@ kbd
       max-width: 140px
 
 #headerlogo
-  @include replace-text-with-dimensions("barcamproc.png")
-  @include background-2x("barcamproc_2x.png")
   margin-left: 5px
+  a.logolink
+    display: block
+    @include replace-text-with-dimensions("barcamproc.png")
+    @include background-2x("barcamproc_2x.png")
 
 #mainnav
   @include unstyled-list
-  background-color: #f6841f
+  background-color: $bcr-orange
   .navitem
     border-bottom: 1px solid rgba(0,0,0,0.1)
   a
@@ -56,7 +62,7 @@ kbd
     color: #fff
     @include text-shadow(rgba(0,0,0,0.5) 0 1px 1px)
     &:hover
-      background-color: darken(#f6841f, 10%)
+      background-color: darken($bcr-orange, 10%)
   .navdate
     display: none
 
@@ -71,22 +77,22 @@ kbd
       float: right
       font-weight: bold
       padding: 10px 15px
-      color: #565658
-
-.home
-  background-color: #fafafa
+      color: $bcr-gray
 
 #main-content
   h1
-    margin: 0
+    margin: 0 0 0.3em
     padding: 0
-    font-size: 2.5em
+    font-size: 1.5em
+    line-height: 1.2em
+    @include at-breakpoint($break-desktop)
+      font-size: 2em
   h2
-    margin: 0
+    margin: -0.3em 0 0.5em
     padding: 0
     color: #565658
   h3
-    margin: 0
+    margin: 1em 0 0
     padding: 0
     color: #565658
   p
@@ -116,18 +122,17 @@ kbd
 
   .bclogos
     .bclogoSet
-      +clearfix
-      margin-bottom: 15px
+      @include clearfix
+      margin-bottom: 20px
+      padding: 10px
       border: 1px solid #CCC
-      -moz-border-radius: 8px
-      border-radius: 8px
+      @include border-radius(4px)
       .logodesc
         font-weight: bold
-        margin: 0px 0px 0px 0px
-        padding: 4px 4px 4px 8px
+        margin-bottom: 0.5em
         font-size: 12px
       ul
-        margin: 0px 0px 0px 0px
+        margin: 0
         padding: 2px 2px 5px 2px
         list-style-type: none
         font-size: 12px
@@ -202,12 +207,14 @@ kbd
     border: 1px solid #cccccc
 
   #sponsors
+    @include unstyled-list
     border: 1px solid #cccccc
+    @include border-radius(4px)
     margin-top: 10px
     padding: 20px
     background-color: #fff
 
-  .sponsor
+  .bcr-sponsor
     @include clearfix
     border-top: 1px solid #cccccc
     font-size: 1.1em
@@ -218,14 +225,23 @@ kbd
     &:first-child
       border-top: none
       padding-top: 0
-    img
-      float: right
-      margin: 5px
+    .bcr-sponsor-logo
+      margin: 0 auto 1em
+      display: block
       width: 200px
+      @include at-breakpoint($break-tablet)
+        float: right
+        margin: 0 0 0 10px
+    .bcr-sponsor-desc
+    .bcr-sponsor-link
+      margin-top: 1em
 
   #topics
     li
       font-size: 1.1em
+
+  #google-map
+    margin-bottom: 1em
 
 footer
   margin-top: 3em
