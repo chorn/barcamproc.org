@@ -30,6 +30,6 @@
           %img{:src => "/images/#{s.id}.png"}
         .bcr-sponsor-desc
           %p= s.description
-          %p
-            %a.bcr-sponsor-link{:href => "http://#{s.link}"}= s.name
+          %p.bcr-sponsor-link
+            %a{:href => "http://#{s.link}"}= s.name
 
