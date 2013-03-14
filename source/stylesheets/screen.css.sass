@@ -5,19 +5,12 @@
 @import "compass"
 @import "h5bp"
 
-// HTML5 Boilerplate Styles
 @include h5bp-normalize
 @include h5bp-base-styles
-
-// HTML5 Boilerplate styling for Chrome Frame
 @include h5bp-chromeframe
 
-// Susy Grid Systems - choose one to customize
-// @import "grid/fixed"
 @import "grid/magic"
-
 @import "mixins"
-// Social icons
 @import "fc-icons"
 
 // Your own styles go here.
@@ -58,17 +51,41 @@ kbd
       @include text-shadow(rgba(0,0,0,0.5) 0 1px 1px)
       &:hover
         background-color: darken(#f6841f, 10%)
+  .navdate
+    float: right
+    font-weight: bold
+    padding: 10px 15px
+    color: #565658
+
+#home
+  background-color: #fafafa
 
 #main-content
   h1
     margin-top: 0
+    font-size: 2.5em
+  h2
+    margin: 0
+    padding: 0
+    color: #565658
+  h3
+    margin: 0
+    padding: 0
+    color: #565658
   p
     line-height: 1.4em
+  a
+    color: #159DF7
+  a:visited
+    color: #159DF7
+  a:hover
+    color: #0067AA
 
 footer
   margin-top: 3em
   padding-bottom: 1em
   text-align: center
+
 
 .container
   // Force images to scale down to their container widths.
