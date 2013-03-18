@@ -15,7 +15,8 @@ ws = session.spreadsheet_by_url("https://docs.google.com/a/chorn.com/spreadsheet
 
 talks = []
 2.upto(ws.num_rows) do |row_number|
-  talks << "<li>#{CGI::escapeHTML(ws[row_number, 7].to_s.strip)}</li>"
+  cell = ws[row_number, 7].to_s.strip
+  talks << "<li>#{CGI::escapeHTML(cell)}</li>" if cell =~ /\S/ && cell !~ /^(TBD|TBA|Something)$/
 end
 
 html = IO::read ARGV.shift
