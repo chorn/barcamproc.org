@@ -9,28 +9,21 @@ settings = YAML.load(IO::read "#{ENV['HOME']}/.barcamp.yml")
 refresh_client_obj = OAuth2::Client.new(settings['client_id'], settings['client_secret'], {:site => 'https://accounts.google.com', :authorize_url => '/o/oauth2/auth', :token_url => '/o/oauth2/token'})
 refresh_access_token_obj = OAuth2::AccessToken.new(refresh_client_obj, settings['key'], {refresh_token: settings['refresh_token']})
 token = refresh_access_token_obj.refresh!
-
 session = GoogleDrive.login_with_oauth token
 ws = session.spreadsheet_by_url("https://docs.google.com/a/chorn.com/spreadsheet/ccc?key=0AguUDiJimLXQdDNEUUFhWkY5ZEktOC1xOVlKUVhDenc#gid=0").worksheets.first
 
 talks = []
 2.upto(ws.num_rows) do |row_number|
-  first_name = CGI::escapeHTML(ws[row_number, 2].to_s.strip)
-  last_name = CGI::escapeHTML(ws[row_number, 3].to_s.strip)
-  twitter = CGI::escapeHTML(ws[row_number, 6].to_s.strip.gsub(/^@+/,''))
-  twitter = "(@#{twitter})" if twitter.size > 2
-  topic = CGI::escapeHTML(ws[row_number, 7].to_s.strip)
-  next unless topic =~ /\S/ && topic.size > 4 && topic !~ /^(Something)$/
+  talk = {
+    :first_name => CGI::escapeHTML(ws[row_number, 2].to_s.strip),
+    :last_name  => CGI::escapeHTML(ws[row_number, 3].to_s.strip),
+    :twitter    => CGI::escapeHTML(ws[row_number, 6].to_s.strip.gsub(/^@+/,'')),
+    :topic      => CGI::escapeHTML(ws[row_number, 7].to_s.strip)
+  }
 
-  talks << "
-              <li class=\"attendee\">
-                <div class=\"who\">#{first_name} #{last_name} #{twitter}</div>
-                <div class=\"what\">#{topic}</div>
-              </li>"
-
+  talks << talk if talk[:topic] =~ /\S/ && talk[:topic].size > 4 && talk[:topic] !~ /^(Something)$/
 end
 
-html = IO::read ARGV.shift
-
-puts html.gsub(/<!-- start_topics -->.*<!-- end_topics -->/m, "<!-- start_topics -->\n              #{talks.join}\n              <!-- end_topics -->")
-
+File.open("data/attendees.yml", "w") do |f|
+  f.write(talks.to_yaml)
+end

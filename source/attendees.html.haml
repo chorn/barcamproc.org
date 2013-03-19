@@ -6,15 +6,14 @@
   %h2= data.global.next_event
   %h3 Here are some topics people will be presenting:
 
-  #topics
-    %ul
-      %li
-        .who
-          Chris Horn
-          %img{:src => Twitter.user("chorn").name }
-        .what Why I am a terrible person
-      / start_topics
-      / end_topics
+  %ul#attendees
+    - data.attendees.each do |a|
+      %li.attendee
+        %p.who
+          ="#{a[:first_name]} #{a[:last_name]}"
+          - if a.twitter != ""
+            %a.twitter{:href => "http://twitter.com/#!/#{a.twitter}"}="@#{a[:twitter]}"
+        %p.what="#{a[:topic]}"
 
   %p
     If you haven't signed up yet, you can
