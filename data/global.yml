@@ -1,6 +1,6 @@
 next_event: Spring 2013
 next_date: April 20th
-registration: /register/
+registration: https://docs.google.com/forms/d/1R9ui12fo_xO2J3BpTTDuMfdG5EKWcft5JefTfWbr96U/viewform
 sponsors:
   -
     id: rit
@@ -21,4 +21,4 @@ sponsors:
     id: oscubed
     name: OS-Cubed
     link: os-cubed.com
-    description: OS-Cubed is the company to assist you in achieving your goal of building a stable, secure and optimal platform.  We'll help you to take the steps to make your technology deliver exactly what you need, when you need it 
+    description: OS-Cubed provides optimal, stable and secure solutions to business problems using Microsoft technology. <a href="http://www.os-cubed.com/">www.os-cubed.com</a>

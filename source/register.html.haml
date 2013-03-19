@@ -2,6 +2,13 @@
 - @bodyclass = "register"
 
 %section.main-column
-  %h3="BarCamp / CloudCamp Rochester, #{data.global.next_event}"
+  %h1 BarCamp / CloudCamp Rochester
+  %h2= data.global.next_event
+  %h3 Registration is easy!
 
-  %iframe#registration-form{src: "https://docs.google.com/forms/d/1R9ui12fo_xO2J3BpTTDuMfdG5EKWcft5JefTfWbr96U/viewform"}
+  %ol
+    %li
+      %a{:href => "#{data.global.registration}"} Fill out our registration form
+      (it's a Google Form)
+    %li Keep the "Edit your response" link after you finish the form, or submit a new entry if you change your mind.  We'll do the right thing.
+

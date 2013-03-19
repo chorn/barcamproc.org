@@ -15,8 +15,19 @@ ws = session.spreadsheet_by_url("https://docs.google.com/a/chorn.com/spreadsheet
 
 talks = []
 2.upto(ws.num_rows) do |row_number|
-  cell = ws[row_number, 7].to_s.strip
-  talks << "<li>#{CGI::escapeHTML(cell)}</li>" if cell =~ /\S/ && cell !~ /^(TBD|TBA|Something)$/
+  first_name = CGI::escapeHTML(ws[row_number, 2].to_s.strip)
+  last_name = CGI::escapeHTML(ws[row_number, 3].to_s.strip)
+  twitter = CGI::escapeHTML(ws[row_number, 6].to_s.strip.gsub(/^@+/,''))
+  twitter = "(@#{twitter})" if twitter.size > 2
+  topic = CGI::escapeHTML(ws[row_number, 7].to_s.strip)
+  next unless topic =~ /\S/ && topic.size > 4 && topic !~ /^(Something)$/
+
+  talks << "
+              <li class=\"attendee\">
+                <div class=\"who\">#{first_name} #{last_name} #{twitter}</div>
+                <div class=\"what\">#{topic}</div>
+              </li>"
+
 end
 
 html = IO::read ARGV.shift
