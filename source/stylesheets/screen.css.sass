@@ -112,20 +112,27 @@ kbd
     color: #0067AA
 
   .howToHeading
-    background-position: left center
+    background-position: top right
     background-repeat: no-repeat
-    padding-left: 110px
-    height: 100px
+    @include at-breakpoint($break-tablet)
+      height: 100px
+      padding-right: 110px
+
   .howToHeadingText
-    font-size: 40px
-    font-weight: bold
-    padding-top: 23px
-  .hth_before
-    background-image: url('/images/pencilicon2.png')
-  .hth_during
-    background-image: url('/images/chaticon2.png')
-  .hth_after
-    background-image: url('/images/beericon2.png')
+    line-height: 2em
+    border-bottom: 1px solid #eee
+    @include at-breakpoint($break-tablet)
+      font-size: 2em
+      line-height: 2.8em
+      margin-bottom: 0
+
+  @include at-breakpoint($break-tablet)
+    .hth_before
+      background-image: image-url('pencilicon2.png')
+    .hth_during
+      background-image: image-url('chaticon2.png')
+    .hth_after
+      background-image: image-url('beericon2.png')
 
   .bclogos
     .bclogoSet
