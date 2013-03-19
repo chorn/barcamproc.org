@@ -6,10 +6,14 @@
   %h2= data.global.next_event
   %h3 Here are the topics people have signed up for:
 
-  #topics
-    %ul
-      / start_topics
-      / end_topics
+  %ul#attendees
+    - data.attendees.each do |a|
+      %li.attendee
+        .who
+          ="#{a[:first_name]} #{a[:last_name]}"
+          %a.twitter{:href => "http://twitter.com/#!/#{a.twitter}"}
+            ="#{a[:twitter]}"
+        .what="#{a[:topic]}"
 
   %p
     If you haven't signed up yet, you can
