@@ -11,8 +11,9 @@
       %li.attendee
         .who
           ="#{a[:first_name]} #{a[:last_name]}"
-          %a.twitter{:href => "http://twitter.com/#!/#{a.twitter}"}
-            ="#{a[:twitter]}"
+          - if a[:twitter].size > 0
+            %a.twitter{:href => "http://twitter.com/#!/#{a[:twitter]}"}
+              ="@#{a[:twitter]}"
         .what="#{a[:topic]}"
 
   %p
