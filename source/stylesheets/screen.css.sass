@@ -262,9 +262,28 @@ kbd
         &:hover
           text-decoration: underline
 
-  #topics
-    li
-      font-size: 1.1em
+  #attendees
+    @include unstyled-list
+    overflow: hidden
+  .attendee
+    display: block
+    float: left
+    @include at-breakpoint($break-tablet)
+      width: 49%
+      height: 200px
+      background-color: #ddd
+      margin-right: 2%
+      &:nth-child(2n)
+        margin-right: 0
+    .who
+      font-weight: bold
+    .twitter
+      font-weight: normal
+      font-size: 0.9em
+      text-decoration: none
+      float: right
+      &:hover
+        text-decoration: underline
 
   #google-map
     margin-bottom: 1em
