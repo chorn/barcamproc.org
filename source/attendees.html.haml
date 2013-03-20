@@ -20,7 +20,7 @@
               = "@" + a[:twitter]
         %p.what= a[:topic]
 
-  %h3 &hellip;and these people registered without a presentation topic:
+  %h3 &hellip;and these people have registered without a presentation topic:
   %ul#deadbeats
     - data.attendees.deadbeats.each do |a|
       %li.deadbeat{:title => a[:topic]}
@@ -33,4 +33,4 @@
           - else
             %span.twitter.nothing &hellip;
 
-  #count="#{data.attendees.talks.size + data.attendees.deadbeats.size} people have registered."
+  .attendee-count="#{data.attendees.talks.size + data.attendees.deadbeats.size} people have registered for the #{data.global.next_event} BarCamp Rochester"

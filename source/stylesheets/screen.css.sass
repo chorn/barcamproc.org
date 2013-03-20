@@ -271,6 +271,8 @@ kbd
       white-space: nowrap
       overflow: hidden
       text-overflow: ellipsis
+    .twitter-link
+      margin-top: 0
     .twitter
       font-weight: normal
       font-size: 0.9em
@@ -307,7 +309,6 @@ kbd
       color: #444
       margin: 0
     .twitter-link
-      margin-top: 0
       @include at-breakpoint($break-tablet)
         float: none
         position: absolute
@@ -319,7 +320,7 @@ kbd
         @include box-shadow(#fff -10px 0 10px 0)
 
   #deadbeats
-    margin-top: 0
+    margin: 0 0 1em
 
   .deadbeat
     border-bottom: 1px solid #eee
@@ -329,7 +330,11 @@ kbd
     .who
       margin-bottom: 0
     .twitter-link
-      margin-top: 0
+      margin-top: 0e
+
+  .attendee-count
+    text-align: center
+    font-style: italic
 
   .sidebar-card
     margin-top: 1em
