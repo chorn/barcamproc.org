@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5, h6
 #mainheader-wrap
   background-color: $bcr-gray
   margin-bottom: 20px
+  @include box-shadow(rgba(0,0,0,0.5) 0px 3px 4px -3px)
 
 #mainheader
   position: relative
@@ -73,6 +74,8 @@ h1, h2, h3, h4, h5, h6
 
 #mainnav-wrap
   background-color: $bcr-orange
+  border-top: 1px solid rgba(255,255,255,0.3)
+  @include background(linear-gradient(lighten($bcr-orange, 2%), darken($bcr-orange, 6%)))
 
 #mainnav
   @include unstyled-list
