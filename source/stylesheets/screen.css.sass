@@ -56,22 +56,26 @@ kbd
 
 #mainnav
   @include unstyled-list
+  @include clearfix
   .navitem
     border-bottom: 1px solid rgba(0,0,0,0.1)
+    float: left
+    width: 33%
+    text-align: center
   a
     display: block
     padding: 10px 15px
     text-decoration: none
     color: #fff
     @include text-shadow(rgba(0,0,0,0.5) 0 1px 1px)
+
     &:hover
       background-color: darken($bcr-orange, 10%)
 
   @include at-breakpoint($break-tablet)
-    @include clearfix
     .navitem
-      float: left
       border-bottom: none
+      width: auto
 
 #main-content
   h1, h2, h3
