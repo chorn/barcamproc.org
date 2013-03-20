@@ -310,15 +310,18 @@ kbd
     .who
       font-weight: bold
       color: #444
-      margin-top: 0
-    .twitter-link
-      position: absolute
-      padding: 10px 10px 0 0
       margin: 0
-      background-color: #fff
-      right: 0
-      top: 0
-      @include box-shadow(#fff -10px 0 10px 0)
+    .twitter-link
+      margin-top: 0
+      @include at-breakpoint($break-tablet)
+        float: none
+        position: absolute
+        padding: 10px 10px 0 0
+        margin: 0
+        background-color: #fff
+        right: 0
+        top: 0
+        @include box-shadow(#fff -10px 0 10px 0)
 
   #deadbeats
     margin-top: 0
