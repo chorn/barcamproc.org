@@ -40,11 +40,8 @@ $layouts: $break-tablet, $break-desktop, $break-huge
       @include susy-grid-background
 
 @include at-breakpoint($break-tablet)
-  .main-column
+  .main-column, .sidebar
     @include span-columns(8, 8)
-  .sidebar
-    @include span-columns(8, 8)
-
 
 @include at-breakpoint($break-desktop)
   .main-column
