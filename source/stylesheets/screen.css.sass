@@ -261,10 +261,28 @@ kbd
         &:hover
           text-decoration: underline
 
-  #attendees
+  #attendees, #deadbeats
     @include unstyled-list
     @include clearfix
     margin-top: 1em
+    .attendee, .deadbeat
+      @include at-breakpoint($break-tablet)
+        float: left
+        width: 49%
+        margin-right: 2%
+        &:nth-child(2n)
+          margin-right: 0
+    .who
+      white-space: nowrap
+      overflow: hidden
+      text-overflow: ellipsis
+    .twitter
+      font-weight: normal
+      font-size: 0.9em
+      text-decoration: none
+      &:hover
+        text-decoration: underline
+
   .attendee
     display: block
     border-top: 1px solid #ddd
@@ -274,19 +292,13 @@ kbd
       border-top: none
     @include at-breakpoint($break-tablet)
       @include box-sizing(border-box)
-      @include border-radius(5px)
-      border: 1px solid #ddd !important
+      border: 1px solid #eee !important
+      @include box-shadow(rgba(0,0,0,0.3) 0 4px 3px -2px)
       background-color: #fff
       padding: 10px
-      float: left
-      width: 49%
       height: 150px
-      margin-right: 2%
-      margin-bottom: 2%
+      margin-bottom: 2.3%
       position: relative
-      @include box-shadow(rgba(0,0,0,0.6) 0 4px 3px -3px)
-      &:nth-child(2n)
-        margin-right: 0
       &:after
         content: " "
         position: absolute
@@ -299,19 +311,34 @@ kbd
       font-weight: bold
       color: #444
       margin-top: 0
-    .twitter
-      font-weight: normal
-      font-size: 0.9em
-      text-decoration: none
-      float: right
-      &:hover
-        text-decoration: underline
+    .twitter-link
+      position: absolute
+      padding: 10px 10px 0 0
+      margin: 0
+      background-color: #fff
+      right: 0
+      top: 0
+      @include box-shadow(#fff -10px 0 10px 0)
+
+  #deadbeats
+    margin-top: 0
+
+  .deadbeat
+    border-bottom: 1px solid #eee
+    .nothing
+      color: #eee
+      text-decoration: none !important
+    .who
+      margin-bottom: 0
+    .twitter-link
+      margin-top: 0
+
 
   #google-map
     height: 300px
     margin-bottom: 1.5em
 
-  .sidebar-content
+  .sidebar-card
     margin-top: 1em
     border-top: 1px solid #ccc
     h3
@@ -321,6 +348,8 @@ kbd
     @include at-breakpoint($break-desktop)
       margin-top: 0
       border-top: none
+      border: 1px solid #eee
+      @include box-shadow(rgba(0,0,0,0.3) 0 4px 3px -2px)
       padding: 10px
       background-color: #fff
       h3
