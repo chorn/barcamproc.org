@@ -10,7 +10,7 @@
     %a{:href => "/register/"} register here.
 
   %ul#attendees
-    - data.attendees.each do |a|
+    - data.attendees.talks.each do |a|
       %li.attendee{:title => a[:topic]}
         %p.who
           = a[:first_name] + " " + a[:last_name]
@@ -19,4 +19,12 @@
               = "@" + a[:twitter]
         %p.what= a[:topic]
 
-
+  %h3 These people signed up but don't have a topic:
+  %ul#deadbeat
+    - data.attendees.deadbeats.each do |a|
+      %li.deadbeat{:title => a[:topic]}
+        %p.who
+          = a[:first_name] + " " + a[:last_name]
+          - if not a[:twitter].blank?
+            %a.twitter{:href => "http://twitter.com/#!/#{a.twitter}"}
+              = "@" + a[:twitter]
