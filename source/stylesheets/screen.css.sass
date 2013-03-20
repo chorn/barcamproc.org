@@ -82,6 +82,13 @@ h1, h2, h3, h4, h5, h6
     float: left
     width: 33%
     text-align: center
+
+  // Highlight the current page in the nav
+  $nav-pages: home, register, attendees, directions, media, howto, sponsor
+  @each $page in $nav-pages
+    .#{$page} & .#{$page}
+      background-color: darken($bcr-orange, 7%)
+
   a
     display: block
     padding: 10px 15px
@@ -91,6 +98,8 @@ h1, h2, h3, h4, h5, h6
 
     &:hover
       background-color: darken($bcr-orange, 10%)
+    &:active
+      background-color: darken($bcr-orange, 15%)
 
   @include at-breakpoint($break-tablet)
     .navitem
