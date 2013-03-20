@@ -17,6 +17,8 @@ all = {
   :deadbeats => []
 }
 2.upto(ws.num_rows) do |row_number|
+  next if ws[row_number, 8].to_s.strip =~ /\S/
+
   talk = {
     :first_name => CGI::escapeHTML(ws[row_number, 2].to_s.strip),
     :last_name  => CGI::escapeHTML(ws[row_number, 3].to_s.strip),
