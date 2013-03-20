@@ -36,7 +36,7 @@
             %a.fc-webicon.vimeo{:href => "http://vimeo.com/barcamproc"} Vimeo
             %a.fc-webicon.facebook{:href => "http://facebook.com/barcamproc"} Facebook
             .twitter-button
-              %a.twitter-share-button{:href => "https://twitter.com/share", :data => {:url => "http://barcamproc.org", :text => "I'm going to BarCamp Rochester on April 20th!", :size => "large", :related => "BarCampRoc", :via =>"BarCampRoc"}} Tweet
+              %a.twitter-share-button{:href => "https://twitter.com/share", :data => {:url => "http://barcamproc.org", :text => "I'm going to BarCamp Rochester on #{data.global.next_date}!", :size => "large", :related => "BarCampRoc", :via =>"BarCampRoc"}} Tweet
               :javascript
                 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
       #mainnav-wrap
@@ -57,12 +57,18 @@
                 %a{:href => "/howto/"} How-to
               %li.navitem
                 %a{:href => "/sponsor/"} Sponsor
-              %li.navdate= data.global.next_date
 
     .container
       #main-content{:role => "main"}
 
         = yield
+
+        .sidebar
+          .sidebar-content
+            %h3= "#{data.global.next_event} BarCamp is on #{data.global.next_date}"
+            - if @bodyclass != "howto"
+              %p
+                %a{:href => data.global.registration} Register today!
 
       %footer
         .bcr-icon
