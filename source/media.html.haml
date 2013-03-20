@@ -1,12 +1,10 @@
 - @title = "BarCamp Rochester Media"
 - @bodyclass = "home"
 
-.intro
-  %h1 BarCamp Rochester Media
-
-.features
-  %h3 BarCamp Rochester Photos
+%section.main-column
   :markdown
+    # BarCamp Rochester Media
+    ### BarCamp Rochester Photos
     Below are several photos from previous BarCamp Rochester events. You can find more on the BarCamp Rochester [flickr group](http://www.flickr.com/groups/barcamproc).
 
   :plain
@@ -36,9 +34,12 @@
   %br
   %h3 BarCamp Rochester Videos
   :markdown
-    Here is a sample of some videos from previous BarCamp Rochester events. You can find more on [vimeo](<http://vimeo.com/barcamproc). Videos are recorded in only a portion of all the rooms at BarCamp Rochester.
-  <iframe src="http://player.vimeo.com/video/19505804" width="320" height="180" frameborder="0"></iframe>
-  <iframe src="http://player.vimeo.com/video/31920621" width="320" height="180" frameborder="0"></iframe>
+    Here is a sample of some videos from previous BarCamp Rochester events. You can find more on [vimeo](http://vimeo.com/barcamproc). Videos are recorded in only a portion of all the rooms at BarCamp Rochester.
+
+  .fitvids
+    %iframe{:src => "http://player.vimeo.com/video/19505804", :width => "320", :height => "180", :frameborder => "0"}
+  .fitvids
+    %iframe{:src => "http://player.vimeo.com/video/31920621", :width => "320", :height => "180", :frameborder => "0"}
 
   %h3 BarCamp Rochester Logos
   :markdown
