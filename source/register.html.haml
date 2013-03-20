@@ -2,13 +2,12 @@
 - @bodyclass = "register"
 
 %section.main-column
-  %h1 BarCamp / CloudCamp Rochester
-  %h2= data.global.next_event
-  %h3 Registration is easy!
+  :markdown
+    # BarCamp / CloudCamp Rochester
+    ## #{data.global.next_event}
+    ### Registration is easy!
 
-  %ol
-    %li
-      %a{:href => "#{data.global.registration}"}
-        %strong Fill out our simple registration Google form
-    %li Keep the "Edit your response" link after you finish the form, or submit a new entry if you change your mind.  We'll do the right thing.
+    1. [**Fill out our simple registration Google form**](#{data.global.registration})
+    2. Keep the "Edit your response" link after you finish the form, or submit a new entry if you change your mind.  We'll do the right thing.
+
 

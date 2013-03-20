@@ -2,12 +2,12 @@
 - @bodyclass = "attendees"
 
 %section.main-column
-  %h1 BarCamp / CloudCamp Rochester
-  %h2= data.global.next_event
-  %h3 Here are some topics people will be presenting:
-  %p
-    If you haven't signed up yet, you can
-    %a{:href => "/register/"} register here.
+  :markdown
+    # BarCamp / CloudCamp Rochester
+    ## #{data.global.next_event}
+    ### Here are some topics people will be presenting:
+
+    If you haven't signed up yet, you can [register here](/register/).
 
   %ul#attendees
     - data.attendees.talks.each do |a|
