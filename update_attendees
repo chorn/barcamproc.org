@@ -12,7 +12,10 @@ token = refresh_access_token_obj.refresh!
 session = GoogleDrive.login_with_oauth token
 ws = session.spreadsheet_by_url("https://docs.google.com/a/chorn.com/spreadsheet/ccc?key=0AguUDiJimLXQdDNEUUFhWkY5ZEktOC1xOVlKUVhDenc#gid=0").worksheets.first
 
-talks = []
+all = {
+  :talks => [],
+  :deadbeats => []
+}
 2.upto(ws.num_rows) do |row_number|
   talk = {
     :first_name => CGI::escapeHTML(ws[row_number, 2].to_s.strip),
@@ -21,9 +24,13 @@ talks = []
     :topic      => CGI::escapeHTML(ws[row_number, 7].to_s.strip)
   }
 
-  talks << talk #if talk[:topic] =~ /\S/ && talk[:topic].size > 4 && talk[:topic] !~ /^(Something)$/
+  if talk[:topic] =~ /\S/ && talk[:topic].size > 4 && talk[:topic] !~ /^(Something)$/
+    all[:talks] << talk
+  else
+    all[:deadbeats] << talk
+  end
 end
 
 File.open("data/attendees.yml", "w") do |f|
-  f.write(talks.to_yaml)
+  f.write(all.to_yaml)
 end
