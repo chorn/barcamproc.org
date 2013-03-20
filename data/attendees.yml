@@ -1,4 +1,5 @@
 ---
+:talks:
 - :first_name: Chris
   :last_name: Horn
   :twitter: chorn
@@ -7,34 +8,14 @@
   :last_name: McOrmond
   :twitter: DanielMcOrmond
   :topic: Yeoman, Bower, and Grunt. Plus AngularJS.
-- :first_name: Grant
-  :last_name: Cohoe
-  :twitter: grantcohoe
-  :topic: Something
 - :first_name: Chris
   :last_name: Moyer
   :twitter: kopertop
   :topic: Working Virtually
-- :first_name: Dave
-  :last_name: Morgan
-  :twitter: devmorgan
-  :topic: ''
 - :first_name: Nick
   :last_name: Quaranto
   :twitter: qrush
   :topic: RubyMotion
-- :first_name: Matthew
-  :last_name: Lavine
-  :twitter: MattLavineRIT
-  :topic: ''
-- :first_name: John
-  :last_name: St. Martin
-  :twitter: b1tb1n
-  :topic: TBD
-- :first_name: Elvis
-  :last_name: Montero
-  :twitter: elvismon
-  :topic: ''
 - :first_name: Jim
   :last_name: Bullock
   :twitter: ''
@@ -54,6 +35,125 @@
   :last_name: Kavanagh
   :twitter: David_67
   :topic: Eucalyptus 3.3 - All kinds of new stuff!
+- :first_name: Scott
+  :last_name: Lawrence
+  :twitter: yorgle
+  :topic: How to solve all of the world&#39;s problems with a simple home computer
+    designed around an Arduino-based microcontroller, and it turns out that you can
+    make a super long topic name entered here, so you&#39;d better believe that I
+    will try to fill up this little text box.
+- :first_name: Travis
+  :last_name: Whitaker
+  :twitter: TravisMWhitaker
+  :topic: Hi-Fi Audio.
+- :first_name: Jim
+  :last_name: Keeler
+  :twitter: jimkeeler
+  :topic: Taming your Task List
+- :first_name: Joe
+  :last_name: Bauser
+  :twitter: coderjoe
+  :topic: Oh what to present...
+- :first_name: Jacob
+  :last_name: Beard
+  :twitter: jbeard4
+  :topic: Something to do with SCXML/Statecharts and JavaScript.
+- :first_name: Brian
+  :last_name: Meehan
+  :twitter: binarydaze
+  :topic: Setting up a free MDM
+- :first_name: Tyler
+  :last_name: Kindron
+  :twitter: ''
+  :topic: The most pointless and weirdest animal facts you will ever want to know
+- :first_name: Andrew
+  :last_name: Lin
+  :twitter: ''
+  :topic: Games of the World.
+- :first_name: Lee
+  :last_name: Drake
+  :twitter: leedrake
+  :topic: |-
+    I could present on:
+
+    Building large ecommerce sites - budgeting, gotchas, etc.
+    Narrowing scope in large entrepreneurial projects
+- :first_name: Anti
+  :last_name: Tree
+  :twitter: antitree
+  :topic: |-
+    OSINT and corporate spying
+    Most (if not all) large companies have a dark, hidden department dedicated to corporate spying. They may call it &quot;competitive intelligence&quot; or &quot;business analysis&quot; groups, but the end result is the same.
+
+    I will break the first rule of corporate spying to shed some light on the grey line that is competitive intelligence and the tactics employed.
+- :first_name: Tom
+  :last_name: Kolankiewicz
+  :twitter: ''
+  :topic: I will not be presenting ... but I&#39;m happy to assist with setup, speaker
+    intro, etc.
+- :first_name: Zachary
+  :last_name: Potter
+  :twitter: zspotter
+  :topic: Artificial life or fractals or android programming or something!
+- :first_name: Peter
+  :last_name: LoVerso
+  :twitter: ''
+  :topic: Parasitic wasps, and why Cotesia congregata is the coolest species you&#39;ve
+    never heard of. You guys don&#39;t have nearly enough non-computer-science-related
+    topics.
+- :first_name: Kate
+  :last_name: Bailey
+  :twitter: ''
+  :topic: Benthic macroinvertebrates and invasive mussels
+- :first_name: Dennis
+  :last_name: Wurster
+  :twitter: wildeep
+  :topic: 'Just Keep Pedaling: How to live your life as if you were riding a bicycle'
+- :first_name: Brian
+  :last_name: McDowell
+  :twitter: tri4als
+  :topic: How you make your own workout equipment...maybe.
+- :first_name: Adam
+  :last_name: Cornwell
+  :twitter: ibmman
+  :topic: Maybe I&#39;ll actually put together the thing on the semantic web I was
+    thinking about last time...
+- :first_name: David
+  :last_name: DiPaola
+  :twitter: rememberthe8bit
+  :topic: An uncomfortably detailed and somewhat inaccurate introduction to programming
+    software applications in assembler on the Nintendo GameBoy
+- :first_name: Shawn
+  :last_name: Biddle
+  :twitter: sabiddle
+  :topic: Diving Into Open Source. An on-hands crash course to how to get started
+    contributing to an open source project
+- :first_name: Kingdon
+  :last_name: Barrett
+  :twitter: hess_sign
+  :topic: Protobuf (and goprotobuf) - Do I Really Need Wire Protocols to make complex
+    APIs in Go?  (Can&#39;t I just use json.Unmarshal?)
+:deadbeats:
+- :first_name: Grant
+  :last_name: Cohoe
+  :twitter: grantcohoe
+  :topic: Something
+- :first_name: Dave
+  :last_name: Morgan
+  :twitter: devmorgan
+  :topic: ''
+- :first_name: Matthew
+  :last_name: Lavine
+  :twitter: MattLavineRIT
+  :topic: ''
+- :first_name: John
+  :last_name: St. Martin
+  :twitter: b1tb1n
+  :topic: TBD
+- :first_name: Elvis
+  :last_name: Montero
+  :twitter: elvismon
+  :topic: ''
 - :first_name: Matt
   :last_name: Soucy
   :twitter: msoucy93
@@ -62,13 +162,6 @@
   :last_name: StMartin
   :twitter: b1tb1n
   :topic: TBD
-- :first_name: Scott
-  :last_name: Lawrence
-  :twitter: yorgle
-  :topic: How to solve all of the world&#39;s problems with a simple home computer
-    designed around an Arduino-based microcontroller, and it turns out that you can
-    make a super long topic name entered here, so you&#39;d better believe that I
-    will try to fill up this little text box.
 - :first_name: Ross
   :last_name: Guarino
   :twitter: whitePandarex
@@ -81,10 +174,6 @@
   :last_name: Buzzell
   :twitter: ''
   :topic: ''
-- :first_name: Travis
-  :last_name: Whitaker
-  :twitter: TravisMWhitaker
-  :topic: Hi-Fi Audio.
 - :first_name: Stephen
   :last_name: Demos
   :twitter: stphndemos
@@ -121,42 +210,10 @@
   :last_name: Lindsay
   :twitter: adamlindsay
   :topic: TBD
-- :first_name: Jim
-  :last_name: Keeler
-  :twitter: jimkeeler
-  :topic: Taming your Task List
-- :first_name: Joe
-  :last_name: Bauser
-  :twitter: coderjoe
-  :topic: Oh what to present...
 - :first_name: Ed
   :last_name: Griebel
   :twitter: edgriebel
   :topic: ''
-- :first_name: Jacob
-  :last_name: Beard
-  :twitter: jbeard4
-  :topic: Something to do with SCXML/Statecharts and JavaScript.
-- :first_name: Brian
-  :last_name: Meehan
-  :twitter: binarydaze
-  :topic: Setting up a free MDM
-- :first_name: Tyler
-  :last_name: Kindron
-  :twitter: ''
-  :topic: The most pointless and weirdest animal facts you will ever want to know
-- :first_name: Andrew
-  :last_name: Lin
-  :twitter: ''
-  :topic: Games of the World.
-- :first_name: Lee
-  :last_name: Drake
-  :twitter: leedrake
-  :topic: |-
-    I could present on:
-
-    Building large ecommerce sites - budgeting, gotchas, etc.
-    Narrowing scope in large entrepreneurial projects
 - :first_name: Mike
   :last_name: Laird
   :twitter: ''
@@ -173,14 +230,6 @@
   :last_name: Kalpagam Subramaniam
   :twitter: ''
   :topic: ''
-- :first_name: Anti
-  :last_name: Tree
-  :twitter: antitree
-  :topic: |-
-    OSINT and corporate spying
-    Most (if not all) large companies have a dark, hidden department dedicated to corporate spying. They may call it &quot;competitive intelligence&quot; or &quot;business analysis&quot; groups, but the end result is the same.
-
-    I will break the first rule of corporate spying to shed some light on the grey line that is competitive intelligence and the tactics employed.
 - :first_name: Lindsay
   :last_name: Simon
   :twitter: ArayaNexus
@@ -193,15 +242,6 @@
   :last_name: krause
   :twitter: ''
   :topic: ''
-- :first_name: Tom
-  :last_name: Kolankiewicz
-  :twitter: ''
-  :topic: I will not be presenting ... but I&#39;m happy to assist with setup, speaker
-    intro, etc.
-- :first_name: Zachary
-  :last_name: Potter
-  :twitter: zspotter
-  :topic: Artificial life or fractals or android programming or something!
 - :first_name: Olabisi
   :last_name: Alao
   :twitter: https://twitter.com/BisiAlao
@@ -210,24 +250,6 @@
   :last_name: Nicholson
   :twitter: ran488
   :topic: TBD
-- :first_name: Peter
-  :last_name: LoVerso
-  :twitter: ''
-  :topic: Parasitic wasps, and why Cotesia congregata is the coolest species you&#39;ve
-    never heard of. You guys don&#39;t have nearly enough non-computer-science-related
-    topics.
-- :first_name: Kate
-  :last_name: Bailey
-  :twitter: ''
-  :topic: Benthic macroinvertebrates and invasive mussels
-- :first_name: test
-  :last_name: test
-  :twitter: ''
-  :topic: ''
-- :first_name: Dennis
-  :last_name: Wurster
-  :twitter: wildeep
-  :topic: 'Just Keep Pedaling: How to live your life as if you were riding a bicycle'
 - :first_name: Anthony
   :last_name: Gargiulo
   :twitter: argargablar
@@ -236,10 +258,6 @@
   :last_name: vogel
   :twitter: mimshimaro
   :topic: ''
-- :first_name: Brian
-  :last_name: McDowell
-  :twitter: tri4als
-  :topic: How you make your own workout equipment...maybe.
 - :first_name: Charlie
   :last_name: Wertz
   :twitter: CharlieWertz
@@ -252,20 +270,10 @@
   :last_name: Hartman
   :twitter: omichael3
   :topic: TBA
-- :first_name: Adam
-  :last_name: Cornwell
-  :twitter: ibmman
-  :topic: Maybe I&#39;ll actually put together the thing on the semantic web I was
-    thinking about last time...
 - :first_name: Shehan
   :last_name: Jayasekera
   :twitter: TheHoudhini
   :topic: ''
-- :first_name: David
-  :last_name: DiPaola
-  :twitter: rememberthe8bit
-  :topic: An uncomfortably detailed and somewhat inaccurate introduction to programming
-    software applications in assembler on the Nintendo GameBoy
 - :first_name: Erroyl
   :last_name: Rolle
   :twitter: erolle
@@ -290,16 +298,6 @@
   :last_name: Stevenson
   :twitter: DavidStevenson1
   :topic: ''
-- :first_name: Shawn
-  :last_name: Biddle
-  :twitter: sabiddle
-  :topic: Diving Into Open Source. An on-hands crash course to how to get started
-    contributing to an open source project
-- :first_name: Kingdon
-  :last_name: Barrett
-  :twitter: hess_sign
-  :topic: Protobuf (and goprotobuf) - Do I Really Need Wire Protocols to make complex
-    APIs in Go?  (Can&#39;t I just use json.Unmarshal?)
 - :first_name: Todd
   :last_name: Butters
   :twitter: ''
