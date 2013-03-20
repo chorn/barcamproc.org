@@ -39,14 +39,13 @@ kbd
       display: block
       position: absolute
       top: 25px
-      right: 15px
+      right: 0
     .twitter-button
       margin-top: 10px
       margin-left: 2px
       max-width: 140px
 
 #headerlogo
-  margin-left: 5px
   a.logolink
     display: block
     @include replace-text-with-dimensions("barcamproc.png")
@@ -67,21 +66,12 @@ kbd
     @include text-shadow(rgba(0,0,0,0.5) 0 1px 1px)
     &:hover
       background-color: darken($bcr-orange, 10%)
-  .navdate
-    display: none
 
   @include at-breakpoint($break-tablet)
     @include clearfix
     .navitem
       float: left
       border-bottom: none
-  @include at-breakpoint($break-desktop)
-    .navdate
-      display: inline
-      float: right
-      font-weight: bold
-      padding: 10px 15px
-      color: $bcr-gray
 
 #main-content
   h1, h2, h3
@@ -213,6 +203,11 @@ kbd
     td
       text-align: center
       padding: 5px
+    .glossy-ads, .logo-and-blurb, .shirt-logo-sm, .shirt-logo-lg, .demo-table
+      display: none
+    @include at-breakpoint($break-tablet)
+      .glossy-ads, .logo-and-blurb, .shirt-logo-sm, .shirt-logo-lg, .demo-table
+        display: table-cell
 
   .beleet
     text-align: center
@@ -315,6 +310,21 @@ kbd
   #google-map
     height: 300px
     margin-bottom: 1.5em
+
+  .sidebar-content
+    margin-top: 1em
+    border-top: 1px solid #ccc
+    h3
+      font-size: 18px
+      line-height: 1.3em
+      color: #11b619
+    @include at-breakpoint($break-desktop)
+      margin-top: 0
+      border-top: none
+      padding: 10px
+      background-color: #fff
+      h3
+        margin-top: 0
 
 
 footer
