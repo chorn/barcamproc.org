@@ -25,38 +25,41 @@
     /[if lt IE 7]
       %p.chromeframe
         You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.
+    #mainheader-wrap
+      .container
+        %header#mainheader
+          %h1#headerlogo
+            %a.logolink{:href => "/"} BarCamp Rochester
+          .social-links
+            %a.fc-webicon.twitter{:href => "http://twitter.com/BarCampRoc"} Twitter
+            %a.fc-webicon.flickr{:href => "http://www.flickr.com/groups/barcamproc"} Flickr
+            %a.fc-webicon.vimeo{:href => "http://vimeo.com/barcamproc"} Vimeo
+            %a.fc-webicon.facebook{:href => "http://facebook.com/barcamproc"} Facebook
+            .twitter-button
+              %a.twitter-share-button{:href => "https://twitter.com/share", :data => {:url => "http://barcamproc.org", :text => "I'm going to BarCamp Rochester on April 20th!", :size => "large", :related => "BarCampRoc", :via =>"BarCampRoc"}} Tweet
+              :javascript
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      #mainnav-wrap
+        .container
+          %nav
+            %ul#mainnav
+              %li.navitem
+                %a{:href => "/"} Home
+              %li.navitem
+                %a{:href => "/register/"} Register
+              %li.navitem
+                %a{:href => "/attendees/"} Attendees
+              %li.navitem
+                %a{:href => "/directions/"} Directions
+              %li.navitem
+                %a{:href => "/media/"} Media
+              %li.navitem
+                %a{:href => "/howto/"} How-to
+              %li.navitem
+                %a{:href => "/sponsor/"} Sponsor
+              %li.navdate= data.global.next_date
+
     .container
-      %header#mainheader
-        %h1#headerlogo
-          %a.logolink{:href => "/"} BarCamp Rochester
-        .social-links
-          %a.fc-webicon.twitter{:href => "http://twitter.com/BarCampRoc"} Twitter
-          %a.fc-webicon.flickr{:href => "http://www.flickr.com/groups/barcamproc"} Flickr
-          %a.fc-webicon.vimeo{:href => "http://vimeo.com/barcamproc"} Vimeo
-          %a.fc-webicon.facebook{:href => "http://facebook.com/barcamproc"} Facebook
-          .twitter-button
-            %a.twitter-share-button{:href => "https://twitter.com/share", :data => {:url => "http://barcamproc.org", :text => "I'm going to BarCamp Rochester on April 20th!", :size => "large", :related => "BarCampRoc", :via =>"BarCampRoc"}} Tweet
-            :javascript
-              !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-
-        %nav
-          %ul#mainnav
-            %li.navitem
-              %a{:href => "/"} Home
-            %li.navitem
-              %a{:href => "/register/"} Register
-            %li.navitem
-              %a{:href => "/attendees/"} Attendees
-            %li.navitem
-              %a{:href => "/directions/"} Directions
-            %li.navitem
-              %a{:href => "/media/"} Media
-            %li.navitem
-              %a{:href => "/howto/"} How-to
-            %li.navitem
-              %a{:href => "/sponsor/"} Sponsor
-            %li.navdate= data.global.next_date
-
       #main-content{:role => "main"}
 
         = yield
