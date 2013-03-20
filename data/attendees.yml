@@ -3,7 +3,8 @@
 - :first_name: Chris
   :last_name: Horn
   :twitter: chorn
-  :topic: Command Line for Beginners
+  :topic: How I fixed the &#39;merican image internationally and our major social
+    problems nationally by acting globally, my story.
 - :first_name: Daniel
   :last_name: McOrmond
   :twitter: DanielMcOrmond
@@ -50,10 +51,6 @@
   :last_name: Keeler
   :twitter: jimkeeler
   :topic: Taming your Task List
-- :first_name: Joe
-  :last_name: Bauser
-  :twitter: coderjoe
-  :topic: Oh what to present...
 - :first_name: Jacob
   :last_name: Beard
   :twitter: jbeard4
@@ -133,6 +130,13 @@
   :twitter: hess_sign
   :topic: Protobuf (and goprotobuf) - Do I Really Need Wire Protocols to make complex
     APIs in Go?  (Can&#39;t I just use json.Unmarshal?)
+- :first_name: Wayne
+  :last_name: Arthurton
+  :twitter: warthurton
+  :topic: |-
+    &quot;Your first 29.5 minutes with Dwarf Fortress&quot;
+
+    Live explained first 29.5 minutes of playing Dwarf Fortress.  Questions will be answered during presentation.
 :deadbeats:
 - :first_name: Grant
   :last_name: Cohoe
@@ -146,14 +150,6 @@
   :last_name: Lavine
   :twitter: MattLavineRIT
   :topic: ''
-- :first_name: John
-  :last_name: St. Martin
-  :twitter: b1tb1n
-  :topic: TBD
-- :first_name: Elvis
-  :last_name: Montero
-  :twitter: elvismon
-  :topic: ''
 - :first_name: Matt
   :last_name: Soucy
   :twitter: msoucy93
@@ -161,7 +157,7 @@
 - :first_name: John
   :last_name: StMartin
   :twitter: b1tb1n
-  :topic: TBD
+  :topic: ''
 - :first_name: Ross
   :last_name: Guarino
   :twitter: whitePandarex
@@ -209,7 +205,11 @@
 - :first_name: Adam
   :last_name: Lindsay
   :twitter: adamlindsay
-  :topic: TBD
+  :topic: ''
+- :first_name: Joe
+  :last_name: Bauser
+  :twitter: coderjoe
+  :topic: ''
 - :first_name: Ed
   :last_name: Griebel
   :twitter: edgriebel
@@ -244,12 +244,12 @@
   :topic: ''
 - :first_name: Olabisi
   :last_name: Alao
-  :twitter: https://twitter.com/BisiAlao
+  :twitter: BisiAlao
   :topic: ''
 - :first_name: Robb
   :last_name: Nicholson
   :twitter: ran488
-  :topic: TBD
+  :topic: ''
 - :first_name: Anthony
   :last_name: Gargiulo
   :twitter: argargablar
@@ -269,7 +269,7 @@
 - :first_name: Michael
   :last_name: Hartman
   :twitter: omichael3
-  :topic: TBA
+  :topic: ''
 - :first_name: Shehan
   :last_name: Jayasekera
   :twitter: TheHoudhini
@@ -285,7 +285,7 @@
 - :first_name: David G.
   :last_name: Smith
   :twitter: iDGS
-  :topic: '?'
+  :topic: ''
 - :first_name: David
   :last_name: Gersh
   :twitter: ''
@@ -305,4 +305,8 @@
 - :first_name: Nick
   :last_name: Schoichet
   :twitter: ''
+  :topic: ''
+- :first_name: Jignesh
+  :last_name: Patel
+  :twitter: jigneshdpatel
   :topic: ''

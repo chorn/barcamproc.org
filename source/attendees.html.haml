@@ -22,7 +22,7 @@
 
   %h3 &hellip;and these people have registered without a presentation topic:
   %ul#deadbeats
-    - data.attendees.deadbeats.each do |a|
+    - data.attendees.deadbeats.sort_by{|k| k[:last_name].to_s }.each do |a|
       %li.deadbeat{:title => a[:topic]}
         %p.who
           = a[:first_name] + " " + a[:last_name]
