@@ -16,7 +16,7 @@
           = a[:first_name] + " " + a[:last_name]
         %p.twitter-link
           - if not a[:twitter].blank?
-            %a.twitter{:href => "http://twitter.com/#!/#{a.twitter}"}
+            %a.twitter{:href => "http://twitter.com/#{a.twitter}"}
               = "@" + a[:twitter]
         %p.what= a[:topic]
 
@@ -28,7 +28,7 @@
           = a[:first_name] + " " + a[:last_name]
         %p.twitter-link
           - if not a[:twitter].blank?
-            %a.twitter{:href => "http://twitter.com/#!/#{a.twitter}"}
+            %a.twitter{:href => "http://twitter.com/#{a.twitter}"}
               = "@" + a[:twitter]
           - else
             %span.twitter.nothing &hellip;
