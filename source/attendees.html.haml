@@ -14,17 +14,21 @@
       %li.attendee{:title => a[:topic]}
         %p.who
           = a[:first_name] + " " + a[:last_name]
+        %p.twitter-link
           - if not a[:twitter].blank?
             %a.twitter{:href => "http://twitter.com/#!/#{a.twitter}"}
               = "@" + a[:twitter]
         %p.what= a[:topic]
 
-  %h3 These people signed up but don't have a topic:
-  %ul#deadbeat
+  %h3 &hellip;and these people registered without a presentation topic:
+  %ul#deadbeats
     - data.attendees.deadbeats.each do |a|
       %li.deadbeat{:title => a[:topic]}
         %p.who
           = a[:first_name] + " " + a[:last_name]
+        %p.twitter-link
           - if not a[:twitter].blank?
             %a.twitter{:href => "http://twitter.com/#!/#{a.twitter}"}
               = "@" + a[:twitter]
+          - else
+            %span.twitter.nothing &hellip;
