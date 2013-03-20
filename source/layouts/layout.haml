@@ -6,11 +6,25 @@
 %html{:class => "no-js"}
   <!--<![endif]-->
   %head
+    -# Google Web Fonts
+    :javascript
+      WebFontConfig = {
+          google: { families: [ 'Lato:400,700:latin' ] }
+        };
+        (function() {
+          var wf = document.createElement('script');
+          wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+            '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+          wf.type = 'text/javascript';
+          wf.async = 'true';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(wf, s);
+        })();
     %meta{:charset => "utf-8"}
     %meta{'http-equiv' => "X-UA-Compatible", :content =>"IE=edge,chrome=1"}
 
     -# Pull in the page title
-    %title= @title
+    %title= "BarCamp Rochester - " + @title
 
     %meta{:name => "description", :content => "BarCamp Rochester"}
     %meta{:name => "author", :content => "BarCamp Rochester"}
@@ -39,6 +53,7 @@
               %a.twitter-share-button{:href => "https://twitter.com/share", :data => {:url => "http://barcamproc.org", :text => "I'm going to BarCamp Rochester on #{data.global.next_date}!", :size => "large", :related => "BarCampRoc", :via =>"BarCampRoc"}} Tweet
               :javascript
                 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
       #mainnav-wrap
         .container
           %nav
@@ -65,10 +80,10 @@
 
         .sidebar
           .sidebar-card
-            %h3= "#{data.global.next_event} BarCamp is on #{data.global.next_date}"
+            %h3= "The #{data.global.next_event} BarCamp is on #{data.global.next_date}"
             - if @bodyclass != "register"
               %p
-                %a{:href => data.global.registration} Register today!
+                %a{:href => "/register/"} Register today!
 
       %footer
         .bcr-icon
