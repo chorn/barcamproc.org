@@ -275,7 +275,7 @@ kbd
       border-top: none
     @include at-breakpoint($break-tablet)
       @include box-sizing(border-box)
-      @include border-radius(4px)
+      @include border-radius(5px)
       border: 1px solid #ddd !important
       background-color: #fff
       padding: 10px
@@ -285,6 +285,7 @@ kbd
       margin-right: 2%
       margin-bottom: 2%
       position: relative
+      @include box-shadow(rgba(0,0,0,0.6) 0 4px 3px -3px)
       &:nth-child(2n)
         margin-right: 0
       &:after
