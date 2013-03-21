@@ -6,7 +6,8 @@
   :email: chorn@chorn.com
   :tshirt: XXL
   :twitter: chorn
-  :topic: Command Line for Beginners
+  :topic: My totally true story of how I fixed the &#39;merican image internationally
+    and our top social problems at the same time.
 - :stamp: 3/14/2013 19:31:07
   :first_name: Daniel
   :last_name: McOrmond
@@ -67,13 +68,6 @@
   :tshirt: L
   :twitter: jimkeeler
   :topic: Taming your Task List
-- :stamp: 3/18/2013 10:27:50
-  :first_name: Joe
-  :last_name: Bauser
-  :email: coderjoe@coderjoe.net
-  :tshirt: S
-  :twitter: coderjoe
-  :topic: Oh what to present...
 - :stamp: 3/18/2013 10:34:37
   :first_name: Jacob
   :last_name: Beard
@@ -218,14 +212,14 @@
     &quot;Your first 29.5 minutes with Dwarf Fortress&quot;
 
     Live explained first 29.5 minutes of playing Dwarf Fortress.  Questions will be answered during presentation.
-- :stamp: 3/20/2013 15:32:17
+- :stamp: 3/21/2013 10:04:28
   :first_name: Scott
   :last_name: Lawrence
   :email: yorgle@gmail.com
   :tshirt: M
   :twitter: Yorgle
-  :topic: How to solve all of the world&#39;s problems by building a home computer
-    based on a few Arduinos
+  :topic: How to totally solve all of the world&#39;s problems by building a home
+    computer based on a few Arduinos
 - :stamp: 3/20/2013 20:12:23
   :first_name: Kevin
   :last_name: Kondo
@@ -249,6 +243,27 @@
   :tshirt: M
   :twitter: helixoide
   :topic: SSH Libraries in Python
+- :stamp: 3/21/2013 14:18:42
+  :first_name: Ken
+  :last_name: Mercurio
+  :email: ken.mercurio@yahoo.com
+  :tshirt: L
+  :twitter: ''
+  :topic: Advanced jQuery Mobile
+- :stamp: 3/21/2013 15:21:07
+  :first_name: JP
+  :last_name: Bourget
+  :email: jp.bourget@gmail.com
+  :tshirt: XL
+  :twitter: punkrokk
+  :topic: Security Onion Network Security Monitoring. Can&#39;t present before 11am.
+- :stamp: 3/21/2013 18:26:00
+  :first_name: Anthony
+  :last_name: Xiques
+  :email: anthony@reignitegroup.com
+  :tshirt: L
+  :twitter: reignitegroup
+  :topic: First time attendee, probably not presenting
 :deadbeats:
 - :stamp: 3/14/2013 19:54:32
   :first_name: Grant
@@ -256,7 +271,7 @@
   :email: cohoe@csh.rit.edu
   :tshirt: XL
   :twitter: grantcohoe
-  :topic: Something
+  :topic: ''
 - :stamp: 3/15/2013 10:31:29
   :first_name: Dave
   :last_name: Morgan
@@ -284,7 +299,7 @@
   :email: stmartin@bitbin.com
   :tshirt: XL
   :twitter: b1tb1n
-  :topic: TBD
+  :topic: ''
 - :stamp: 3/17/2013 13:21:03
   :first_name: Ross
   :last_name: Guarino
@@ -347,7 +362,7 @@
   :email: terranrb@gmail.com
   :tshirt: XL
   :twitter: terranb
-  :topic: '?'
+  :topic: ''
 - :stamp: 3/18/2013 10:12:41
   :first_name: Jason
   :last_name: Smith
@@ -368,7 +383,14 @@
   :email: adam@webhost.io
   :tshirt: L
   :twitter: adamlindsay
-  :topic: TBD
+  :topic: ''
+- :stamp: 3/18/2013 10:27:50
+  :first_name: Joe
+  :last_name: Bauser
+  :email: coderjoe@coderjoe.net
+  :tshirt: S
+  :twitter: coderjoe
+  :topic: ''
 - :stamp: 3/18/2013 10:28:21
   :first_name: Ed
   :last_name: Griebel
@@ -423,7 +445,7 @@
   :last_name: Alao
   :email: jedii247@yahoo.com
   :tshirt: L
-  :twitter: https://twitter.com/BisiAlao
+  :twitter: BisiAlao
   :topic: ''
 - :stamp: 3/18/2013 12:01:22
   :first_name: Robb
@@ -431,7 +453,7 @@
   :email: ran488@gmail.com
   :tshirt: M
   :twitter: ran488
-  :topic: TBD
+  :topic: ''
 - :stamp: 3/18/2013 14:24:59
   :first_name: Anthony
   :last_name: Gargiulo
@@ -466,7 +488,7 @@
   :email: omh1280@gmail.com
   :tshirt: L
   :twitter: omichael3
-  :topic: TBA
+  :topic: ''
 - :stamp: 3/18/2013 19:31:12
   :first_name: Shehan
   :last_name: Jayasekera
@@ -494,7 +516,7 @@
   :email: DavidGSmith@gmail.com
   :tshirt: XXL
   :twitter: iDGS
-  :topic: '?'
+  :topic: ''
 - :stamp: 3/19/2013 9:45:16
   :first_name: David
   :last_name: Gersh
@@ -543,7 +565,7 @@
   :email: jhkennedy4@gmail.com
   :tshirt: M
   :twitter: jhkennedy
-  :topic: tbd
+  :topic: ''
 - :stamp: 3/20/2013 17:53:45
   :first_name: George
   :last_name: Fekete
