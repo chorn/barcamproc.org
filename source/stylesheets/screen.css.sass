@@ -91,6 +91,7 @@ h1, h2, h3, h4, h5, h6
   @each $page in $nav-pages
     .#{$page} & .#{$page}
       background-color: darken($bcr-orange, 7%)
+      @include background(linear-gradient(darken($bcr-orange, 5%), darken($bcr-orange, 10%)))
 
   a
     display: block
@@ -101,6 +102,7 @@ h1, h2, h3, h4, h5, h6
 
     &:hover
       background-color: darken($bcr-orange, 10%)
+
     &:active
       background-color: darken($bcr-orange, 15%)
 
@@ -112,6 +114,7 @@ h1, h2, h3, h4, h5, h6
 #main-content
   h1, h2, h3
     line-height: 1.2em
+    @include text-shadow(#fff 0 1px 0)
 
   h1
     margin: 0 0 0.3em
