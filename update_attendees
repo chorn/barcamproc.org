@@ -10,22 +10,33 @@ refresh_client_obj = OAuth2::Client.new(settings['client_id'], settings['client_
 refresh_access_token_obj = OAuth2::AccessToken.new(refresh_client_obj, settings['key'], {refresh_token: settings['refresh_token']})
 token = refresh_access_token_obj.refresh!
 session = GoogleDrive.login_with_oauth token
-ws = session.spreadsheet_by_url("https://docs.google.com/a/chorn.com/spreadsheet/ccc?key=0AguUDiJimLXQdDNEUUFhWkY5ZEktOC1xOVlKUVhDenc#gid=0").worksheets.first
+ws = session.spreadsheet_by_url("https://docs.google.com/a/chorn.com/spreadsheet/ccc?key=0AguUDiJimLXQdDNEUUFhWkY5ZEktOC1xOVlKUVhDenc#gid=0").worksheets[1]
 
 all = {
   :talks => [],
   :deadbeats => []
 }
+talks = []
+
 2.upto(ws.num_rows) do |row_number|
   next if ws[row_number, 8].to_s.strip =~ /\S/
 
   talk = {
+    :stamp      => CGI::escapeHTML(ws[row_number, 1].to_s.strip),
     :first_name => CGI::escapeHTML(ws[row_number, 2].to_s.strip),
     :last_name  => CGI::escapeHTML(ws[row_number, 3].to_s.strip),
+    :email      => CGI::escapeHTML(ws[row_number, 4].to_s.strip),
+    :tshirt     => CGI::escapeHTML(ws[row_number, 5].to_s.strip),
     :twitter    => CGI::escapeHTML(ws[row_number, 6].to_s.strip.gsub(/^@+/,'')),
     :topic      => CGI::escapeHTML(ws[row_number, 7].to_s.strip)
   }
 
+  next if talk[:last_name].to_s =~ /test/i
+
+  talks << talk
+end
+
+talks.reverse.uniq{ |t| t[:email] }.reverse.each do |talk|
   if talk[:topic] =~ /\S/ && talk[:topic].size > 4 && talk[:topic] !~ /^(Something)$/
     all[:talks] << talk
   else
