@@ -73,9 +73,8 @@ h1, h2, h3, h4, h5, h6
 
 #mainnav-wrap
   background-color: $bcr-orange
-  border-top: 1px solid rgba(255,255,255,0.3)
-  border-bottom: 1px solid rgba(0,0,0,0.2)
-  @include background(linear-gradient(lighten($bcr-orange, 2%), darken($bcr-orange, 6%)))
+  @include box-shadow(rgba(255,255,255,0.2) 0 1px 0 inset, rgba(0,0,0,0.2) 0 -1px 0 inset)
+  @include background(linear-gradient($bcr-orange, darken($bcr-orange, 9%)))
 
 #mainnav
   @include unstyled-list
@@ -90,15 +89,18 @@ h1, h2, h3, h4, h5, h6
   $nav-pages: home, register, attendees, directions, media, howto, sponsor
   @each $page in $nav-pages
     .#{$page} & .#{$page}
-      background-color: darken($bcr-orange, 7%)
-      @include background(linear-gradient(darken($bcr-orange, 5%), darken($bcr-orange, 10%)))
+      background-color: darken($bcr-orange, 9%)
+      @include background(linear-gradient(darken($bcr-orange, 6%), darken($bcr-orange, 12%)))
 
   a
     display: block
     padding: 10px 15px
     text-decoration: none
     color: #fff
-    @include text-shadow(rgba(0,0,0,0.5) 0 1px 1px)
+    @include text-shadow(rgba(0,0,0,0.2) 0 -1px 0)
+
+    &:hover, &:active
+      @include box-shadow(rgba(0,0,0,0.2) 0 0 5px inset)
 
     &:hover
       background-color: darken($bcr-orange, 10%)
