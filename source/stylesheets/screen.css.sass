@@ -374,6 +374,7 @@ h1, h2, h3, h4, h5, h6
   .sidebar-card
     margin-top: 1em
     border-top: 1px solid #ccc
+    text-align: center
     h3
       font-size: 1.2em
       line-height: 1.3em
@@ -393,7 +394,6 @@ h1, h2, h3, h4, h5, h6
       &:active
         top: 1px
     @include at-breakpoint($break-desktop)
-      text-align: center
       margin-top: 0
       border-top: none
       border: 1px solid #e8e8e8
@@ -413,14 +413,14 @@ h1, h2, h3, h4, h5, h6
     display: none
     @include at-breakpoint($break-desktop)
       display: block
-    a.twitter-timeline
+    .twitter-profile-link
       display: block
       background-color: #fff
       border: 1px solid #eee
       padding: 10px
       @include border-radius(5px)
-
-
+    .twitter-timeline
+      width: 100%
 
 .fitvids
   margin-bottom: 1em
