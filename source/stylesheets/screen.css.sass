@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6
   @each $page in $nav-pages
     .#{$page} & .#{$page}
       background-color: darken($bcr-orange, 9%)
-      @include background(linear-gradient(darken($bcr-orange, 6%), darken($bcr-orange, 12%)))
+      background-color: rgba(0,0,0,0.09)
 
   a
     display: block
