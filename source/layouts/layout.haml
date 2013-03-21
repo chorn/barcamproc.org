@@ -80,9 +80,9 @@
 
         .sidebar
           .sidebar-card
-            %h3= "The #{data.global.next_event} BarCamp is on #{data.global.next_date}"
+            %h3= "The #{data.global.next_event} BarCamp is on <br> Saturday, #{data.global.next_date}"
             - if @bodyclass != "register"
-              %p
+              %p.registerlink
                 %a{:href => "/register/"} Register today!
 
           .sidebar-twitter-widget
