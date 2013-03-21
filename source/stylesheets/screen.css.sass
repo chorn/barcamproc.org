@@ -375,9 +375,23 @@ h1, h2, h3, h4, h5, h6
     margin-top: 1em
     border-top: 1px solid #ccc
     h3
-      font-size: 18px
+      font-size: 1.2em
       line-height: 1.3em
       color: #11b619
+    .registerbutton
+      position: relative
+      font-weight: bold
+      color: #fff
+      background-color: #006cff
+      @include background(linear-gradient(lighten(#006cff, 5%), darken(#006cff, 8%)))
+      padding: 0.5em 0.9em
+      @include border-radius(4px)
+      font-weight: bold
+      text-decoration: none
+      @include text-shadow(rgba(0,0,0,0.5) 0 -1px 1px)
+      @include box-shadow(rgba(255,255,255,0.4) 0 1px 1px inset, rgba(0,0,0,0.3) 0 1px 3px)
+      &:active
+        top: 1px
     @include at-breakpoint($break-desktop)
       text-align: center
       margin-top: 0
@@ -389,8 +403,10 @@ h1, h2, h3, h4, h5, h6
       h3
         margin-top: 0
       .registerlink
-        margin-bottom: 0
-        font-weight: bold
+        margin-top: 1.4em
+    @include at-breakpoint($break-huge)
+      font-size: 120%
+
 
   .sidebar-twitter-widget
     margin-top: 1em

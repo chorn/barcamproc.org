@@ -83,7 +83,7 @@
             %h3= "The #{data.global.next_event} BarCamp is on <br> Saturday, #{data.global.next_date}"
             - if @bodyclass != "register"
               %p.registerlink
-                %a{:href => "/register/"} Register today!
+                %a.registerbutton{:href => "/register/"} Register today!
 
           .sidebar-twitter-widget
             %a.twitter-timeline{:href => "https://twitter.com/BarCampRoc", :"data-widget-id" => "314585212094914560"} Tweets by @BarCampRoc
