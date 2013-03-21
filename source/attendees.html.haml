@@ -11,7 +11,7 @@
 
   %ul#attendees
     - data.attendees.talks.each do |a|
-      %li.attendee{:title => a[:topic]}
+      %li.attendee{:title => CGI.unescapeHTML(a[:topic])}
         %p.who
           = a[:first_name] + " " + a[:last_name]
         %p.twitter-link
