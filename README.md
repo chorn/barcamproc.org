@@ -1,7 +1,7 @@
-# BarCampRoc.org, the website for BarCamp Rochester
-## An evolving unconference
+# BarCampRoc.org
+## The website for BarCamp Rochester
 
-This work is based on the excellent: [Amicus](http://github.com/nathos/amicus) project.
+This project is based on the excellent: [Amicus](http://github.com/nathos/amicus) project.
 
 ## Who built this?
 Many brave souls have contributed to the BarCamp Rochester website.  Incomplete reverse chronological order:
@@ -12,12 +12,9 @@ Many brave souls have contributed to the BarCamp Rochester website.  Incomplete 
 * [devmorgan](https://github.com/devmorgan)
 * [seanmcgary](https://github.com/seanmcgary)
 
-our logo and shirts are courtesy of:
+Our logo and shirts are courtesy of:
 
 * [GTTS Marketing](http://www.gttsmarketing.com)
-
-Send me a [message](https://github.com/chorn) or submit an [issue](https://github.com/chorn/barcamproc.org/issues). Thanks!
-
 
 ## License
 * MIT License -- see LICENSE.md
