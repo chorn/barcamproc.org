@@ -29,12 +29,12 @@
   %ul#sponsors
     - data.global.sponsors.each do |s|
       %li.bcr-sponsor
-        %a.bcr-sponsor-logo{:href => "http://#{s.link}"}
-          %img{:src => "/images/#{s.id}.png"}
+        = link_to "http://#{s.link}", :class => "bcr-sponsor-logo" do
+          = image_tag "#{s.id}.png"
         .bcr-sponsor-desc
           %p= s.description
           %p.bcr-sponsor-link
-            %a{:href => "http://#{s.link}"}= s.name
+            = link_to s.name, "http://#{s.link}"
 
   %h4
-    %a(href="sponsors_201210/") Sponsors from Fall 2012
+    %a{:href => "sponsors_201210/"} Sponsors from Fall 2012
