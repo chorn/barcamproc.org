@@ -84,6 +84,11 @@ h1, h2, h3, h4, h5, h6
     float: left
     width: 33%
     text-align: center
+    @include at-breakpoint($break-phone-landscape)
+      width: 25%
+    @include at-breakpoint($break-tablet)
+      border-bottom: none
+      width: auto
 
   // Highlight the current page in the nav
   $nav-pages: home, register, attendees, directions, media, howto, sponsor
@@ -107,11 +112,6 @@ h1, h2, h3, h4, h5, h6
 
     &:active
       background-color: darken($bcr-orange, 15%)
-
-  @include at-breakpoint($break-tablet)
-    .navitem
-      border-bottom: none
-      width: auto
 
 #main-content
   h1, h2, h3
@@ -178,6 +178,8 @@ h1, h2, h3, h4, h5, h6
         font-weight: bold
         margin-bottom: 0.5em
         font-size: 12px
+      .bclogo
+        margin-bottom: 0.5em
       ul
         margin: 0
         padding: 2px 2px 5px 2px
@@ -200,8 +202,7 @@ h1, h2, h3, h4, h5, h6
       padding-left: 10px
       border-left: 3px solid #CCC
       font-style: italic
-  #registration-form
-    height: 1000px
+
   #sponsorPageLogo
     text-align: center
     margin-top: 20px
@@ -376,6 +377,11 @@ h1, h2, h3, h4, h5, h6
     text-align: center
     font-style: italic
 
+  @media screen and (max-height: 320px)
+    #google-map
+      iframe
+        height: 180px
+
   .sidebar-card
     margin-top: 1em
     border-top: 1px solid #ccc
@@ -411,7 +417,6 @@ h1, h2, h3, h4, h5, h6
         margin-top: 1.4em
     @include at-breakpoint($break-huge)
       font-size: 120%
-
 
   .sidebar-twitter-widget
     margin-top: 1em
