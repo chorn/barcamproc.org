@@ -88,13 +88,3 @@ configure :build do
   use Rack::GoogleAnalytics, :web_property_id => "UA-39244800-1"
 end
 
-
-# Twitter API junk
-# require 'twitter'
-
-# Twitter.configure do |config|
-#   config.consumer_key = "ROHfrMOlkP6YnWco0oQ"
-#   config.consumer_secret = "1nCJC9T7hTfxMEAOIeBp7gIEmgHS96SlAVV3RHs0"
-#   config.oauth_token = "BUDMKo7KGFUeJf9sn2rkHhWmjvY72glFVeUCKgfmY"
-#   config.oauth_token_secret = "4egvyVZVfdsWAcflvZ4xsLMJh8KI8uul6icUzTkBU"
-# end
