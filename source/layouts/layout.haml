@@ -55,23 +55,22 @@
                 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 
       #mainnav-wrap
-        .container
-          %nav
-            %ul#mainnav
-              %li.navitem
-                %a.home{:href => "/"} Home
-              %li.navitem
-                %a.register{:href => "/register/"} Register
-              %li.navitem
-                %a.attendees{:href => "/attendees/"} Attendees
-              %li.navitem
-                %a.directions{:href => "/directions/"} Directions
-              %li.navitem
-                %a.media{:href => "/media/"} Media
-              %li.navitem
-                %a.howto{:href => "/howto/"} How-to
-              %li.navitem
-                %a.sponsor{:href => "/sponsor/"} Sponsor
+        %nav.container
+          %ul#mainnav
+            %li.navitem
+              %a.home{:href => "/"} Home
+            %li.navitem
+              %a.register{:href => "/register/"} Register
+            %li.navitem
+              %a.attendees{:href => "/attendees/"} Attendees
+            %li.navitem
+              %a.directions{:href => "/directions/"} Directions
+            %li.navitem
+              %a.media{:href => "/media/"} Media
+            %li.navitem
+              %a.howto{:href => "/howto/"} How-to
+            %li.navitem
+              %a.sponsor{:href => "/sponsor/"} Sponsor
 
     .container
       #main-content{:role => "main"}
