@@ -27,7 +27,7 @@ talks = []
     :last_name  => CGI::escapeHTML(ws[row_number, 3].to_s.strip),
     :email      => CGI::escapeHTML(ws[row_number, 4].to_s.strip),
     :tshirt     => CGI::escapeHTML(ws[row_number, 5].to_s.strip),
-    :twitter    => CGI::escapeHTML(ws[row_number, 6].to_s.strip.gsub(/^@+/,'')),
+    :twitter    => CGI::escapeHTML(ws[row_number, 6].to_s.strip.gsub(/^.*[\/@]+/,'')),
     :topic      => CGI::escapeHTML(ws[row_number, 7].to_s.strip)
   }
 
