@@ -22,3 +22,33 @@ sponsors:
     name: OS-Cubed
     link: os-cubed.com
     description: OS-Cubed provides optimal, stable and secure solutions to business problems using Microsoft technology. <a href="http://www.os-cubed.com/">www.os-cubed.com</a>
+  -
+    id: gtts
+    name: GTTS Marketing
+    link: www.gttsmarketing.com
+    description: Going to the Sun Marketing (GTTS) is a full service marketing firm, specializing in providing our clients with everything they need to start or grow their business. We don't just do some marketing, GTTS does it all, with a mix of real world experience and thoughtful planning. We build brands, create websites, produce print, online TV and radio advertisements, make business cards, develop public relations campaigns and help our clients connect with their customers. Contact us today and let GTTS help build your brand.
+  -
+    id: dnsimple
+    name: DNSimple
+    link: dnsimple.com
+    description: DNSimple is a hosted DNS service that you can use to manage your domain names.  Plans start at $3 per month for up to 10 managed domains. You can also use DNSimple to register domain names and purchase SSL certificates. With top-notch customer support, one-click services and a robust API, DNSimple makes managing your DNS simple and painless. We love our customers and are always here to help.  Sign up now and get a free 30 day trial that you may cancel at any time.
+  -
+    id: github
+    name: Github
+    link: github.com
+    description: GitHub is version control for software development and so much more.  Whether it's a weekend side project, your favorite open source library, a startup destined for glory, or your company's app, GitHub helps everyone work together with tools for easier collaboration and more visibility. Check it out - open source is free!
+  -
+    id: microsoft
+    name: Microsoft
+    link: microsoft.com
+    description: Microsoft is an American public multinational corporation headquartered in Redmond, Washington, USA that develops, manufactures, licenses, and supports a wide range of products and services predominantly related to computing through its various product divisions. Established on April 4, 1975 to develop and sell BASIC interpreters for the Altair 8800, Microsoft rose to dominate the home computer operating system market with MS-DOS in the mid-1980s, followed by the Microsoft Windows line of operating systems.
+  -
+    id: oreilly
+    name: O'Reilly Media
+    link: oreilly.com
+    description: O'Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences.  Since 1978, O'Reilly has been a chronicler and catalyst of leading-edge development, homing in on the technology trends that really matter and galvanizing their adoption by amplifying *faint signals* from the alpha geeks who are creating the future.  An active participant in the technology community, the company has a long history of advocacy, meme-making, and evangelism.
+  -
+    id: pragmaticbookshelf
+    name: Pragmatic Bookshelf
+    link: pragprog.com
+    description: "The Pragmatic Programmers is a company with a simple goal: we want to improve the lives of developers. We do this by creating timely, practical books, audio books and videos through the Pragmatic Bookshelf and working closely with the Pragmatic Studio to create the best developer training there is. The stuff we produce is timely and relevant because it is written by programmers for programmers."
