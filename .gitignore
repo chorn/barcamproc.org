@@ -2,4 +2,4 @@
 .sass-cache
 build/
 .bundle/
-
+data/attendees.yml
