@@ -72,3 +72,13 @@ sponsors:
     name: Sharp Notions
     link: sharpnotions.com
     description: Sharp Notions, founded in 2008, is a software development and marketing design company based in Fairport, NY, a suburb of the city of Rochester. We specialize in delivering smart ideas and sharp solutions for your website development, online marketing and SEO, mobile application, software application, graphic design, and print marketing needs. We know that every company has a unique brand and we believe in delivering unique solutions for each of our clients.
+  -
+    id: arc90
+    name: Arc90
+    link: arc90.com
+    description: At Arc90, there is product in our plumbing. Ideas flow fast. We build tools that become part of our daily environment. Often, they become products for clients and customers worldwide.
+  -
+    id: eucalyptus
+    name: Eucalyptus
+    link: eucalyptus.com
+    description: Eucalyptus Systems provides IT organizations and technology businesses with the most widely deployed cloud software platform for on-premise Infrastructure as a Service (IaaS).
