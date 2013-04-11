@@ -82,3 +82,19 @@ sponsors:
     name: Eucalyptus
     link: eucalyptus.com
     description: Eucalyptus Systems provides IT organizations and technology businesses with the most widely deployed cloud software platform for on-premise Infrastructure as a Service (IaaS).
+  -
+    id: ytd
+    name: YTD Video Converter
+    link: www.ytddownloader.com
+    description: Youtube Downloader for Windows and Mac.
+  -
+    id: vuze
+    name: Vuze
+    link: www.vuze.com
+    description: Vuze is a premium bittorrent client that allows users to transfer files using the BitTorrent protocol. Vuze offers two versions of their software, both with lightning fast download speeds.
+  -
+    id: effectiveui
+    name: EffectiveUI
+    link: effectiveui.com
+    description: EffectiveUI is a full-service user experience (UX) agency that simplifies complex experiences, bringing value to people’s lives. By researching and articulating user needs, our team of customer insight, design and development experts create custom applications that improve digital interactions and enhance emotional engagement with a company and brand.
+
