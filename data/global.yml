@@ -4,81 +4,97 @@ registration: https://docs.google.com/forms/d/1R9ui12fo_xO2J3BpTTDuMfdG5EKWcft5J
 sponsors:
   -
     id: rit
+    twitter: RITNEWS
     name: RIT
     link: rit.edu
     description: Rochester Institute of Technology is one of the world's leading career-oriented, technological universities. RIT enrolls 17,500 full- and part-time students in more than 200 career-oriented and professional programs, and its cooperative education program is one of the oldest and largest in the nation.
   -
     id: mmi
+    twitter: MetrixMatrix
     name: Metrix Matrix
     link: metrixmatrix.com
     description: Metrix Matrix- Measurement, analysis and reporting experts in the areas of satisfaction, loyalty and compliance. We provide our clients with continuous qualitative and quantitative feedback on our secure, online, customizable reporting tool. Clients have found our reporting tools essential to reinforce favorable behaviors as well as preventing poor performance before they become a much bigger problem.
   -
     id: newstex
+    twitter: newstex
     name: Newstex
     link: newstex.com
     description: Newstex licenses Authoritative Content from both online and offline news sources, enhances that content with metadata, and normalizes it for our clients. We deliver this content via both feeds and mobile applications to our clients. Our entire team works remotely, which provides a unique atmosphere for product development. Visit our job board at <a href="http://newstex.com/about/job-board">http://newstex.com/about/job-board</a>
   -
     id: oscubed
+    twitter: oscubed
     name: OS-Cubed
     link: os-cubed.com
     description: OS-Cubed provides optimal, stable and secure solutions to business problems using Microsoft technology. <a href="http://www.os-cubed.com/">www.os-cubed.com</a>
   -
     id: gtts
+    twitter: gttsmarketing
     name: GTTS Marketing
     link: www.gttsmarketing.com
     description: Going to the Sun Marketing (GTTS) is a full service marketing firm, specializing in providing our clients with everything they need to start or grow their business. We don't just do some marketing, GTTS does it all, with a mix of real world experience and thoughtful planning. We build brands, create websites, produce print, online TV and radio advertisements, make business cards, develop public relations campaigns and help our clients connect with their customers. Contact us today and let GTTS help build your brand.
   -
     id: dnsimple
+    twitter: dnsimple
     name: DNSimple
     link: dnsimple.com
     description: DNSimple is a hosted DNS service that you can use to manage your domain names.  Plans start at $3 per month for up to 10 managed domains. You can also use DNSimple to register domain names and purchase SSL certificates. With top-notch customer support, one-click services and a robust API, DNSimple makes managing your DNS simple and painless. We love our customers and are always here to help.  Sign up now and get a free 30 day trial that you may cancel at any time.
   -
     id: github
+    twitter: github
     name: Github
     link: github.com
     description: GitHub is version control for software development and so much more.  Whether it's a weekend side project, your favorite open source library, a startup destined for glory, or your company's app, GitHub helps everyone work together with tools for easier collaboration and more visibility. Check it out - open source is free!
   -
     id: microsoft
+    twitter: microsoft
     name: Microsoft
     link: microsoft.com
     description: Microsoft is an American public multinational corporation headquartered in Redmond, Washington, USA that develops, manufactures, licenses, and supports a wide range of products and services predominantly related to computing through its various product divisions. Established on April 4, 1975 to develop and sell BASIC interpreters for the Altair 8800, Microsoft rose to dominate the home computer operating system market with MS-DOS in the mid-1980s, followed by the Microsoft Windows line of operating systems.
   -
     id: oreilly
+    twitter: oreillymedia
     name: O'Reilly Media
     link: oreilly.com
     description: O'Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences.  Since 1978, O'Reilly has been a chronicler and catalyst of leading-edge development, homing in on the technology trends that really matter and galvanizing their adoption by amplifying *faint signals* from the alpha geeks who are creating the future.  An active participant in the technology community, the company has a long history of advocacy, meme-making, and evangelism.
   -
     id: pragmaticbookshelf
+    twitter: pragprog
     name: Pragmatic Bookshelf
     link: pragprog.com
     description: "The Pragmatic Programmers is a company with a simple goal: we want to improve the lives of developers. We do this by creating timely, practical books, audio books and videos through the Pragmatic Bookshelf and working closely with the Pragmatic Studio to create the best developer training there is. The stuff we produce is timely and relevant because it is written by programmers for programmers."
   -
     id: webhostio
+    twitter: webhostio
     name: WebHost.io
     link: webhost.io
     description: WebHost.io provides a different approach to web hosting. We evaluate each and every one of our clients' websites and apply only the very best practices and technologies that exist today to host it. Whether it be simple static hosting, or high availability multi-server build outs, we can help.
   -
     id: csh
+    twitter: CSHEvents
     name: Computer Science House
     link: www.csh.rit.edu
     description: Computer Science House, founded in 1976, is one of the oldest and most active Special Interest Houses at the Rochester Institute of Technology in Rochester, NY. Located on the third floor of the Nathaniel Rochester Hall dormitory, CSH provides a revolutionary living environment for over fifty &quot;on-floor&quot; students and many off-floor members as well. In addition to RIT's standard residence hall facilities, CSH has several unique, multi-purpose rooms, filled with technical and material resources for members to use.
   -
     id: 3poundhealth
+    twitter: 3poundhealth
     name: 3Pound Health
     link: 3poundhealth.com
     description: 3Pound Health, LLC is a start-up health Technology Company based out of Syracuse, NY. We are building a comprehensive population health management platform with the goal of empowering individuals to optimize their health through behavior modification.  The platform will allow personal management, connection to peers and coaches, in addition to reporting and incentive management. We plan to build, foster and leverage community; increase interoperability; and use technology as a force multiplier and cost reducer for existing health and wellness methodologies.
   -
     id: sharpnotions
+    twitter: sharpnotions
     name: Sharp Notions
     link: sharpnotions.com
     description: Sharp Notions, founded in 2008, is a software development and marketing design company based in Fairport, NY, a suburb of the city of Rochester. We specialize in delivering smart ideas and sharp solutions for your website development, online marketing and SEO, mobile application, software application, graphic design, and print marketing needs. We know that every company has a unique brand and we believe in delivering unique solutions for each of our clients.
   -
     id: arc90
+    twitter: arc90
     name: Arc90
     link: arc90.com
     description: At Arc90, there is product in our plumbing. Ideas flow fast. We build tools that become part of our daily environment. Often, they become products for clients and customers worldwide.
   -
     id: eucalyptus
+    twitter: eucalyptus
     name: Eucalyptus
     link: eucalyptus.com
     description: Eucalyptus Systems provides IT organizations and technology businesses with the most widely deployed cloud software platform for on-premise Infrastructure as a Service (IaaS).
@@ -94,6 +110,7 @@ sponsors:
     description: Vuze is a premium bittorrent client that allows users to transfer files using the BitTorrent protocol. Vuze offers two versions of their software, both with lightning fast download speeds.
   -
     id: effectiveui
+    twitter: effectiveui
     name: EffectiveUI
     link: effectiveui.com
     description: EffectiveUI is a full-service user experience (UX) agency that simplifies complex experiences, bringing value to people’s lives. By researching and articulating user needs, our team of customer insight, design and development experts create custom applications that improve digital interactions and enhance emotional engagement with a company and brand.
