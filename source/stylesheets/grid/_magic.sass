@@ -55,7 +55,8 @@ $layouts: $break-phone-landscape, $break-tablet, $break-desktop, $break-huge
 
 @include at-breakpoint($break-huge)
   .main-column
-    @include span-columns(11, 16)
+    @include span-columns(10, 16)
+    @include suffix(1)
   .sidebar
     @include span-columns(5 omega, 16)
 
