@@ -36,9 +36,8 @@
           %p.bcr-sponsor-link
             = link_to s.name, "http://#{s.link}"
             - if s.twitter
-              %a{:href => "https://twitter.com/intent/tweet?screen_name=#{s.twitter}&text=thank%20you%20for%20supporting%20%40BarCampRoc%20Spring%202013!", :class => "twitter-mention-button", "data-related" => "chorn", "data-lang" => "en"}= "Tweet to @#{s.twitter}"
-              :javascript
-                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+              .thankyou-tweet
+                %a{:href => "https://twitter.com/intent/tweet?screen_name=#{s.twitter}&text=thank%20you%20for%20supporting%20%40BarCampRoc%20Spring%202013!", :class => "twitter-mention-button", "data-related" => "chorn", "data-lang" => "en"}= "Tweet to @#{s.twitter}"
 
 
   %h4
