@@ -1,0 +1,15 @@
+- @title = "Spring 2013 Sponsors"
+- @bodyclass = "sponsors-old"
+
+%section.main-column
+  %h3 BarCamp Rochester Sponsors Spring 2013
+  %ul#sponsors
+    - data.global_201304.sponsors.each do |s|
+      %li.bcr-sponsor
+        %a.bcr-sponsor-logo{:href => "http://#{s.link}"}
+          %img{:src => "/images/#{s.id}.png"}
+        .bcr-sponsor-desc
+          %p= s.description
+          %p.bcr-sponsor-link
+            %a{:href => "http://#{s.link}"}= s.name
+

@@ -1,0 +1,1191 @@
+---
+:talks:
+- :stamp: 3/12/2013 18:39:17
+  :first_name: Chris
+  :last_name: Horn
+  :email: chorn@chorn.com
+  :tshirt: XXL
+  :twitter: chorn
+  :topic: My totally true story of how I fixed the &#39;merican image internationally
+    and our top social problems at the same time.
+- :stamp: 3/14/2013 19:31:07
+  :first_name: Daniel
+  :last_name: McOrmond
+  :email: daniel.mcormond@gmail.com
+  :tshirt: M
+  :twitter: DanielMcOrmond
+  :topic: Yeoman, Bower, and Grunt. Plus AngularJS.
+- :stamp: 3/14/2013 19:54:32
+  :first_name: Grant
+  :last_name: Cohoe
+  :email: cohoe@csh.rit.edu
+  :tshirt: XL
+  :twitter: grantcohoe
+  :topic: Impact of disk alignment on performance in virtualized environments.
+- :stamp: 3/14/2013 21:54:05
+  :first_name: Chris
+  :last_name: Moyer
+  :email: cmoyer@newstex.com
+  :tshirt: XL
+  :twitter: kopertop
+  :topic: Working Virtually
+- :stamp: 3/15/2013 10:54:47
+  :first_name: Nick
+  :last_name: Quaranto
+  :email: work@coworkbuffalo.com
+  :tshirt: L
+  :twitter: qrush
+  :topic: RubyMotion
+- :stamp: 3/15/2013 16:04:55
+  :first_name: Jim
+  :last_name: Bullock
+  :email: jbullock@rare-bird-ent.com
+  :tshirt: XL
+  :twitter: ''
+  :topic: |-
+    Pick One:
+
+    General Systems for Thinking About Working Together.
+
+    Lean / Kanban for Development in Progress
+
+    Three Steps to Startup Engineering
+
+    Transitions - Reaping the Rewards of Success, More Work.
+
+    Also a couple lightning talks.
+- :stamp: 3/15/2013 16:24:49
+  :first_name: David
+  :last_name: Kavanagh
+  :email: dkavanagh@gmail.com
+  :tshirt: M
+  :twitter: David_67
+  :topic: Eucalyptus 3.3 - All kinds of new stuff!
+- :stamp: 3/17/2013 20:00:03
+  :first_name: Travis
+  :last_name: Whitaker
+  :email: pi.boy.travis@gmail.com
+  :tshirt: M
+  :twitter: TravisMWhitaker
+  :topic: Hi-Fi Audio.
+- :stamp: 3/18/2013 10:27:36
+  :first_name: Jim
+  :last_name: Keeler
+  :email: jim.keeler@gmail.com
+  :tshirt: L
+  :twitter: jimkeeler
+  :topic: Taming your Task List
+- :stamp: 3/18/2013 10:34:37
+  :first_name: Jacob
+  :last_name: Beard
+  :email: jbeard4@cs.mcgill.ca
+  :tshirt: M
+  :twitter: jbeard4
+  :topic: Something to do with SCXML/Statecharts and JavaScript.
+- :stamp: 3/18/2013 10:57:01
+  :first_name: Brian
+  :last_name: Meehan
+  :email: bmeehan@allendalecolumbia.org
+  :tshirt: XL
+  :twitter: binarydaze
+  :topic: Setting up a free MDM
+- :stamp: 3/18/2013 10:59:21
+  :first_name: Tyler
+  :last_name: Kindron
+  :email: ritheory2828@gmail.com
+  :tshirt: S
+  :twitter: ''
+  :topic: The most pointless and weirdest animal facts you will ever want to know
+- :stamp: 3/18/2013 11:01:41
+  :first_name: Andrew
+  :last_name: Lin
+  :email: aplin13@hotmail.com
+  :tshirt: S
+  :twitter: ''
+  :topic: Games of the World.
+- :stamp: 3/18/2013 11:02:14
+  :first_name: Lee
+  :last_name: Drake
+  :email: leedrake@gmail.com
+  :tshirt: L
+  :twitter: leedrake
+  :topic: |-
+    I could present on:
+
+    Building large ecommerce sites - budgeting, gotchas, etc.
+    Narrowing scope in large entrepreneurial projects
+- :stamp: 3/18/2013 11:20:22
+  :first_name: Anti
+  :last_name: Tree
+  :email: antitree@gmail.com
+  :tshirt: XL
+  :twitter: antitree
+  :topic: |-
+    OSINT and corporate spying
+    Most (if not all) large companies have a dark, hidden department dedicated to corporate spying. They may call it &quot;competitive intelligence&quot; or &quot;business analysis&quot; groups, but the end result is the same.
+
+    I will break the first rule of corporate spying to shed some light on the grey line that is competitive intelligence and the tactics employed.
+- :stamp: 3/18/2013 11:26:47
+  :first_name: zach
+  :last_name: krause
+  :email: zach.krause+barcamp@gmail.com
+  :tshirt: L
+  :twitter: ''
+  :topic: none this year. I&#39;m just checking things out on the request of Joe Bauser.
+- :stamp: 3/18/2013 11:27:53
+  :first_name: Tom
+  :last_name: Kolankiewicz
+  :email: kolankprof@gmail.com
+  :tshirt: XL
+  :twitter: ''
+  :topic: I will not be presenting ... but I&#39;m happy to assist with setup, speaker
+    intro, etc.
+- :stamp: 3/18/2013 11:39:05
+  :first_name: Zachary
+  :last_name: Potter
+  :email: zerothindex@gmail.com
+  :tshirt: M
+  :twitter: zspotter
+  :topic: Artificial life or fractals or android programming or something!
+- :stamp: 3/18/2013 12:04:01
+  :first_name: Peter
+  :last_name: LoVerso
+  :email: prl2760@rit.edu
+  :tshirt: M
+  :twitter: ''
+  :topic: Parasitic wasps, and why Cotesia congregata is the coolest species you&#39;ve
+    never heard of. You guys don&#39;t have nearly enough non-computer-science-related
+    topics.
+- :stamp: 3/18/2013 13:03:53
+  :first_name: Kate
+  :last_name: Bailey
+  :email: kbailey8981@mail.naz.edu
+  :tshirt: M
+  :twitter: ''
+  :topic: Benthic macroinvertebrates and invasive mussels
+- :stamp: 3/18/2013 13:35:28
+  :first_name: Dennis
+  :last_name: Wurster
+  :email: dwurster@gmail.com
+  :tshirt: L
+  :twitter: wildeep
+  :topic: 'Just Keep Pedaling: How to live your life as if you were riding a bicycle'
+- :stamp: 3/18/2013 16:38:19
+  :first_name: Brian
+  :last_name: McDowell
+  :email: run4rox@gmail.com
+  :tshirt: M
+  :twitter: tri4als
+  :topic: How you make your own workout equipment...maybe.
+- :stamp: 3/18/2013 19:28:35
+  :first_name: Adam
+  :last_name: Cornwell
+  :email: cornwell.adam@gmail.com
+  :tshirt: S
+  :twitter: ibmman
+  :topic: Maybe I&#39;ll actually put together the thing on the semantic web I was
+    thinking about last time...
+- :stamp: 3/18/2013 19:54:58
+  :first_name: David
+  :last_name: DiPaola
+  :email: dsd3275@rit.edu
+  :tshirt: M
+  :twitter: rememberthe8bit
+  :topic: An uncomfortably detailed and somewhat inaccurate introduction to programming
+    software applications in assembler on the Nintendo GameBoy
+- :stamp: 3/19/2013 11:23:30
+  :first_name: Shawn
+  :last_name: Biddle
+  :email: shawncplus@gmail.com
+  :tshirt: S
+  :twitter: sabiddle
+  :topic: Diving Into Open Source. An on-hands crash course to how to get started
+    contributing to an open source project
+- :stamp: 3/19/2013 12:19:03
+  :first_name: Kingdon
+  :last_name: Barrett
+  :email: kingdon@tuesdaystudios.com
+  :tshirt: XL
+  :twitter: hess_sign
+  :topic: Protobuf (and goprotobuf) - Do I Really Need Wire Protocols to make complex
+    APIs in Go?  (Can&#39;t I just use json.Unmarshal?)
+- :stamp: 4/1/2013 10:49:32
+  :first_name: Wayne
+  :last_name: Arthurton
+  :email: warthurton@arthurton.com
+  :tshirt: XXL
+  :twitter: warthurton
+  :topic: |-
+    &quot;Your first 24.5 minutes with Dwarf Fortress&quot;
+
+    Live explained first 24.5 minutes of playing Dwarf Fortress.  Questions will be answered during presentation.
+- :stamp: 3/28/2013 15:42:21
+  :first_name: Scott
+  :last_name: Lawrence
+  :email: yorgle@gmail.com
+  :tshirt: M
+  :twitter: Yorgle
+  :topic: Arduino as a personal computer. (Presented in Amiga-vision!)
+- :stamp: 3/20/2013 20:12:23
+  :first_name: Kevin
+  :last_name: Kondo
+  :email: kkondo@carpe-datum.com
+  :tshirt: L
+  :twitter: kkondo
+  :topic: 'Start putting your own data to work:  home-grown data mining and data visualization
+    (from dashboards to interactive, dynamic reporting).'
+- :stamp: 3/20/2013 21:05:34
+  :first_name: David
+  :last_name: Gay
+  :email: oddshocks@gmail.com
+  :tshirt: S
+  :twitter: oddshocks
+  :topic: Charsheet -- Generate an RPG-style character sheet based on your GitHub,
+    Ohloh, and/or Coderwall accounts. (https://github.com/FOSSRIT/charsheet)
+- :stamp: 3/20/2013 21:16:01
+  :first_name: Ross
+  :last_name: Delinger
+  :email: rossdylan@csh.rit.edu
+  :tshirt: M
+  :twitter: helixoide
+  :topic: SSH Libraries in Python
+- :stamp: 3/21/2013 14:18:42
+  :first_name: Ken
+  :last_name: Mercurio
+  :email: ken.mercurio@yahoo.com
+  :tshirt: L
+  :twitter: ''
+  :topic: Advanced jQuery Mobile
+- :stamp: 3/21/2013 15:21:07
+  :first_name: JP
+  :last_name: Bourget
+  :email: jp.bourget@gmail.com
+  :tshirt: XL
+  :twitter: punkrokk
+  :topic: Security Onion Network Security Monitoring. Can&#39;t present before 11am.
+- :stamp: 3/21/2013 18:26:00
+  :first_name: Anthony
+  :last_name: Xiques
+  :email: anthony@reignitegroup.com
+  :tshirt: L
+  :twitter: reignitegroup
+  :topic: First time attendee, probably not presenting
+- :stamp: 3/21/2013 19:06:08
+  :first_name: Nathan
+  :last_name: Henderson
+  :email: nathos@nathos.com
+  :tshirt: L
+  :twitter: nathos
+  :topic: Building HiDPI (Retina) Responsive websites with Sass &amp; Compass
+- :stamp: 3/22/2013 11:06:30
+  :first_name: Winton
+  :last_name: DeShong
+  :email: contact@winton.me
+  :tshirt: L
+  :twitter: wintondeshong
+  :topic: The Lifecycle of a Feature -- Continuous Integration with Jenkins.
+- :stamp: 3/23/2013 18:04:41
+  :first_name: Christopher
+  :last_name: Duro
+  :email: chris@sqaprocess.com
+  :tshirt: XXL
+  :twitter: sqaprocess
+  :topic: 'Engineering best practices made practical:  how traditional quality techniques
+    and new agile practices are helping reduce error rates'
+- :stamp: 3/25/2013 11:46:26
+  :first_name: Mike
+  :last_name: Centola
+  :email: mikecentola@me.com
+  :tshirt: L
+  :twitter: mikecentola
+  :topic: Guns.
+- :stamp: 4/11/2013 12:32:25
+  :first_name: Jeremy
+  :last_name: Heiler
+  :email: jeremyheiler@gmail.com
+  :tshirt: L
+  :twitter: jeremyheiler
+  :topic: 'Taming Amazon SWF: Effectively Consuming a Web API with Clojure'
+- :stamp: 3/27/2013 18:31:44
+  :first_name: Rich
+  :last_name: Downie
+  :email: richdownie@gmail.com
+  :tshirt: XL
+  :twitter: richdownie
+  :topic: Browser Automation with Cucumber and Selenium-WebDriver
+- :stamp: 3/28/2013 10:11:52
+  :first_name: Ralph
+  :last_name: Bean
+  :email: rbean@redhat.com
+  :tshirt: L
+  :twitter: ralphbean
+  :topic: GPG Key-Signing Party!
+- :stamp: 3/29/2013 14:36:46
+  :first_name: Mike
+  :last_name: Canzoneri
+  :email: mikecanzoneri@gmail.com
+  :tshirt: XXL
+  :twitter: mikecanz
+  :topic: What happens to your website the night it goes on SharkTank
+- :stamp: 4/1/2013 11:28:22
+  :first_name: Andrew
+  :last_name: Lin
+  :email: apl8378@cs.rit.edu
+  :tshirt: S
+  :twitter: ''
+  :topic: Abstract-Strategy Games of the World.
+- :stamp: 4/1/2013 11:31:50
+  :first_name: Timothy
+  :last_name: Duffy
+  :email: thequbit@gmail.com
+  :tshirt: L
+  :twitter: arbiterofbits
+  :topic: Creating API&#39;s of public data
+- :stamp: 4/1/2013 11:32:16
+  :first_name: Caroline
+  :last_name: Lichtenberger
+  :email: clichtenberg90@gmail.com
+  :tshirt: M
+  :twitter: ''
+  :topic: 'Papilio: An Open Source FPGA platform'
+- :stamp: 4/1/2013 12:26:40
+  :first_name: Steven
+  :last_name: Pickett
+  :email: srp8219@rit.edu
+  :tshirt: XXL
+  :twitter: ShadowReaper16
+  :topic: probably not presenting, maybe something about sharp objects
+- :stamp: 4/1/2013 12:28:24
+  :first_name: Luke
+  :last_name: Burgess
+  :email: lab9154@rit.edu
+  :tshirt: XL
+  :twitter: ''
+  :topic: I will not be presenting
+- :stamp: 4/1/2013 13:11:30
+  :first_name: Joshua
+  :last_name: Russo
+  :email: josh.r.russo@gmail.com
+  :tshirt: M
+  :twitter: JoshuaRusso
+  :topic: Maintaining a user group
+- :stamp: 4/1/2013 13:32:19
+  :first_name: John
+  :last_name: Meichle
+  :email: john.meichle@acquia.com
+  :tshirt: L
+  :twitter: JohnMeichle
+  :topic: TBD, cloud computing
+- :stamp: 4/5/2013 11:07:15
+  :first_name: John
+  :last_name: Karahalis
+  :email: john.karahalis@gmail.com
+  :tshirt: M
+  :twitter: openjck
+  :topic: Geek Show &amp; Tell. Bring your own gadgets / projects!
+- :stamp: 4/1/2013 15:46:52
+  :first_name: Tony
+  :last_name: Karakashian
+  :email: tkarakashian@gmail.com
+  :tshirt: XL
+  :twitter: tkarakashian
+  :topic: Don&#39;t have one.
+- :stamp: 4/1/2013 16:37:55
+  :first_name: Douglas
+  :last_name: Krofcheck
+  :email: dpk3062@rit.edu
+  :tshirt: L
+  :twitter: ''
+  :topic: Information about the Advanced Tile Gaming System I&#39;m developing for
+    an independent study.  The basic idea is to enable people to play a board game,
+    such as Risk, against computer players and other humans on a physical board.
+- :stamp: 4/2/2013 15:58:48
+  :first_name: David
+  :last_name: Brenner
+  :email: david.a.brenner@gmail.com
+  :tshirt: L
+  :twitter: davidbrenner
+  :topic: Getting Started With FPGAs
+- :stamp: 4/3/2013 10:18:44
+  :first_name: ian
+  :last_name: sutton
+  :email: ian@kremlin.cc
+  :tshirt: M
+  :twitter: kremlinkremlin
+  :topic: high energy physics
+- :stamp: 4/3/2013 13:48:59
+  :first_name: Chris
+  :last_name: Olin
+  :email: barcamp@chrisolin.com
+  :tshirt: L
+  :twitter: BinaryMn
+  :topic: 'MOOC: Massive(ly) Open Online Course'
+- :stamp: 4/10/2013 1:05:09
+  :first_name: Ben
+  :last_name: Centra
+  :email: bencentra@csh.rit.edu
+  :tshirt: M
+  :twitter: TheBenCentra
+  :topic: Getting Started With The Kinect SDK
+- :stamp: 4/3/2013 18:57:32
+  :first_name: Kevan
+  :last_name: MacGee
+  :email: kevanmacgee+barcamp@gmail.org
+  :tshirt: L
+  :twitter: kevanmacgee
+  :topic: Using Ubuntu as your operating system instead of Windows or OSX.
+- :stamp: 4/4/2013 4:43:23
+  :first_name: Skip
+  :last_name: Meetze
+  :email: Skip@tangoproducts.com
+  :tshirt: XXL
+  :twitter: skipmeetze
+  :topic: 3D Printing comes home.
+- :stamp: 4/4/2013 10:12:26
+  :first_name: Chip
+  :last_name: Moore
+  :email: leecmoore@gmail.com
+  :tshirt: XL
+  :twitter: leemoore
+  :topic: Cloud Computing for Graphic Arts
+- :stamp: 4/4/2013 13:23:39
+  :first_name: Geordie
+  :last_name: Klueber
+  :email: geordie.klueber@gmail.com
+  :tshirt: XL
+  :twitter: ''
+  :topic: 'Proctological Extrication: choosing a topic for BarCamp'
+- :stamp: 4/4/2013 19:39:35
+  :first_name: Jim
+  :last_name: O&#39;Neil
+  :email: jim.oneil@microsoft.com
+  :tshirt: L
+  :twitter: jimoneil
+  :topic: Make $1000 this weekend in the Windows Store - will talk about a casual
+    HTML5/JavaScript game development environment that people can leverage to create
+    multiple apps for the Windows Store in conjunction with a promotion that will
+    earn them $100 for each app (up to 10) by the end of June.
+- :stamp: 4/5/2013 9:31:25
+  :first_name: Kevin
+  :last_name: Johnson
+  :email: kmjohn08@syr.edu
+  :tshirt: M
+  :twitter: zm3tta
+  :topic: 'Education Evolved: Our Education System&#39;s Lack of Adaptation to Technology
+    and its Effects on the Education Narrative.'
+- :stamp: 4/6/2013 18:47:40
+  :first_name: Craig
+  :last_name: Cantello
+  :email: barcamptechvalley@gmail.com
+  :tshirt: M
+  :twitter: ''
+  :topic: Copper in the Electrical Age
+- :stamp: 4/8/2013 7:40:52
+  :first_name: Todd
+  :last_name: Bernhard
+  :email: todd@toddbernhard.com
+  :tshirt: XXL
+  :twitter: ToddBernhard
+  :topic: 'App Store Success: Creating and Marketing Mobile Apps'
+- :stamp: 4/8/2013 17:57:17
+  :first_name: Kenneth
+  :last_name: Hall
+  :email: ken@w2krh.com
+  :tshirt: XXL
+  :twitter: w2krh
+  :topic: I&#39;ll just be visiting.
+- :stamp: 4/8/2013 22:15:30
+  :first_name: Matthew
+  :last_name: Veety
+  :email: mveety@gmail.com
+  :tshirt: M
+  :twitter: ''
+  :topic: Plan 9 from Bell Labs
+- :stamp: 4/9/2013 8:13:04
+  :first_name: Andrew
+  :last_name: Potter
+  :email: andy.potter@gmail.com
+  :tshirt: XXL
+  :twitter: apotter
+  :topic: "Super fast, super efficient WiFi - Ratified 802.11ac  &quot;    \nFuture
+    WiFi 8902.11ac enhancements,    802.11ad,   \nWhitespace WiFi &quot;Super WiFi&quot;"
+- :stamp: 4/10/2013 13:59:02
+  :first_name: Mikey
+  :last_name: McOrmond
+  :email: mikeymco@gmail.com
+  :tshirt: M
+  :twitter: mikeymco
+  :topic: |-
+    Workflow Optimization: Principles and Kick-Ass Shortcuts
+
+    (AKA: How to crush your enemies with improved APM.)
+- :stamp: 4/10/2013 15:22:17
+  :first_name: Thomas
+  :last_name: Styles
+  :email: tstyles03@gmail.com
+  :tshirt: XL
+  :twitter: ''
+  :topic: Trends in the Software Industry.
+- :stamp: 4/12/2013 7:22:17
+  :first_name: Kevin
+  :last_name: Purdy
+  :email: kspurdy@gmail.com
+  :tshirt: M
+  :twitter: kevinpurdy
+  :topic: '(Tentative) (Lightning Talk) One Week Without Email, Not Vacation: Nobody
+    Died, Everybody Learned.'
+- :stamp: 4/13/2013 15:05:02
+  :first_name: Ben
+  :last_name: Sheron
+  :email: ben@whatsmykarma.com
+  :tshirt: XL
+  :twitter: ToroidalCore
+  :topic: 'Backup Power: Big and small solutions for keeping the lights on'
+- :stamp: 4/13/2013 17:35:39
+  :first_name: William
+  :last_name: Dignazio
+  :email: wdignazio@gmail.com
+  :tshirt: S
+  :twitter: WillDignazio
+  :topic: Jolt Language
+- :stamp: 4/14/2013 17:54:56
+  :first_name: David
+  :last_name: Leeds
+  :email: davidesleeds@gmail.com
+  :tshirt: M
+  :twitter: ''
+  :topic: Fundamentals of Turbocharged Engines
+- :stamp: 4/14/2013 20:44:03
+  :first_name: Will
+  :last_name: Potter
+  :email: willstonepotter@gmail.com
+  :tshirt: M
+  :twitter: willpots
+  :topic: 'Lean development for startups: how to build a cost effective minimum viable
+    product for your idea.'
+- :stamp: 4/14/2013 23:48:59
+  :first_name: Deborah
+  :last_name: Mourey
+  :email: deborah@deborahmourey.com
+  :tshirt: M
+  :twitter: dmourey
+  :topic: Viral video - the Jenna Marbles way
+- :stamp: 4/15/2013 10:49:54
+  :first_name: Andy
+  :last_name: Willoughby
+  :email: musicismath@frontiernet,net
+  :tshirt: XL
+  :twitter: ''
+  :topic: The mathematics of music harmony ,,,,,,,, my Invention called the CHORDTEACHER
+    ,,,,,,,,,,,, and my discoveries known as Willoughby&#39;s dream and Willoughby&#39;s
+    harmonic clock
+:deadbeats:
+- :stamp: 3/15/2013 10:31:29
+  :first_name: Dave
+  :last_name: Morgan
+  :email: dave@devmorgan.com
+  :tshirt: XL
+  :twitter: devmorgan
+  :topic: ''
+- :stamp: 3/15/2013 11:22:30
+  :first_name: Matthew
+  :last_name: Lavine
+  :email: mel2863@rit.edu
+  :tshirt: XXL
+  :twitter: MattLavineRIT
+  :topic: ''
+- :stamp: 3/15/2013 18:48:36
+  :first_name: Matt
+  :last_name: Soucy
+  :email: msoucy@csh.rit.edu
+  :tshirt: L
+  :twitter: msoucy93
+  :topic: ''
+- :stamp: 3/15/2013 19:04:13
+  :first_name: John
+  :last_name: StMartin
+  :email: stmartin@bitbin.com
+  :tshirt: XL
+  :twitter: b1tb1n
+  :topic: ''
+- :stamp: 3/17/2013 13:21:03
+  :first_name: Ross
+  :last_name: Guarino
+  :email: rssguar@gmail.com
+  :tshirt: M
+  :twitter: whitePandarex
+  :topic: ''
+- :stamp: 3/17/2013 19:45:08
+  :first_name: Derek
+  :last_name: Gonyeo
+  :email: pixiesnoot@gmail.com
+  :tshirt: L
+  :twitter: dgonyeo
+  :topic: ''
+- :stamp: 3/17/2013 19:59:39
+  :first_name: Ryan
+  :last_name: Buzzell
+  :email: rcb5821@rit.edu
+  :tshirt: L
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/17/2013 20:01:38
+  :first_name: Stephen
+  :last_name: Demos
+  :email: stphndemos@gmail.com
+  :tshirt: M
+  :twitter: stphndemos
+  :topic: ''
+- :stamp: 3/18/2013 10:06:32
+  :first_name: Samantha
+  :last_name: Shandrow
+  :email: ses6421@g.rit.edu
+  :tshirt: M
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/18/2013 10:06:52
+  :first_name: Ian
+  :last_name: Paterson
+  :email: ipaterson@newstex.com
+  :tshirt: M
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/18/2013 10:08:25
+  :first_name: Jared
+  :last_name: Fine
+  :email: jared@jfine.org
+  :tshirt: L
+  :twitter: jfine
+  :topic: ''
+- :stamp: 3/18/2013 10:09:25
+  :first_name: Kristi
+  :last_name: Briggs
+  :email: kbriggs@ccsdny.org
+  :tshirt: XXL
+  :twitter: kmbriggs8
+  :topic: ''
+- :stamp: 3/18/2013 10:12:34
+  :first_name: Terran
+  :last_name: Birrell
+  :email: terranrb@gmail.com
+  :tshirt: XL
+  :twitter: terranb
+  :topic: ''
+- :stamp: 3/18/2013 10:12:41
+  :first_name: Jason
+  :last_name: Smith
+  :email: jas7553@rit.edu
+  :tshirt: M
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/18/2013 10:17:52
+  :first_name: Brian
+  :last_name: Vogel
+  :email: brian@techrhythm.com
+  :tshirt: M
+  :twitter: flytepark
+  :topic: ''
+- :stamp: 3/18/2013 10:26:33
+  :first_name: Adam
+  :last_name: Lindsay
+  :email: adam@webhost.io
+  :tshirt: L
+  :twitter: adamlindsay
+  :topic: ''
+- :stamp: 3/18/2013 10:27:50
+  :first_name: Joe
+  :last_name: Bauser
+  :email: coderjoe@coderjoe.net
+  :tshirt: S
+  :twitter: coderjoe
+  :topic: ''
+- :stamp: 3/18/2013 10:28:21
+  :first_name: Ed
+  :last_name: Griebel
+  :email: edgriebel@gmail.com
+  :tshirt: L
+  :twitter: edgriebel
+  :topic: ''
+- :stamp: 3/18/2013 11:03:10
+  :first_name: Mike
+  :last_name: Laird
+  :email: mlaird@alum.mit.edu
+  :tshirt: L
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/18/2013 11:06:58
+  :first_name: Phoenix
+  :last_name: Rodden
+  :email: pdr8712@rit.edu
+  :tshirt: S
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/18/2013 11:11:30
+  :first_name: Swapna
+  :last_name: Kalpagam Subramaniam
+  :email: sxk8430@rit.edu
+  :tshirt: L
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/18/2013 11:20:54
+  :first_name: Lindsay
+  :last_name: Simon
+  :email: lindsay.simon@gmail.com
+  :tshirt: L
+  :twitter: ArayaNexus
+  :topic: ''
+- :stamp: 3/18/2013 11:23:25
+  :first_name: Andrew
+  :last_name: Martinez
+  :email: andrew.p.martinez@gmail.com
+  :tshirt: L
+  :twitter: raegx
+  :topic: ''
+- :stamp: 3/18/2013 12:00:14
+  :first_name: Olabisi
+  :last_name: Alao
+  :email: jedii247@yahoo.com
+  :tshirt: L
+  :twitter: BisiAlao
+  :topic: ''
+- :stamp: 3/18/2013 12:01:22
+  :first_name: Robb
+  :last_name: Nicholson
+  :email: ran488@gmail.com
+  :tshirt: M
+  :twitter: ran488
+  :topic: ''
+- :stamp: 3/18/2013 14:24:59
+  :first_name: Anthony
+  :last_name: Gargiulo
+  :email: anthony@agargiulo.com
+  :tshirt: XL
+  :twitter: argargablar
+  :topic: ''
+- :stamp: 3/18/2013 16:18:12
+  :first_name: Mim
+  :last_name: vogel
+  :email: r.rewtawee@gmail.com
+  :tshirt: S
+  :twitter: mimshimaro
+  :topic: ''
+- :stamp: 3/18/2013 17:41:49
+  :first_name: Charlie
+  :last_name: Wertz
+  :email: CJWertz@gmail.com
+  :tshirt: L
+  :twitter: CharlieWertz
+  :topic: ''
+- :stamp: 3/18/2013 17:49:51
+  :first_name: Nikko
+  :last_name: Williard
+  :email: nikko.williard@gmail.com
+  :tshirt: XL
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/18/2013 18:04:42
+  :first_name: Michael
+  :last_name: Hartman
+  :email: omh1280@gmail.com
+  :tshirt: L
+  :twitter: omichael3
+  :topic: ''
+- :stamp: 3/18/2013 19:31:12
+  :first_name: Shehan
+  :last_name: Jayasekera
+  :email: gbj6142@rit.edu
+  :tshirt: L
+  :twitter: TheHoudhini
+  :topic: ''
+- :stamp: 3/19/2013 2:07:55
+  :first_name: Erroyl
+  :last_name: Rolle
+  :email: erolle@gmail.com
+  :tshirt: XL
+  :twitter: erolle
+  :topic: ''
+- :stamp: 3/19/2013 3:34:25
+  :first_name: Nathaniel
+  :last_name: Case
+  :email: Qalthos@gmail.com
+  :tshirt: L
+  :twitter: Qalthos
+  :topic: ''
+- :stamp: 3/19/2013 8:18:23
+  :first_name: David G.
+  :last_name: Smith
+  :email: DavidGSmith@gmail.com
+  :tshirt: XXL
+  :twitter: iDGS
+  :topic: ''
+- :stamp: 3/19/2013 9:45:16
+  :first_name: David
+  :last_name: Gersh
+  :email: dgersh@synacor.com
+  :tshirt: L
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/19/2013 10:44:31
+  :first_name: Ryan
+  :last_name: Brown
+  :email: ryansb@csh.rit.edu
+  :tshirt: L
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/19/2013 11:04:32
+  :first_name: David
+  :last_name: Stevenson
+  :email: david_stevenson@symantec.com
+  :tshirt: L
+  :twitter: DavidStevenson1
+  :topic: ''
+- :stamp: 3/19/2013 13:23:31
+  :first_name: Todd
+  :last_name: Butters
+  :email: trb5531@rit.edu
+  :tshirt: M
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/19/2013 18:23:19
+  :first_name: Nick
+  :last_name: Schoichet
+  :email: nns6704@rit.edu
+  :tshirt: XL
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/19/2013 23:46:44
+  :first_name: Jignesh
+  :last_name: Patel
+  :email: jigneshdpatel@outlook.com
+  :tshirt: M
+  :twitter: jigneshdpatel
+  :topic: ''
+- :stamp: 3/20/2013 13:37:27
+  :first_name: John
+  :last_name: Kennedy
+  :email: jhkennedy4@gmail.com
+  :tshirt: M
+  :twitter: jhkennedy
+  :topic: ''
+- :stamp: 3/20/2013 17:53:45
+  :first_name: George
+  :last_name: Fekete
+  :email: gfekete@rochester.rr.com
+  :tshirt: L
+  :twitter: geogypsy
+  :topic: ''
+- :stamp: 3/20/2013 18:48:57
+  :first_name: From
+  :last_name: Outside
+  :email: testing@bricksalad.info
+  :tshirt: ''
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/21/2013 0:12:55
+  :first_name: Ross
+  :last_name: Swerling
+  :email: ross.swerling@gmail.com
+  :tshirt: L
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/21/2013 6:20:12
+  :first_name: Marty
+  :last_name: Gabriele
+  :email: mgabriele1@aol.com
+  :tshirt: XL
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/22/2013 10:22:29
+  :first_name: Michael
+  :last_name: Yeaple
+  :email: michael@michaelyeaple.com
+  :tshirt: L
+  :twitter: mikedy16
+  :topic: ''
+- :stamp: 3/22/2013 16:59:26
+  :first_name: Joseph
+  :last_name: Hsu
+  :email: jhsu.x1@gmail.com
+  :tshirt: M
+  :twitter: jhsu
+  :topic: ''
+- :stamp: 3/22/2013 22:37:46
+  :first_name: Eric
+  :last_name: Lee
+  :email: eric.lee.edl@gmail.com
+  :tshirt: L
+  :twitter: ericdavidlee
+  :topic: ''
+- :stamp: 3/23/2013 10:33:38
+  :first_name: Will
+  :last_name: McDowell
+  :email: Willlegoman@gmail.com
+  :tshirt: S
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/24/2013 9:56:31
+  :first_name: Ralph
+  :last_name: Bean
+  :email: ralph.bean@gmail.com
+  :tshirt: L
+  :twitter: ralphbean
+  :topic: ''
+- :stamp: 3/25/2013 10:47:02
+  :first_name: Tom
+  :last_name: Kurtenbach
+  :email: tkurtenbach@acm.org
+  :tshirt: XL
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/25/2013 14:00:06
+  :first_name: Sean
+  :last_name: Jones
+  :email: sij5183@gmail.com
+  :tshirt: L
+  :twitter: seanianjones
+  :topic: ''
+- :stamp: 3/25/2013 15:23:04
+  :first_name: Nicole
+  :last_name: Bertrand
+  :email: nicolembertrand@gmail.com
+  :tshirt: L
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/26/2013 13:52:38
+  :first_name: Bill
+  :last_name: Horst-Kotter
+  :email: radicalgeek@gmail.com
+  :tshirt: XL
+  :twitter: theradicalgeek
+  :topic: ''
+- :stamp: 3/27/2013 16:31:27
+  :first_name: Amy
+  :last_name: Sak
+  :email: amy.crapmail@gmail.com
+  :tshirt: S
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/28/2013 12:23:21
+  :first_name: Eric
+  :last_name: Harty
+  :email: eric@ebscer.com
+  :tshirt: L
+  :twitter: Ebscer
+  :topic: ''
+- :stamp: 3/29/2013 15:16:30
+  :first_name: Alexander
+  :last_name: Kyte
+  :email: alexanderkyte@gmail.com
+  :tshirt: S
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/30/2013 19:42:43
+  :first_name: Benjamin
+  :last_name: Summerton
+  :email: bns4412@rit.edu
+  :tshirt: M
+  :twitter: ''
+  :topic: ''
+- :stamp: 3/31/2013 12:47:27
+  :first_name: Ryan
+  :last_name: Tucker
+  :email: rtucker@gmail.com
+  :tshirt: XL
+  :twitter: hoopycat
+  :topic: TBD
+- :stamp: 4/1/2013 11:20:29
+  :first_name: Peter
+  :last_name: Mikitsh
+  :email: pam3961@rit.edu
+  :tshirt: S
+  :twitter: petermikitsh
+  :topic: ''
+- :stamp: 4/1/2013 11:24:20
+  :first_name: Carl
+  :last_name: Schmidtmann
+  :email: carl@interlockroc.org
+  :tshirt: L
+  :twitter: ''
+  :topic: TBD
+- :stamp: 4/1/2013 11:40:34
+  :first_name: Kayla
+  :last_name: Green
+  :email: kag3372@rit.edu
+  :tshirt: S
+  :twitter: Th8a
+  :topic: ''
+- :stamp: 4/1/2013 11:56:08
+  :first_name: Eric
+  :last_name: Irish
+  :email: ecirish@gmail.com
+  :tshirt: L
+  :twitter: EricIrish
+  :topic: ''
+- :stamp: 4/1/2013 12:02:56
+  :first_name: Kevin
+  :last_name: Tran
+  :email: kxt2075@rit.edu
+  :tshirt: M
+  :twitter: ''
+  :topic: ''
+- :stamp: 4/1/2013 12:12:29
+  :first_name: Matt
+  :last_name: Munns
+  :email: mtm4313@g.rit.edu
+  :tshirt: S
+  :twitter: munnsmatt
+  :topic: ''
+- :stamp: 4/1/2013 13:05:52
+  :first_name: Liam
+  :last_name: Middlebrook
+  :email: liammiddlebrook@gmail.com
+  :tshirt: XL
+  :twitter: ''
+  :topic: ''
+- :stamp: 4/1/2013 13:10:46
+  :first_name: Daniyal
+  :last_name: Syed
+  :email: agustin2489@gmail.com
+  :tshirt: M
+  :twitter: ''
+  :topic: ''
+- :stamp: 4/1/2013 13:46:45
+  :first_name: Paul
+  :last_name: Gebel
+  :email: paulgebel@gmail.com
+  :tshirt: XL
+  :twitter: paulgebel
+  :topic: ''
+- :stamp: 4/2/2013 9:05:33
+  :first_name: Jim
+  :last_name: Prucha
+  :email: Jim.Prucha@SynergisticOnlineSolutions.com
+  :tshirt: XXL
+  :twitter: ''
+  :topic: TBD
+- :stamp: 4/3/2013 10:48:32
+  :first_name: Steve
+  :last_name: Maier
+  :email: steve.maier@gmail.com
+  :tshirt: XXL
+  :twitter: YsFred4
+  :topic: ''
+- :stamp: 4/4/2013 2:19:53
+  :first_name: Hayley
+  :last_name: Harzynski
+  :email: hharzynski@gmail.com
+  :tshirt: L
+  :twitter: hayaintevenmad
+  :topic: ''
+- :stamp: 4/4/2013 9:20:27
+  :first_name: Alex
+  :last_name: Page
+  :email: a.t.page@gmail.com
+  :tshirt: L
+  :twitter: ''
+  :topic: ''
+- :stamp: 4/4/2013 10:03:03
+  :first_name: Saravana
+  :last_name: Kumar
+  :email: saran87@gmail.com
+  :tshirt: M
+  :twitter: SaravanaNadar
+  :topic: ''
+- :stamp: 4/5/2013 11:42:46
+  :first_name: jason
+  :last_name: gan
+  :email: bird.brains.jason@gmail.com
+  :tshirt: M
+  :twitter: jasongan96
+  :topic: ''
+- :stamp: 4/5/2013 17:37:40
+  :first_name: Bruce
+  :last_name: Nelson
+  :email: bruce.nelson@ieee.org
+  :tshirt: XL
+  :twitter: ''
+  :topic: ''
+- :stamp: 4/5/2013 17:43:46
+  :first_name: Tahsin
+  :last_name: Shamsul
+  :email: tms4184@rit.edu
+  :tshirt: M
+  :twitter: ''
+  :topic: ''
+- :stamp: 4/5/2013 21:24:57
+  :first_name: Frank
+  :last_name: Hubbell
+  :email: fhubbell@rochester.rr.com
+  :tshirt: XL
+  :twitter: ''
+  :topic: ''
+- :stamp: 4/6/2013 18:50:28
+  :first_name: Gene
+  :last_name: Bills
+  :email: Gene_Mohawk@yahoo.com
+  :tshirt: XXL
+  :twitter: ''
+  :topic: ''
+- :stamp: 4/8/2013 15:20:38
+  :first_name: Greg
+  :last_name: Jurman
+  :email: jurman.greg@gmail.com
+  :tshirt: XL
+  :twitter: gregjurman
+  :topic: ''
+- :stamp: 4/8/2013 17:04:04
+  :first_name: AnnMichele
+  :last_name: Lobello
+  :email: alj@rochester.rr.com
+  :tshirt: L
+  :twitter: ''
+  :topic: ''
+- :stamp: 4/8/2013 18:56:47
+  :first_name: Mike
+  :last_name: Fisher
+  :email: mfisher@csh.rit.edu
+  :tshirt: XXL
+  :twitter: mfisher
+  :topic: ''
+- :stamp: 4/9/2013 9:28:11
+  :first_name: Ethan
+  :last_name: House
+  :email: ehouse@csh.rit.edu
+  :tshirt: M
+  :twitter: ''
+  :topic: ''
+- :stamp: 4/9/2013 12:21:17
+  :first_name: Brian
+  :last_name: Garrison
+  :email: parody@onimpression.com
+  :tshirt: M
+  :twitter: ''
+  :topic: ''
+- :stamp: 4/10/2013 10:58:46
+  :first_name: Jean
+  :last_name: Desulme
+  :email: jdesulme@gmail.com
+  :tshirt: L
+  :twitter: jsleepy89
+  :topic: ''
+- :stamp: 4/11/2013 14:19:52
+  :first_name: Upendra
+  :last_name: Shevade
+  :email: shevade@amazon.com
+  :tshirt: S
+  :twitter: ''
+  :topic: ''
+- :stamp: 4/11/2013 18:02:58
+  :first_name: Caleb
+  :last_name: Coffie
+  :email: CalebCoffie@gmail.com
+  :tshirt: M
+  :twitter: ''
+  :topic: ''
+- :stamp: 4/12/2013 9:47:12
+  :first_name: Aleksandar
+  :last_name: Stevanovic
+  :email: stevanov@amazon.com
+  :tshirt: L
+  :twitter: ''
+  :topic: ''
