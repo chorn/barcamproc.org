@@ -19,7 +19,7 @@
 
     If you want to learn more about how BarCamp Rochester works, you can always check out [our How-To page](/howto/).
 
-  **Check-in begins around 9:00AM, with the first presentations starting at 10:00AM.**
+  **Check-in begins around #{data.global.reg_start}, with the first presentations starting at #{data.global.talk_start}.**
   :markdown
     Registration is open, so **[sign up now](/register/)!**
 
@@ -36,7 +36,6 @@
             - if s.twitter
               .thankyou-tweet
                 %a{:href => "https://twitter.com/intent/tweet?screen_name=#{s.twitter}&text=thank%20you%20for%20supporting%20%40BarCampRoc%20Spring%202013!", :class => "twitter-mention-button", "data-related" => "chorn", "data-lang" => "en"}= "Tweet to @#{s.twitter}"
-
 
   %h4
     %a{:href => "sponsors_201210/"} Sponsors from Fall 2012
