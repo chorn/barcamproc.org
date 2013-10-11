@@ -2,8 +2,8 @@ import urllib2
 import json
 import os
 
-app_key = 'FIRPJUW4JEBU6HESDQ'
-event_id = '8645022495'
+app_key = ''
+event_id = ''
 
 html_escape_table = {
     "&": "&amp;",
