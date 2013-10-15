@@ -31,6 +31,7 @@ def getattendees():
 def buildyaml(lst):
     coolkidsyaml = ":talks:\n"
     lamekidsyaml = ":deadbeats:\n"
+    sameasnothing = ['','n/a','tbd']
     for l in lst:
         i = 0
         yaml = ""
@@ -38,7 +39,7 @@ def buildyaml(lst):
             v = html_escape(v)
             if '\n' in v:
                 v = '|-\n{0}'.format(v)
-            elif v == '':
+            elif v.strip().lower() in sameasnothing:
                 v = "''"
             if i == 0:
                 yaml += "- :{0}: {1}\n".format(k,v)
@@ -89,6 +90,10 @@ def main():
     print "Processing list ..."
     lst = buildlst(attendees)
     
+    # save off the created json list (debug)
+    #with open('attendees.json', 'w') as f:
+    #    f.write(json.dumps(lst))
+
     # generate the yaml in the format that the barcamproc.org website wants it
     print "Building Yaml ..."
     output_yaml = buildyaml(lst)
