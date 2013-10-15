@@ -1,5 +1,7 @@
 #!/bin/sh
 
-echo "Recompiling site, and uploading new version ..."
-
-# recompile and upload site here
+cp ../data/attendees.yml .
+python eventbrite_attenddees.py
+mv attendees.yml ../data
+cd ..
+bundle exec middleman build

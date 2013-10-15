@@ -1,9 +1,12 @@
+#!/usr/bin/env python
+
 import urllib2
 import json
 import os
+import re
 
-app_key = ''
-event_id = ''
+app_key = '2C4BZOJXZWR5PKDSQV'
+event_id = '8645022495'
 
 html_escape_table = {
     "&": "&amp;",
@@ -47,7 +50,7 @@ def buildyaml(lst):
             lamekidsyaml += yaml
         else:
             coolkidsyaml += yaml
-            
+
     output_yaml = "---\n{0}{1}".format(coolkidsyaml,lamekidsyaml)
     return output_yaml
 
@@ -73,8 +76,8 @@ def buildlst(attendees):
                     'last_name' : lname,
                     'email': '',
                     'tshirt': '',
-                    'twitter': twitter,
-                    'topic': topic})
+                    'twitter': re.sub('^.*/', '', twitter.replace('@', '')),
+                    'topic': topic.replace(':', '')})
     return lst
 
 def main():
@@ -90,24 +93,9 @@ def main():
     print "Building Yaml ..."
     output_yaml = buildyaml(lst)
 
-    yaml_filename = 'attendees_201311.yml'
-
-    # see if the file exists yet
-    if os.path.isfile(yaml_filename):
-        # read in the current file, and only update the site if it is different
-        with open(yaml_filename) as f:
-            last_yaml = f.read()
-        if not output_yaml == last_yaml:
-            print "Updating Local File with new Attendees ..."
-            with open('attendees_201304.yml') as f:
-                f.write(output_yaml)
-            subprocess.call('./updatesite.sh')
-    # ... doesn't exists, just create it
-    else:
-        print "Writing out Local File with Attendees ..."
-        with open('attendees_201304.yml') as f:
-            f.write(output_yaml)
-        subprocess.call('./updatesite.sh')
+    print "Writing out Local File with Attendees ..."
+    with open('attendees.yml', 'w') as f:
+        f.write(output_yaml)
 
     print "Done."
 
