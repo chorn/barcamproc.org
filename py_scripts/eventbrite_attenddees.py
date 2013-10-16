@@ -55,6 +55,16 @@ def buildyaml(lst):
     output_yaml = "---\n{0}{1}".format(coolkidsyaml,lamekidsyaml)
     return output_yaml
 
+def _exists(lst,twitter):
+    exists = False
+
+    for l in lst:
+        if l['twitter'].strip().lower() == twitter.strip().lower():
+            exists = True
+            break
+
+    return exists
+
 def buildlst(attendees):
     lst = []
     for attendee in attendees['attendees']:
@@ -72,13 +82,14 @@ def buildlst(attendees):
             if answer['question'] == "Topic of your talk":
                 topic = answer['answer_text']
 
-        lst.append({'stamp': '',
-                    'first_name': fname,
-                    'last_name' : lname,
-                    'email': '',
-                    'tshirt': '',
-                    'twitter': re.sub('^.*/', '', twitter.replace('@', '')),
-                    'topic': topic.replace(':', '')})
+        if not _exists(lst,twitter):
+            lst.append({'stamp': '',
+                        'first_name': fname,
+                        'last_name' : lname,
+                        'email': '',
+                        'tshirt': '',
+                        'twitter': re.sub('^.*/', '', twitter.replace('@', '')),
+                        'topic': topic.replace(':', '')})
     return lst
 
 def main():
