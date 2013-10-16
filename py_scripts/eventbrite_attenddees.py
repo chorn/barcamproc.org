@@ -78,6 +78,9 @@ def buildlst(attendees):
 
             if answer['question'] == "Twitter":
                 twitter = answer['answer_text']
+                # clean up the handle, remove the @ symbol.  The ruby side of things
+                # handles formating for this.
+                twitter = re.sub('^.*/', '', twitter.replace('@', ''))
 
             if answer['question'] == "Topic of your talk":
                 topic = answer['answer_text']
@@ -88,7 +91,7 @@ def buildlst(attendees):
                         'last_name' : lname,
                         'email': '',
                         'tshirt': '',
-                        'twitter': re.sub('^.*/', '', twitter.replace('@', '')),
+                        'twitter': twitter,
                         'topic': topic.replace(':', '')})
     return lst
 
