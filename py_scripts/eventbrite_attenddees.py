@@ -31,7 +31,7 @@ def getattendees():
 def buildyaml(lst):
     coolkidsyaml = ":talks:\n"
     lamekidsyaml = ":deadbeats:\n"
-    sameasnothing = ['','n/a','tbd']
+    sameasnothing = ['','n/a','tbd','not sure yet','I will not be presenting','undecided']
     for l in lst:
         i = 0
         yaml = ""
