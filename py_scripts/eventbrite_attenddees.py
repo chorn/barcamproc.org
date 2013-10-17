@@ -31,7 +31,8 @@ def getattendees():
 def buildyaml(lst):
     coolkidsyaml = ":talks:\n"
     lamekidsyaml = ":deadbeats:\n"
-    sameasnothing = ['','n/a','tbd','not sure yet','I will not be presenting','undecided']
+    sameasnothing = ['','n/a','tbd','not sure yet','I will not be presenting',
+                     'undecided','none planned yet...','tba']
     for l in lst:
         i = 0
         yaml = ""
@@ -67,7 +68,12 @@ def _exists(lst,twitter):
 
 def buildlst(attendees):
     lst = []
-    for attendee in attendees['attendees']:
+
+    # reverse the list, that way the 'most latest registration is taken
+    # rather than the first. (you're welcome BlueLlama)
+    stuff = attendees['attendees'][::-1]
+  
+    for attendee in stuff:
         attendee = attendee['attendee']
         fname = attendee['first_name']
         lname = attendee['last_name']
@@ -93,6 +99,10 @@ def buildlst(attendees):
                         'tshirt': '',
                         'twitter': twitter,
                         'topic': topic.replace(':', '')})
+
+    
+    
+
     return lst
 
 def main():
