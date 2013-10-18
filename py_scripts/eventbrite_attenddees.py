@@ -60,7 +60,7 @@ def _exists(lst,twitter):
     exists = False
 
     for l in lst:
-        if l['twitter'].strip().lower() == twitter.strip().lower():
+        if not l['twitter'].strip().lower() == '' and l['twitter'].strip().lower() == twitter.strip().lower():
             exists = True
             break
 
