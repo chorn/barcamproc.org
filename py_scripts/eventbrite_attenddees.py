@@ -56,11 +56,14 @@ def buildyaml(lst):
     output_yaml = "---\n{0}{1}".format(coolkidsyaml,lamekidsyaml)
     return output_yaml
 
-def _exists(lst,twitter):
+def _exists(lst,twitter,first,last):
     exists = False
 
     for l in lst:
-        if not l['twitter'].strip().lower() == '' and l['twitter'].strip().lower() == twitter.strip().lower():
+        if l['twitter'].strip().lower() == '':
+            if l['first_name'].strip().lower() == first.strip().lower() and l['last_name'].strip().lower() == last.strip().lower():
+                exists = True
+        elif l['twitter'].strip().lower() == twitter.strip().lower():
             exists = True
             break
 
@@ -91,7 +94,7 @@ def buildlst(attendees):
             if answer['question'] == "Topic of your talk":
                 topic = answer['answer_text']
 
-        if not _exists(lst,twitter):
+        if not _exists(lst,twitter,fname,lname):
             lst.append({'stamp': '',
                         'first_name': fname,
                         'last_name' : lname,
@@ -100,7 +103,8 @@ def buildlst(attendees):
                         'twitter': twitter,
                         'topic': topic.replace(':', '')})
 
-    
+    # reverse the list back so it's in alphabetical order
+    list = lst[::-1]
     
 
     return lst
@@ -115,8 +119,8 @@ def main():
     lst = buildlst(attendees)
     
     # save off the created json list (debug)
-    #with open('attendees.json', 'w') as f:
-    #    f.write(json.dumps(lst))
+    with open('attendees.json', 'w') as f:
+        f.write(json.dumps(lst))
 
     # generate the yaml in the format that the barcamproc.org website wants it
     print "Building Yaml ..."
