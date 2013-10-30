@@ -11,6 +11,12 @@ sponsors:
     link: rit.edu
     description: Rochester Institute of Technology is one of the world's leading career-oriented, technological universities. RIT enrolls 17,500 full- and part-time students in more than 200 career-oriented and professional programs, and its cooperative education program is one of the oldest and largest in the nation.
   -
+    id: nuand
+    twitter: nuandllc
+    name: nuand
+    link: nuand.com
+    description: nuand is a software defined radio company dedicated to demystifying wireless communications using bladeRF - a low-cost, open source USB3.0 SDR developed specifically for education and exploration of the electromagnetic spectrum.
+  -
     id: mmi
     twitter: MetrixMatrix
     name: Metrix Matrix
