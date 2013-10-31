@@ -11,6 +11,18 @@ sponsors:
     link: rit.edu
     description: Rochester Institute of Technology is one of the world's leading career-oriented, technological universities. RIT enrolls 17,500 full- and part-time students in more than 200 career-oriented and professional programs, and its cooperative education program is one of the oldest and largest in the nation.
   -
+    id: nuand
+    twitter: nuandllc
+    name: nuand
+    link: nuand.com
+    description: nuand is a software defined radio company dedicated to demystifying wireless communications using bladeRF - a low-cost, open source USB3.0 SDR developed specifically for education and exploration of the electromagnetic spectrum.
+  -
+     id: nimbleuser
+     twitter: nimbleuser
+     name: NimbleUser
+     link: nimbleuser.com
+     description: NimbleUser empowers associations with smart, integrated technology. NimbleUser works with leading technologies such as Nimble AMS, Salesforce, Ektron and Umb  raco to bring you the best in AMS and website development though implementation, integration and support.
+  -
     id: mmi
     twitter: MetrixMatrix
     name: Metrix Matrix
@@ -88,4 +100,8 @@ sponsors:
     name: EffectiveUI
     link: effectiveui.com
     description: EffectiveUI is a full-service user experience (UX) agency that simplifies complex experiences, bringing value to people’s lives. By researching and articulating user needs, our team of customer insight, design and development experts create custom applications that improve digital interactions and enhance emotional engagement with a company and brand.
-
+  -
+    id: synacor
+    name: Synacor
+    link: synacor.com
+    description: Synacor, Inc. was created in 2001, with company headquarters established in Buffalo, NY, and has become a leader in progressive corporate culture and is a beacon for burgeoning growth among U.S. technology and Internet companies. Forward thinking has allowed Synacor to build a flexible provisioning platform, enabling comprehensive delivery to Internet broadband service providers.
