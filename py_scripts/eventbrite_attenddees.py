@@ -130,6 +130,8 @@ def main():
     with open('attendees.yml', 'w') as f:
         f.write(output_yaml)
 
+	print "Looks to be {0} attendees, nice!".format(len(lst))
+
     print "Done."
 
 main()
