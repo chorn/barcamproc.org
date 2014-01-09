@@ -1,6 +1,8 @@
-next_event: Spring 2013
-next_date: April 20th
-registration: https://docs.google.com/forms/d/1R9ui12fo_xO2J3BpTTDuMfdG5EKWcft5JefTfWbr96U/viewform
+next_event: Fall 2013
+next_date: November 2nd
+registration: http://barcamproc.org/register/
+reg_start: 10:00am
+talk_start: 11:00am
 sponsors:
   -
     id: rit
@@ -8,6 +10,18 @@ sponsors:
     name: RIT
     link: rit.edu
     description: Rochester Institute of Technology is one of the world's leading career-oriented, technological universities. RIT enrolls 17,500 full- and part-time students in more than 200 career-oriented and professional programs, and its cooperative education program is one of the oldest and largest in the nation.
+  -
+    id: nuand
+    twitter: nuandllc
+    name: nuand
+    link: nuand.com
+    description: nuand is a software defined radio company dedicated to demystifying wireless communications using bladeRF - a low-cost, open source USB3.0 SDR developed specifically for education and exploration of the electromagnetic spectrum.
+  -
+     id: nimbleuser
+     twitter: nimbleuser
+     name: NimbleUser
+     link: nimbleuser.com
+     description: NimbleUser empowers associations with smart, integrated technology. NimbleUser works with leading technologies such as Nimble AMS, Salesforce, Ektron and Umb  raco to bring you the best in AMS and website development though implementation, integration and support.
   -
     id: mmi
     twitter: MetrixMatrix
@@ -26,12 +40,6 @@ sponsors:
     name: OS-Cubed
     link: os-cubed.com
     description: OS-Cubed provides optimal, stable and secure solutions to business problems using Microsoft technology. <a href="http://www.os-cubed.com/">www.os-cubed.com</a>
-  -
-    id: gtts
-    twitter: gttsmarketing
-    name: GTTS Marketing
-    link: www.gttsmarketing.com
-    description: Going to the Sun Marketing (GTTS) is a full service marketing firm, specializing in providing our clients with everything they need to start or grow their business. We don't just do some marketing, GTTS does it all, with a mix of real world experience and thoughtful planning. We build brands, create websites, produce print, online TV and radio advertisements, make business cards, develop public relations campaigns and help our clients connect with their customers. Contact us today and let GTTS help build your brand.
   -
     id: dnsimple
     twitter: dnsimple
@@ -56,12 +64,6 @@ sponsors:
     name: O'Reilly Media
     link: oreilly.com
     description: O'Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences.  Since 1978, O'Reilly has been a chronicler and catalyst of leading-edge development, homing in on the technology trends that really matter and galvanizing their adoption by amplifying *faint signals* from the alpha geeks who are creating the future.  An active participant in the technology community, the company has a long history of advocacy, meme-making, and evangelism.
-  -
-    id: pragmaticbookshelf
-    twitter: pragprog
-    name: Pragmatic Bookshelf
-    link: pragprog.com
-    description: "The Pragmatic Programmers is a company with a simple goal: we want to improve the lives of developers. We do this by creating timely, practical books, audio books and videos through the Pragmatic Bookshelf and working closely with the Pragmatic Studio to create the best developer training there is. The stuff we produce is timely and relevant because it is written by programmers for programmers."
   -
     id: webhostio
     twitter: webhostio
@@ -93,24 +95,13 @@ sponsors:
     link: arc90.com
     description: At Arc90, there is product in our plumbing. Ideas flow fast. We build tools that become part of our daily environment. Often, they become products for clients and customers worldwide.
   -
-    id: eucalyptus
-    twitter: eucalyptus
-    name: Eucalyptus
-    link: eucalyptus.com
-    description: Eucalyptus Systems provides IT organizations and technology businesses with the most widely deployed cloud software platform for on-premise Infrastructure as a Service (IaaS).
-  -
-    id: ytd
-    name: YTD Video Converter
-    link: youtubedownload.altervista.org
-    description: The YTD YouTube Downloader and Converter is a free piece of software that lets you download and save videos from virtually anywhere. YTD is available for both Windows and Mac.
-  -
-    id: vuze
-    name: Vuze
-    link: www.vuze.com
-    description: Vuze is a premium bittorrent client that allows users to transfer files using the BitTorrent protocol. Vuze offers two versions of their software, both with lightning fast download speeds.
-  -
     id: effectiveui
     twitter: effectiveui
     name: EffectiveUI
     link: effectiveui.com
     description: EffectiveUI is a full-service user experience (UX) agency that simplifies complex experiences, bringing value to people’s lives. By researching and articulating user needs, our team of customer insight, design and development experts create custom applications that improve digital interactions and enhance emotional engagement with a company and brand.
+  -
+    id: synacor
+    name: Synacor
+    link: synacor.com
+    description: Synacor, Inc. was created in 2001, with company headquarters established in Buffalo, NY, and has become a leader in progressive corporate culture and is a beacon for burgeoning growth among U.S. technology and Internet companies. Forward thinking has allowed Synacor to build a flexible provisioning platform, enabling comprehensive delivery to Internet broadband service providers.

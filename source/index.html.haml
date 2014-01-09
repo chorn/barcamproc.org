@@ -35,9 +35,11 @@
             = link_to s.name, "http://#{s.link}"
             - if s.twitter
               .thankyou-tweet
-                %a{:href => "https://twitter.com/intent/tweet?screen_name=#{s.twitter}&text=thank%20you%20for%20supporting%20%40BarCampRoc%20Spring%202013!", :class => "twitter-mention-button", "data-related" => "chorn", "data-lang" => "en"}= "Tweet to @#{s.twitter}"
+                %a{:href => "https://twitter.com/intent/tweet?screen_name=#{s.twitter}&text=thank%20you%20for%20supporting%20%40BarCampRoc!", :class => "twitter-mention-button", "data-related" => "chorn", "data-lang" => "en"}= "Tweet to @#{s.twitter}"
 
   %h4
     %a{:href => "sponsors_201210/"} Sponsors from Fall 2012
   %h4
     %a{:href => "sponsors_201304/"} Sponsors from Spring 2013
+  %h4
+    %a{:href => "sponsors_201311/"} Sponsors from Fall 2013
