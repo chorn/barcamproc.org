@@ -7,35 +7,9 @@
 
     ## #{data.global.next_event}
 
-    ### Attendees and topics will be available after the date of the next BarCampRoc is announced!
+    If you haven't signed up yet, you can [register here](/register/).
 
--# ### Here are some topics people will be presenting:
+    This list will be updated every day.
 
--# If you haven't signed up yet, you can [register here](/register/).
+  <iframe width='500' height='300' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0AguUDiJimLXQdFF6NXNYYXBVVzJ5YmljUUY2LVlXVGc&single=true&gid=0&output=html&widget=true'></iframe>
 
-  -# %ul#attendees
-    -# - data.attendees.talks.each do |a|
-    -#   %li.attendee{:title => CGI.unescapeHTML(a[:topic])}
-    -#     %p.who
-    -#       = a[:first_name] + " " + a[:last_name]
-    -#     %p.twitter-link
-    -#       - if not a[:twitter].blank?
-    -#         %a.twitter{:href => "http://twitter.com/#{a.twitter}"}
-    -#           = "@" + a[:twitter]
-    -#     %p.what= a[:topic]
-
-  -# - if data.attendees.deadbeats
-    -# %h3 &hellip;and these people have registered without a presentation topic:
-    -# %ul#deadbeats
-    -#   - data.attendees.deadbeats.sort_by{|k| k[:last_name].to_s }.each do |a|
-    -#     %li.deadbeat{:title => a[:topic]}
-    -#       %p.who
-    -#         = a[:first_name] + " " + a[:last_name]
-    -#       %p.twitter-link
-    -#         - if not a[:twitter].blank?
-    -#           %a.twitter{:href => "http://twitter.com/#{a.twitter}"}
-    -#             = "@" + a[:twitter]
-    -#         - else
-    -#           %span.twitter.nothing &hellip;
-
-  -# .attendee-count="#{data.attendees.talks.size + (data.attendees.deadbeats ? data.attendees.deadbeats.size : 0)} people have registered for the #{data.global.next_event} BarCamp Rochester"
