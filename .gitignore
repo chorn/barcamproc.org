@@ -1,5 +1,6 @@
 .DS_Store
 .sass-cache
+.cache
 build/
 .bundle/
 data/attendees.yml

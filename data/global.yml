@@ -10,3 +10,15 @@ sponsors:
     name: RIT
     link: rit.edu
     description: Rochester Institute of Technology is one of the world's leading career-oriented, technological universities. RIT enrolls 17,500 full- and part-time students in more than 200 career-oriented and professional programs, and its cooperative education program is one of the oldest and largest in the nation.
+  -
+    id: oscubed
+    twitter: oscubed
+    name: OS-Cubed
+    link: os-cubed.com
+    description: OS-Cubed provides optimal, stable and secure solutions to business problems using Microsoft technology. <a href="http://www.os-cubed.com/">www.os-cubed.com</a>
+  -
+    id: eastsidecowork
+    twitter: eastsidecowork
+    name: East Side Cowork
+    link: http://eastsidecowork.com/
+    description: East Side Cowork offers coworking and meeting space in Perinton. More professional than a coffee shop and less isolating than working from home, coworking is office space with no long-term commitments, lease, or utility bills. We offer free wifi, free coffee, ample desk space, and a meeting room w/ digital projector. Drop-in for just $10/day with monthly plans available. Details & directions at <a href="http://eastsidecowork.com">eastsidecowork.com</a> or <a href="http://facebook.com/eastsidecowork">Facebook</a>.
