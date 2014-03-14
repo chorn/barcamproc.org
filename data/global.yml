@@ -34,3 +34,15 @@ sponsors:
     name: DNSimple
     link: dnsimple.com
     description: DNSimple is a hosted DNS service that you can use to manage your domain names.  Plans start at $3 per month for up to 10 managed domains. You can also use DNSimple to register domain names and purchase SSL certificates. With top-notch customer support, one-click services and a robust API, DNSimple makes managing your DNS simple and painless. We love our customers and are always here to help.  Sign up now and get a free 30 day trial that you may cancel at any time.
+  -
+     id: nimbleuser
+     twitter: nimbleuser
+     name: NimbleUser
+     link: nimbleuser.com
+     description: NimbleUser empowers associations with smart, integrated technology. NimbleUser works with leading technologies such as Nimble AMS, Salesforce, Ektron and Umb  raco to bring you the best in AMS and website development though implementation, integration and support.
+  -
+    id: 3poundhealth
+    twitter: 3poundhealth
+    name: 3Pound Health
+    link: 3poundhealth.com
+    description: 3Pound Health, LLC is a start-up health Technology Company based out of Syracuse, NY. We are building a comprehensive population health management platform with the goal of empowering individuals to optimize their health through behavior modification.  The platform will allow personal management, connection to peers and coaches, in addition to reporting and incentive management. We plan to build, foster and leverage community; increase interoperability; and use technology as a force multiplier and cost reducer for existing health and wellness methodologies.
