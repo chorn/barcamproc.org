@@ -51,5 +51,11 @@ sponsors:
     twitter: DrexelOnline
     name: Drexel University Online
     link: drexel.com
-    description: Drexel University Online is an accredited university located in Philadelphia, PA.  Drexel University offers master's and bachelor's degree as well as certificate programs.  These online degree programs are great for professionals who are looking to advance their career or complete a degree in an online environment. 
+    description: Drexel University Online is an accredited university located in Philadelphia, PA.  Drexel University offers master's and bachelor's degree as well as certificate programs.  These online degree programs are great for professionals who are looking to advance their career or complete a degree in an online environment.
+  -
+    id: github
+    twitter: github
+    name: Github
+    link: github.com
+    description: GitHub is version control for software development and so much more.  Whether it's a weekend side project, your favorite open source library, a startup destined for glory, or your company's app, GitHub helps everyone work together with tools for easier collaboration and more visibility. Check it out - open source is free!
   
