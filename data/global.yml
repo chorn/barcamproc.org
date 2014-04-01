@@ -70,3 +70,8 @@ sponsors:
     name: nuand
     link: nuand.com
     description: nuand is a software defined radio company dedicated to demystifying wireless communications using bladeRF - a low-cost, open source USB3.0 SDR developed specifically for education and exploration of the electromagnetic spectrum.
+  -
+    id: oreilly
+    name: O'Reilly Media
+    link: oreilly.com
+    description: O'Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences.  Since 1978, O'Reilly has been a chronicler and catalyst of leading-edge development, homing in on the technology trends that really matter and galvanizing their adoption by amplifying "faint signals" from the alpha geeks who are creating the future.  An active participant in the technology community, the company has a long history of advocacy, meme-making, and evangelism.
