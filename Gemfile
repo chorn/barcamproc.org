@@ -6,7 +6,8 @@ gem "middleman", "~> 3.2.0"
 gem "rack-contrib"
 gem 'rack-google-analytics'
 gem 'execjs'
-gem "puma"
+gem 'puma'
+gem 'psych', '~> 2.0.5'
 
 # Compass plugins
 gem 'susy', "~> 1.0.5" # Susy
