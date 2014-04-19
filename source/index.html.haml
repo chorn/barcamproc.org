@@ -23,6 +23,10 @@
   :markdown
     Registration is open, so **[sign up now](#{data.global.registration})!**
 
+  %div#live-stream
+    %h3="Live Stream"
+    <iframe width="560" height="315" src="//www.youtube.com/embed/mpIAxF7GpLI" frameborder="0" allowfullscreen></iframe>
+
   %h3="Our #{data.global.next_event} Sponsors"
   %ul#sponsors
     - data.global.sponsors.each do |s|
