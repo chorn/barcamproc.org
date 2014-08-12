@@ -1,0 +1,88 @@
+next_event: Spring 2014
+next_date: 4/19
+registration: https://www.eventjoy.com/e/barcamp-rochester---spring-2014-219023
+reg_start: 10:00am
+talk_start: 11:00am
+sponsors:
+  -
+    id: rit
+    twitter: RITNEWS
+    name: RIT
+    link: rit.edu
+    description: Rochester Institute of Technology is one of the world's leading career-oriented, technological universities. RIT enrolls 17,500 full- and part-time students in more than 200 career-oriented and professional programs, and its cooperative education program is one of the oldest and largest in the nation.
+  -
+    id: oscubed
+    twitter: oscubed
+    name: OS-Cubed
+    link: os-cubed.com
+    description: OS-Cubed provides optimal, stable and secure solutions to business problems using Microsoft technology. <a href="http://www.os-cubed.com/">www.os-cubed.com</a>
+  -
+    id: eastsidecowork
+    twitter: eastsidecowork
+    name: East Side Cowork
+    link: eastsidecowork.com/
+    description: East Side Cowork offers coworking and meeting space in Perinton. More professional than a coffee shop and less isolating than working from home, coworking is office space with no long-term commitments, lease, or utility bills. We offer free wifi, free coffee, ample desk space, and a meeting room w/ digital projector. Drop-in for just $10/day with monthly plans available. Details & directions at <a href="http://eastsidecowork.com">eastsidecowork.com</a> or <a href="http://facebook.com/eastsidecowork">Facebook</a>.
+  -
+    id: blackboxd
+    twitter: blackb0xd
+    name: Blackboxd
+    link: blackboxd.com/
+    description: Blackboxd provides open source automation solutions for your cloud applications.  Our mission is to make software development teams faster and fearless in their code.
+  -
+    id: dnsimple
+    twitter: dnsimple
+    name: DNSimple
+    link: dnsimple.com
+    description: DNSimple is a hosted DNS service that you can use to manage your domain names.  Plans start at $3 per month for up to 10 managed domains. You can also use DNSimple to register domain names and purchase SSL certificates. With top-notch customer support, one-click services and a robust API, DNSimple makes managing your DNS simple and painless. We love our customers and are always here to help.  Sign up now and get a free 30 day trial that you may cancel at any time.
+  -
+     id: nimbleuser
+     twitter: nimbleuser
+     name: NimbleUser
+     link: nimbleuser.com
+     description: NimbleUser empowers associations with smart, integrated technology. NimbleUser works with leading technologies such as Nimble AMS, Salesforce, Ektron and Umb  raco to bring you the best in AMS and website development though implementation, integration and support.
+  -
+    id: 3poundhealth
+    twitter: 3poundhealth
+    name: 3Pound Health
+    link: 3poundhealth.com
+    description: 3Pound Health, LLC is a start-up health and wellness software company based out of Syracuse, NY. Our goal is to empower individuals and engage communities to optimize their health through sustained behavior modification. We are building a comprehensive population health management platform called Euco&trade;, which is purpose-built to expand the reach and impact of proven, evidence-based health and wellness programs.
+  -
+    id: drexeluniversity
+    twitter: DrexelOnline
+    name: Drexel University Online
+    link: drexel.com
+    description: Drexel University Online is an accredited university located in Philadelphia, PA.  Drexel University offers master's and bachelor's degree as well as certificate programs.  These online degree programs are great for professionals who are looking to advance their career or complete a degree in an online environment.
+  -
+    id: github
+    twitter: github
+    name: Github
+    link: github.com
+    description: GitHub is version control for software development and so much more.  Whether it's a weekend side project, your favorite open source library, a startup destined for glory, or your company's app, GitHub helps everyone work together with tools for easier collaboration and more visibility. Check it out - open source is free!
+  -
+    id: datto
+    twitter: dattobackup
+    name: Datto
+    link: dattobackup.com
+    description: Datto is a leading provider of hybrid-cloud based backup and disaster recovery solutions.  Founded by RIT grad Austin McChord in 2007, Datto has enjoyed tremendous growth and now employs more than 250 people.  What drives Datto’s growth is the amazing team of people who provide the technology, solutions, marketing, and support for its 8,000 partners worldwide.  Datto is always on the lookout for smart, new hires that will bring drive and energy to the fastest growing technology company in Connecticut.
+  -
+    id: nuand
+    twitter: nuandllc
+    name: nuand
+    link: nuand.com
+    description: nuand is a software defined radio company dedicated to demystifying wireless communications using bladeRF - a low-cost, open source USB3.0 SDR developed specifically for education and exploration of the electromagnetic spectrum.
+  -
+    id: oreilly
+    name: O'Reilly Media
+    link: oreilly.com
+    description: O'Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences.  Since 1978, O'Reilly has been a chronicler and catalyst of leading-edge development, homing in on the technology trends that really matter and galvanizing their adoption by amplifying "faint signals" from the alpha geeks who are creating the future.  An active participant in the technology community, the company has a long history of advocacy, meme-making, and evangelism.
+  -
+    id: csh
+    twitter: CSHEvents
+    name: Computer Science House
+    link: www.csh.rit.edu
+    description: Computer Science House, founded in 1976, is one of the oldest and most active Special Interest Houses at the Rochester Institute of Technology in Rochester, NY. Located on the third floor of the Nathaniel Rochester Hall dormitory, CSH provides a revolutionary living environment for over fifty &quot;on-floor&quot; students and many off-floor members as well. In addition to RIT's standard residence hall facilities, CSH has several unique, multi-purpose rooms, filled with technical and material resources for members to use.
+  -
+    id: gorges
+    name: GORGES
+    link: gorges.us
+    description: GORGES is an experienced professional services firm that has delivered hundreds of web, mobile, database, and software solutions over the last 10+ years. Clients range from business and manufacturing, to not-for-profit and healthcare, to higher and secondary education, and more.
