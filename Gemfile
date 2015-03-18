@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2'
+ruby '2.2.1'
 
 gem "middleman", "~> 3.2.0"
 gem "rack-contrib"
