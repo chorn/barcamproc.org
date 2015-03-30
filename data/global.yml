@@ -15,12 +15,12 @@ sponsors:
     name: GORGES
     link: gorges.us
     description: GORGES is an experienced professional services firm that has delivered hundreds of web, mobile, database, and software solutions over the last 10+ years. Clients range from business and manufacturing, to not-for-profit and healthcare, to higher and secondary education, and more.
-  # -
-  #   id: oscubed
-  #   twitter: oscubed
-  #   name: OS-Cubed
-  #   link: os-cubed.com
-  #   description: OS-Cubed provides optimal, stable and secure solutions to business problems using Microsoft technology. <a href="http://www.os-cubed.com/">www.os-cubed.com</a>
+  -
+    id: oscubed
+    twitter: oscubed
+    name: OS-Cubed
+    link: os-cubed.com
+    description: OS-Cubed provides optimal, stable and secure solutions to business problems using Microsoft technology. <a href="http://www.os-cubed.com/">www.os-cubed.com</a>
   # -
   #   id: eastsidecowork
   #   twitter: eastsidecowork
