@@ -27,6 +27,18 @@ sponsors:
     name: Blackboxd
     link: blackboxd.com/
     description: Blackboxd provides open source automation solutions for your cloud applications.  Our mission is to make software development teams faster and fearless in their code.
+  -
+    id: microsoft
+    twitter: microsoft
+    name: Microsoft
+    link: microsoft.com
+    description: Microsoft is an American public multinational corporation headquartered in Redmond, Washington, USA that develops, manufactures, licenses, and supports a wide range of products and services predominantly related to computing through its various product divisions. Established on April 4, 1975 to develop and sell BASIC interpreters for the Altair 8800, Microsoft rose to dominate the home computer operating system market with MS-DOS in the mid-1980s, followed by the Microsoft Windows line of operating systems.
+  -
+     id: nimbleuser
+     twitter: nimbleuser
+     name: NimbleUser
+     link: nimbleuser.com
+     description: NimbleUser focuses on empowering professional and trade associations, whose members and staff strengthen the collective voice, leadership, and educational programs that drive change and improve our society.  NimbleUser has been helping associations and nonprofits become nimble through technology since 1992. Our flagship product, Nimble AMS, is an enterprise class association management system (AMS) built on the Salesforce Platform, the world's leading and most innovative customer relationship management (CRM) system.
   # -
   #   id: eastsidecowork
   #   twitter: eastsidecowork
@@ -39,12 +51,6 @@ sponsors:
   #   name: DNSimple
   #   link: dnsimple.com
   #   description: DNSimple is a hosted DNS service that you can use to manage your domain names.  Plans start at $3 per month for up to 10 managed domains. You can also use DNSimple to register domain names and purchase SSL certificates. With top-notch customer support, one-click services and a robust API, DNSimple makes managing your DNS simple and painless. We love our customers and are always here to help.  Sign up now and get a free 30 day trial that you may cancel at any time.
-  # -
-  #    id: nimbleuser
-  #    twitter: nimbleuser
-  #    name: NimbleUser
-  #    link: nimbleuser.com
-  #    description: NimbleUser empowers associations with smart, integrated technology. NimbleUser works with leading technologies such as Nimble AMS, Salesforce, Ektron and Umb  raco to bring you the best in AMS and website development though implementation, integration and support.
   # -
   #   id: drexeluniversity
   #   twitter: DrexelOnline
