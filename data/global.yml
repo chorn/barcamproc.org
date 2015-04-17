@@ -45,12 +45,12 @@ sponsors:
     name: Datto
     link: dattobackup.com
     description: Datto is a leading provider of hybrid-cloud based backup and disaster recovery solutions.  Founded by RIT grad Austin McChord in 2007, Datto has enjoyed tremendous growth and now employs more than 250 people.  What drives Datto’s growth is the amazing team of people who provide the technology, solutions, marketing, and support for its 8,000 partners worldwide.  Datto is always on the lookout for smart, new hires that will bring drive and energy to the fastest growing technology company in Connecticut.
-  # -
-  #   id: eastsidecowork
-  #   twitter: eastsidecowork
-  #   name: East Side Cowork
-  #   link: eastsidecowork.com/
-  #   description: East Side Cowork offers coworking and meeting space in Perinton. More professional than a coffee shop and less isolating than working from home, coworking is office space with no long-term commitments, lease, or utility bills. We offer free wifi, free coffee, ample desk space, and a meeting room w/ digital projector. Drop-in for just $10/day with monthly plans available. Details & directions at <a href="http://eastsidecowork.com">eastsidecowork.com</a> or <a href="http://facebook.com/eastsidecowork">Facebook</a>.
+  -
+    id: calero
+    twitter: CaleroSoftware
+    name: Calero Software
+    link: www.calero.com
+    description: Calero is the leader in Enterprise Communications Management (ECM), Wireless Expense Management, and Mobility Management Solutions.
   # -
   #   id: dnsimple
   #   twitter: dnsimple
