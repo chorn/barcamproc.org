@@ -51,6 +51,18 @@ sponsors:
     name: Calero Software
     link: www.calero.com
     description: Calero is the leader in Enterprise Communications Management (ECM) offering global solutions for fixed and mobile communications management, including Expense Management, Mobility Management, Usage Management, and Telecommunications Management. Headquartered in Rochester, NY, Calero has thousands of customers worldwide. Formed in 2013 through the merger of PINNACLE, Veramark, and Movero, Calero combines decades of experience serving the communications management needs across all industries and verticals.
+  -
+    id: ibm
+    twitter: ibm
+    name: IBM
+    link: ibm.com
+    description: IBM is a global technology and innovation company headquartered in Armonk, NY. It is the largest technology and consulting employer in the world, with more than 400,000 employees serving clients in 170 countries. IBM offers a wide range of technology and consulting services; a broad portfolio of middleware for collaboration, predictive analytics, software development and systems management; and the world's most advanced servers and supercomputers.
+  -
+    id: csh
+    twitter: CSHEvents
+    name: Computer Science House
+    link: www.csh.rit.edu
+    description: Computer Science House, founded in 1976, is one of the oldest and most active Special Interest Houses at the Rochester Institute of Technology in Rochester, NY. Located on the third floor of the Nathaniel Rochester Hall dormitory, CSH provides a revolutionary living environment for over fifty &quot;on-floor&quot; students and many off-floor members as well. In addition to RIT's standard residence hall facilities, CSH has several unique, multi-purpose rooms, filled with technical and material resources for members to use.
   # -
   #   id: dnsimple
   #   twitter: dnsimple
@@ -80,9 +92,3 @@ sponsors:
   #   name: O'Reilly Media
   #   link: oreilly.com
   #   description: O'Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences.  Since 1978, O'Reilly has been a chronicler and catalyst of leading-edge development, homing in on the technology trends that really matter and galvanizing their adoption by amplifying "faint signals" from the alpha geeks who are creating the future.  An active participant in the technology community, the company has a long history of advocacy, meme-making, and evangelism.
-  # -
-  #   id: csh
-  #   twitter: CSHEvents
-  #   name: Computer Science House
-  #   link: www.csh.rit.edu
-  #   description: Computer Science House, founded in 1976, is one of the oldest and most active Special Interest Houses at the Rochester Institute of Technology in Rochester, NY. Located on the third floor of the Nathaniel Rochester Hall dormitory, CSH provides a revolutionary living environment for over fifty &quot;on-floor&quot; students and many off-floor members as well. In addition to RIT's standard residence hall facilities, CSH has several unique, multi-purpose rooms, filled with technical and material resources for members to use.
