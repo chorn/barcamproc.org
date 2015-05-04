@@ -63,32 +63,9 @@ sponsors:
     name: Computer Science House
     link: www.csh.rit.edu
     description: Computer Science House, founded in 1976, is one of the oldest and most active Special Interest Houses at the Rochester Institute of Technology in Rochester, NY. Located on the third floor of the Nathaniel Rochester Hall dormitory, CSH provides a revolutionary living environment for over fifty &quot;on-floor&quot; students and many off-floor members as well. In addition to RIT's standard residence hall facilities, CSH has several unique, multi-purpose rooms, filled with technical and material resources for members to use.
-  # -
-  #   id: dnsimple
-  #   twitter: dnsimple
-  #   name: DNSimple
-  #   link: dnsimple.com
-  #   description: DNSimple is a hosted DNS service that you can use to manage your domain names.  Plans start at $3 per month for up to 10 managed domains. You can also use DNSimple to register domain names and purchase SSL certificates. With top-notch customer support, one-click services and a robust API, DNSimple makes managing your DNS simple and painless. We love our customers and are always here to help.  Sign up now and get a free 30 day trial that you may cancel at any time.
-  # -
-  #   id: drexeluniversity
-  #   twitter: DrexelOnline
-  #   name: Drexel University Online
-  #   link: drexel.com
-  #   description: Drexel University Online is an accredited university located in Philadelphia, PA.  Drexel University offers master's and bachelor's degree as well as certificate programs.  These online degree programs are great for professionals who are looking to advance their career or complete a degree in an online environment.
-  # -
-  #   id: github
-  #   twitter: github
-  #   name: Github
-  #   link: github.com
-  #   description: GitHub is version control for software development and so much more.  Whether it's a weekend side project, your favorite open source library, a startup destined for glory, or your company's app, GitHub helps everyone work together with tools for easier collaboration and more visibility. Check it out - open source is free!
-  # -
-  #   id: nuand
-  #   twitter: nuandllc
-  #   name: nuand
-  #   link: nuand.com
-  #   description: nuand is a software defined radio company dedicated to demystifying wireless communications using bladeRF - a low-cost, open source USB3.0 SDR developed specifically for education and exploration of the electromagnetic spectrum.
-  # -
-  #   id: oreilly
-  #   name: O'Reilly Media
-  #   link: oreilly.com
-  #   description: O'Reilly Media spreads the knowledge of innovators through its books, online services, magazines, research, and conferences.  Since 1978, O'Reilly has been a chronicler and catalyst of leading-edge development, homing in on the technology trends that really matter and galvanizing their adoption by amplifying "faint signals" from the alpha geeks who are creating the future.  An active participant in the technology community, the company has a long history of advocacy, meme-making, and evangelism.
+  -
+    id: phishme
+    twitter: phishme
+    name: PhishMe
+    link: phishme.com
+    description: PhishMe is the leading provider of threat management for organizations concerned about human susceptibility to advanced targeted attacks. PhishMe’s intelligence-driven solutions empower employees to be an active line of defense by enabling them to identify, report, and mitigate spear phishing, malware, and drive-by threats. Our open approach ensures that PhishMe integrates easily into the security technology stack, delivering measurable results to help inform and adapt an organization’s security programs.
