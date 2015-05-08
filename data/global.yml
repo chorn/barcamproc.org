@@ -34,6 +34,11 @@ sponsors:
     link: microsoft.com
     description: Microsoft is an American public multinational corporation headquartered in Redmond, Washington, USA that develops, manufactures, licenses, and supports a wide range of products and services predominantly related to computing through its various product divisions. Established on April 4, 1975 to develop and sell BASIC interpreters for the Altair 8800, Microsoft rose to dominate the home computer operating system market with MS-DOS in the mid-1980s, followed by the Microsoft Windows line of operating systems.
   -
+    id: synacor
+    name: Synacor
+    link: synacor.com
+    description: Synacor, Inc. was created in 2001, with company headquarters established in Buffalo, NY, and has become a leader in progressive corporate culture and is a beacon for burgeoning growth among U.S. technology and Internet companies. Forward thinking has allowed Synacor to build a flexible provisioning platform, enabling comprehensive delivery to Internet broadband service providers.
+  -
      id: nimbleuser
      twitter: nimbleuser
      name: NimbleUser
